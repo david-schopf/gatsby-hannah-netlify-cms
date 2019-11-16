@@ -12,11 +12,9 @@ class ProjectGrid extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+              <div className="is-parent column is-3" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                  className={`blog-list-item tile is-child`}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
@@ -29,6 +27,7 @@ class ProjectGrid extends React.Component {
                       />
                     </div>
                   ) : null}
+                </header>
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -36,20 +35,8 @@ class ProjectGrid extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
+
               </article>
             </div>
           ))}

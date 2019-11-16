@@ -3,7 +3,7 @@ templateKey: project
 title: Tiger Girl
 date: 2019-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/tiger-girl.jpg
 description: Film über ein widles Mädel
 tags:
   - autorin

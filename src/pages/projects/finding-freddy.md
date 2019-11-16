@@ -3,7 +3,7 @@ templateKey: project
 title: Finding freddy
 date: 2019-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/finding-freddy.jpg
 description: Theater von Hannah
 tags:
   - dramaturgin
