@@ -1,10 +1,10 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import {Helmet} from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import {withPrefix} from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -38,6 +38,9 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
+
+        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet"/>
+        >
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
