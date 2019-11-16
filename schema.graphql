@@ -495,76 +495,10 @@ type MarkdownRemarkFrontmatter {
     description: String
     featuredimage: File
     featuredpost: Boolean
-    full_image: File
-    heading: String
-    image: File
-    intro: MarkdownRemarkFrontmatterIntro
-    main: MarkdownRemarkFrontmatterMain
-    mainpitch: MarkdownRemarkFrontmatterMainpitch
     path: String
-    pricing: MarkdownRemarkFrontmatterPricing
-    subheading: String
     tags: [String]
     templateKey: String
-    testimonials: [MarkdownRemarkFrontmatterTestimonials]
     title: String
-}
-
-type MarkdownRemarkFrontmatterIntro {
-    blurbs: [MarkdownRemarkFrontmatterIntroBlurbs]
-    description: String
-    heading: String
-}
-
-type MarkdownRemarkFrontmatterIntroBlurbs {
-    image: File
-    text: String
-}
-
-type MarkdownRemarkFrontmatterMain {
-    description: String
-    heading: String
-    image1: MarkdownRemarkFrontmatterMainImage1
-    image2: MarkdownRemarkFrontmatterMainImage2
-    image3: MarkdownRemarkFrontmatterMainImage3
-}
-
-type MarkdownRemarkFrontmatterMainImage1 {
-    alt: String
-    image: File
-}
-
-type MarkdownRemarkFrontmatterMainImage2 {
-    alt: String
-    image: File
-}
-
-type MarkdownRemarkFrontmatterMainImage3 {
-    alt: String
-    image: File
-}
-
-type MarkdownRemarkFrontmatterMainpitch {
-    description: String
-    title: String
-}
-
-type MarkdownRemarkFrontmatterPricing {
-    description: String
-    heading: String
-    plans: [MarkdownRemarkFrontmatterPricingPlans]
-}
-
-type MarkdownRemarkFrontmatterPricingPlans {
-    description: String
-    items: [String]
-    plan: String
-    price: String
-}
-
-type MarkdownRemarkFrontmatterTestimonials {
-    author: String
-    quote: String
 }
 
 type MarkdownRemarkGroupConnection {
@@ -1084,96 +1018,9 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___featuredimage___sourceInstanceName
     childMarkdownRemark___frontmatter___featuredimage___uid
     childMarkdownRemark___frontmatter___featuredpost
-    childMarkdownRemark___frontmatter___full_image___absolutePath
-    childMarkdownRemark___frontmatter___full_image___accessTime
-    childMarkdownRemark___frontmatter___full_image___atime
-    childMarkdownRemark___frontmatter___full_image___atimeMs
-    childMarkdownRemark___frontmatter___full_image___base
-    childMarkdownRemark___frontmatter___full_image___birthTime
-    childMarkdownRemark___frontmatter___full_image___birthtime
-    childMarkdownRemark___frontmatter___full_image___birthtimeMs
-    childMarkdownRemark___frontmatter___full_image___blksize
-    childMarkdownRemark___frontmatter___full_image___blocks
-    childMarkdownRemark___frontmatter___full_image___changeTime
-    childMarkdownRemark___frontmatter___full_image___children
-    childMarkdownRemark___frontmatter___full_image___ctime
-    childMarkdownRemark___frontmatter___full_image___ctimeMs
-    childMarkdownRemark___frontmatter___full_image___dev
-    childMarkdownRemark___frontmatter___full_image___dir
-    childMarkdownRemark___frontmatter___full_image___ext
-    childMarkdownRemark___frontmatter___full_image___extension
-    childMarkdownRemark___frontmatter___full_image___gid
-    childMarkdownRemark___frontmatter___full_image___id
-    childMarkdownRemark___frontmatter___full_image___ino
-    childMarkdownRemark___frontmatter___full_image___mode
-    childMarkdownRemark___frontmatter___full_image___modifiedTime
-    childMarkdownRemark___frontmatter___full_image___mtime
-    childMarkdownRemark___frontmatter___full_image___mtimeMs
-    childMarkdownRemark___frontmatter___full_image___name
-    childMarkdownRemark___frontmatter___full_image___nlink
-    childMarkdownRemark___frontmatter___full_image___prettySize
-    childMarkdownRemark___frontmatter___full_image___publicURL
-    childMarkdownRemark___frontmatter___full_image___rdev
-    childMarkdownRemark___frontmatter___full_image___relativeDirectory
-    childMarkdownRemark___frontmatter___full_image___relativePath
-    childMarkdownRemark___frontmatter___full_image___root
-    childMarkdownRemark___frontmatter___full_image___size
-    childMarkdownRemark___frontmatter___full_image___sourceInstanceName
-    childMarkdownRemark___frontmatter___full_image___uid
-    childMarkdownRemark___frontmatter___heading
-    childMarkdownRemark___frontmatter___image___absolutePath
-    childMarkdownRemark___frontmatter___image___accessTime
-    childMarkdownRemark___frontmatter___image___atime
-    childMarkdownRemark___frontmatter___image___atimeMs
-    childMarkdownRemark___frontmatter___image___base
-    childMarkdownRemark___frontmatter___image___birthTime
-    childMarkdownRemark___frontmatter___image___birthtime
-    childMarkdownRemark___frontmatter___image___birthtimeMs
-    childMarkdownRemark___frontmatter___image___blksize
-    childMarkdownRemark___frontmatter___image___blocks
-    childMarkdownRemark___frontmatter___image___changeTime
-    childMarkdownRemark___frontmatter___image___children
-    childMarkdownRemark___frontmatter___image___ctime
-    childMarkdownRemark___frontmatter___image___ctimeMs
-    childMarkdownRemark___frontmatter___image___dev
-    childMarkdownRemark___frontmatter___image___dir
-    childMarkdownRemark___frontmatter___image___ext
-    childMarkdownRemark___frontmatter___image___extension
-    childMarkdownRemark___frontmatter___image___gid
-    childMarkdownRemark___frontmatter___image___id
-    childMarkdownRemark___frontmatter___image___ino
-    childMarkdownRemark___frontmatter___image___mode
-    childMarkdownRemark___frontmatter___image___modifiedTime
-    childMarkdownRemark___frontmatter___image___mtime
-    childMarkdownRemark___frontmatter___image___mtimeMs
-    childMarkdownRemark___frontmatter___image___name
-    childMarkdownRemark___frontmatter___image___nlink
-    childMarkdownRemark___frontmatter___image___prettySize
-    childMarkdownRemark___frontmatter___image___publicURL
-    childMarkdownRemark___frontmatter___image___rdev
-    childMarkdownRemark___frontmatter___image___relativeDirectory
-    childMarkdownRemark___frontmatter___image___relativePath
-    childMarkdownRemark___frontmatter___image___root
-    childMarkdownRemark___frontmatter___image___size
-    childMarkdownRemark___frontmatter___image___sourceInstanceName
-    childMarkdownRemark___frontmatter___image___uid
-    childMarkdownRemark___frontmatter___intro___blurbs
-    childMarkdownRemark___frontmatter___intro___description
-    childMarkdownRemark___frontmatter___intro___heading
-    childMarkdownRemark___frontmatter___main___description
-    childMarkdownRemark___frontmatter___main___heading
-    childMarkdownRemark___frontmatter___mainpitch___description
-    childMarkdownRemark___frontmatter___mainpitch___title
     childMarkdownRemark___frontmatter___path
-    childMarkdownRemark___frontmatter___pricing___description
-    childMarkdownRemark___frontmatter___pricing___heading
-    childMarkdownRemark___frontmatter___pricing___plans
-    childMarkdownRemark___frontmatter___subheading
     childMarkdownRemark___frontmatter___tags
     childMarkdownRemark___frontmatter___templateKey
-    childMarkdownRemark___frontmatter___testimonials
-    childMarkdownRemark___frontmatter___testimonials___author
-    childMarkdownRemark___frontmatter___testimonials___quote
     childMarkdownRemark___frontmatter___title
     childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childMarkdownRemark___headings___depth @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
@@ -1612,154 +1459,9 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___featuredimage___sourceInstanceName
     frontmatter___featuredimage___uid
     frontmatter___featuredpost
-    frontmatter___full_image___absolutePath
-    frontmatter___full_image___accessTime
-    frontmatter___full_image___atime
-    frontmatter___full_image___atimeMs
-    frontmatter___full_image___base
-    frontmatter___full_image___birthTime
-    frontmatter___full_image___birthtime
-    frontmatter___full_image___birthtimeMs
-    frontmatter___full_image___blksize
-    frontmatter___full_image___blocks
-    frontmatter___full_image___changeTime
-    frontmatter___full_image___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childImageSharp___id @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___id
-    frontmatter___full_image___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___full_image___children
-    frontmatter___full_image___children___children
-    frontmatter___full_image___children___id
-    frontmatter___full_image___ctime
-    frontmatter___full_image___ctimeMs
-    frontmatter___full_image___dev
-    frontmatter___full_image___dir
-    frontmatter___full_image___ext
-    frontmatter___full_image___extension
-    frontmatter___full_image___gid
-    frontmatter___full_image___id
-    frontmatter___full_image___ino
-    frontmatter___full_image___internal___content
-    frontmatter___full_image___internal___contentDigest
-    frontmatter___full_image___internal___description
-    frontmatter___full_image___internal___fieldOwners
-    frontmatter___full_image___internal___ignoreType
-    frontmatter___full_image___internal___mediaType
-    frontmatter___full_image___internal___owner
-    frontmatter___full_image___internal___type
-    frontmatter___full_image___mode
-    frontmatter___full_image___modifiedTime
-    frontmatter___full_image___mtime
-    frontmatter___full_image___mtimeMs
-    frontmatter___full_image___name
-    frontmatter___full_image___nlink
-    frontmatter___full_image___parent___children
-    frontmatter___full_image___parent___id
-    frontmatter___full_image___prettySize
-    frontmatter___full_image___publicURL
-    frontmatter___full_image___rdev
-    frontmatter___full_image___relativeDirectory
-    frontmatter___full_image___relativePath
-    frontmatter___full_image___root
-    frontmatter___full_image___size
-    frontmatter___full_image___sourceInstanceName
-    frontmatter___full_image___uid
-    frontmatter___heading
-    frontmatter___image___absolutePath
-    frontmatter___image___accessTime
-    frontmatter___image___atime
-    frontmatter___image___atimeMs
-    frontmatter___image___base
-    frontmatter___image___birthTime
-    frontmatter___image___birthtime
-    frontmatter___image___birthtimeMs
-    frontmatter___image___blksize
-    frontmatter___image___blocks
-    frontmatter___image___changeTime
-    frontmatter___image___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childImageSharp___id @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___id
-    frontmatter___image___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    frontmatter___image___children
-    frontmatter___image___children___children
-    frontmatter___image___children___id
-    frontmatter___image___ctime
-    frontmatter___image___ctimeMs
-    frontmatter___image___dev
-    frontmatter___image___dir
-    frontmatter___image___ext
-    frontmatter___image___extension
-    frontmatter___image___gid
-    frontmatter___image___id
-    frontmatter___image___ino
-    frontmatter___image___internal___content
-    frontmatter___image___internal___contentDigest
-    frontmatter___image___internal___description
-    frontmatter___image___internal___fieldOwners
-    frontmatter___image___internal___ignoreType
-    frontmatter___image___internal___mediaType
-    frontmatter___image___internal___owner
-    frontmatter___image___internal___type
-    frontmatter___image___mode
-    frontmatter___image___modifiedTime
-    frontmatter___image___mtime
-    frontmatter___image___mtimeMs
-    frontmatter___image___name
-    frontmatter___image___nlink
-    frontmatter___image___parent___children
-    frontmatter___image___parent___id
-    frontmatter___image___prettySize
-    frontmatter___image___publicURL
-    frontmatter___image___rdev
-    frontmatter___image___relativeDirectory
-    frontmatter___image___relativePath
-    frontmatter___image___root
-    frontmatter___image___size
-    frontmatter___image___sourceInstanceName
-    frontmatter___image___uid
-    frontmatter___intro___blurbs
-    frontmatter___intro___blurbs___text
-    frontmatter___intro___description
-    frontmatter___intro___heading
-    frontmatter___main___description
-    frontmatter___main___heading
-    frontmatter___main___image1___alt
-    frontmatter___main___image2___alt
-    frontmatter___main___image3___alt
-    frontmatter___mainpitch___description
-    frontmatter___mainpitch___title
     frontmatter___path
-    frontmatter___pricing___description
-    frontmatter___pricing___heading
-    frontmatter___pricing___plans
-    frontmatter___pricing___plans___description
-    frontmatter___pricing___plans___items
-    frontmatter___pricing___plans___plan
-    frontmatter___pricing___plans___price
-    frontmatter___subheading
     frontmatter___tags
     frontmatter___templateKey
-    frontmatter___testimonials
-    frontmatter___testimonials___author
-    frontmatter___testimonials___quote
     frontmatter___title
     headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     headings___depth @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
@@ -2522,88 +2224,10 @@ input MarkdownRemarkFrontmatterFilterInput {
     description: StringQueryOperatorInput
     featuredimage: FileFilterInput
     featuredpost: BooleanQueryOperatorInput
-    full_image: FileFilterInput
-    heading: StringQueryOperatorInput
-    image: FileFilterInput
-    intro: MarkdownRemarkFrontmatterIntroFilterInput
-    main: MarkdownRemarkFrontmatterMainFilterInput
-    mainpitch: MarkdownRemarkFrontmatterMainpitchFilterInput
     path: StringQueryOperatorInput
-    pricing: MarkdownRemarkFrontmatterPricingFilterInput
-    subheading: StringQueryOperatorInput
     tags: StringQueryOperatorInput
     templateKey: StringQueryOperatorInput
-    testimonials: MarkdownRemarkFrontmatterTestimonialsFilterListInput
     title: StringQueryOperatorInput
-}
-
-input MarkdownRemarkFrontmatterIntroBlurbsFilterInput {
-    image: FileFilterInput
-    text: StringQueryOperatorInput
-}
-
-input MarkdownRemarkFrontmatterIntroBlurbsFilterListInput {
-    elemMatch: MarkdownRemarkFrontmatterIntroBlurbsFilterInput
-}
-
-input MarkdownRemarkFrontmatterIntroFilterInput {
-    blurbs: MarkdownRemarkFrontmatterIntroBlurbsFilterListInput
-    description: StringQueryOperatorInput
-    heading: StringQueryOperatorInput
-}
-
-input MarkdownRemarkFrontmatterMainFilterInput {
-    description: StringQueryOperatorInput
-    heading: StringQueryOperatorInput
-    image1: MarkdownRemarkFrontmatterMainImage1FilterInput
-    image2: MarkdownRemarkFrontmatterMainImage2FilterInput
-    image3: MarkdownRemarkFrontmatterMainImage3FilterInput
-}
-
-input MarkdownRemarkFrontmatterMainImage1FilterInput {
-    alt: StringQueryOperatorInput
-    image: FileFilterInput
-}
-
-input MarkdownRemarkFrontmatterMainImage2FilterInput {
-    alt: StringQueryOperatorInput
-    image: FileFilterInput
-}
-
-input MarkdownRemarkFrontmatterMainImage3FilterInput {
-    alt: StringQueryOperatorInput
-    image: FileFilterInput
-}
-
-input MarkdownRemarkFrontmatterMainpitchFilterInput {
-    description: StringQueryOperatorInput
-    title: StringQueryOperatorInput
-}
-
-input MarkdownRemarkFrontmatterPricingFilterInput {
-    description: StringQueryOperatorInput
-    heading: StringQueryOperatorInput
-    plans: MarkdownRemarkFrontmatterPricingPlansFilterListInput
-}
-
-input MarkdownRemarkFrontmatterPricingPlansFilterInput {
-    description: StringQueryOperatorInput
-    items: StringQueryOperatorInput
-    plan: StringQueryOperatorInput
-    price: StringQueryOperatorInput
-}
-
-input MarkdownRemarkFrontmatterPricingPlansFilterListInput {
-    elemMatch: MarkdownRemarkFrontmatterPricingPlansFilterInput
-}
-
-input MarkdownRemarkFrontmatterTestimonialsFilterInput {
-    author: StringQueryOperatorInput
-    quote: StringQueryOperatorInput
-}
-
-input MarkdownRemarkFrontmatterTestimonialsFilterListInput {
-    elemMatch: MarkdownRemarkFrontmatterTestimonialsFilterInput
 }
 
 input MarkdownRemarkSortInput {
