@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from "../components/Layout";
-
+import BlogRoll from '../components/BlogRoll';
 
 export default class IndexPage extends React.Component {
     render() {
@@ -9,7 +9,7 @@ export default class IndexPage extends React.Component {
                 <section className="section">
                     <div className="container">
                         <div className="content">
-                            Welcome
+                            <BlogRoll/>
                         </div>
                     </div>
                 </section>
