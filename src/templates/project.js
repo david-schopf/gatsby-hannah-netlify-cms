@@ -54,7 +54,7 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const Project = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -79,13 +79,13 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+Project.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default Project
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
