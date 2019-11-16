@@ -2,9 +2,9 @@
 templateKey: project
 title: Selbstfindungstrip Orangensaft
 date: 2019-12-17T15:04:10.000Z
-featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
 description: Film über Männlichkeit
+featuredpost: false
+featuredimage: /img/blog-index.jpg
 tags:
   - autorin
   - regisseurin
