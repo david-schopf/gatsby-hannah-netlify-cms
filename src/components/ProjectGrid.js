@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {graphql, Link, StaticQuery} from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import {graphql, StaticQuery} from 'gatsby'
+import {ProjectGridItem} from "./ProjectGridItem";
 
 class ProjectGrid extends React.Component {
   render() {
@@ -13,32 +13,8 @@ class ProjectGrid extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
               <div className="is-parent column is-3" key={post.id}>
-              <article
-                  className={`blog-list-item tile is-child`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                </header>
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                  </p>
-
-              </article>
-            </div>
+                  <ProjectGridItem post={post}/>
+              </div>
           ))}
       </div>
     )
