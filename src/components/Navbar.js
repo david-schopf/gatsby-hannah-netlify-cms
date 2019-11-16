@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import {Link} from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
-    super(props)
+      super(props);
     this.state = {
       active: false,
       navBarActiveClass: '',
@@ -30,7 +30,7 @@ const Navbar = class extends React.Component {
             })
       }
     )
-  }
+  };
 
   render() {
     return (
@@ -63,9 +63,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
@@ -93,6 +90,6 @@ const Navbar = class extends React.Component {
       </nav>
     )
   }
-}
+};
 
 export default Navbar
