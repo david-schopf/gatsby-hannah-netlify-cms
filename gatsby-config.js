@@ -56,6 +56,13 @@ module.exports = {
               destinationDir: 'static',
             },
           },
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: "100%",
+              height: "400px"
+            }
+          }
         ],
       },
     },

@@ -492,9 +492,7 @@ type MarkdownRemarkFrontmatter {
         #Configures the locale Moment.js will use to format the date.
         locale: String
     ): Date
-    description: String
     featuredimage: File
-    featuredpost: Boolean
     path: String
     tags: [String]
     templateKey: String
@@ -704,6 +702,7 @@ type SitePluginPackageJsonPeerDependencies {
 type SitePluginPluginOptions {
     destinationDir: String
     develop: Boolean
+    height: String
     maxWidth: Int
     modulePath: String
     name: String
@@ -711,6 +710,7 @@ type SitePluginPluginOptions {
     pathCheck: Boolean
     plugins: [SitePluginPluginOptionsPlugins]
     purgeOnly: [String]
+    width: String
 }
 
 type SitePluginPluginOptionsPlugins {
@@ -726,8 +726,10 @@ type SitePluginPluginOptionsPlugins {
 
 type SitePluginPluginOptionsPluginsPluginOptions {
     destinationDir: String
+    height: String
     maxWidth: Int
     name: String
+    width: String
 }
 
 type SiteSiteMetadata {
@@ -980,7 +982,6 @@ enum FileFieldsEnum {
     childMarkdownRemark___fields___slug @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childMarkdownRemark___frontmatter___date
-    childMarkdownRemark___frontmatter___description
     childMarkdownRemark___frontmatter___featuredimage___absolutePath
     childMarkdownRemark___frontmatter___featuredimage___accessTime
     childMarkdownRemark___frontmatter___featuredimage___atime
@@ -1017,7 +1018,6 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___featuredimage___size
     childMarkdownRemark___frontmatter___featuredimage___sourceInstanceName
     childMarkdownRemark___frontmatter___featuredimage___uid
-    childMarkdownRemark___frontmatter___featuredpost
     childMarkdownRemark___frontmatter___path
     childMarkdownRemark___frontmatter___tags
     childMarkdownRemark___frontmatter___templateKey
@@ -1396,7 +1396,6 @@ enum MarkdownRemarkFieldsEnum {
     fields___slug @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     frontmatter___date
-    frontmatter___description
     frontmatter___featuredimage___absolutePath
     frontmatter___featuredimage___accessTime
     frontmatter___featuredimage___atime
@@ -1458,7 +1457,6 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___featuredimage___size
     frontmatter___featuredimage___sourceInstanceName
     frontmatter___featuredimage___uid
-    frontmatter___featuredpost
     frontmatter___path
     frontmatter___tags
     frontmatter___templateKey
@@ -1784,6 +1782,7 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginFilepath
     pluginCreator___pluginOptions___destinationDir
     pluginCreator___pluginOptions___develop
+    pluginCreator___pluginOptions___height
     pluginCreator___pluginOptions___maxWidth
     pluginCreator___pluginOptions___modulePath
     pluginCreator___pluginOptions___name
@@ -1798,6 +1797,7 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___plugins___ssrAPIs
     pluginCreator___pluginOptions___plugins___version
     pluginCreator___pluginOptions___purgeOnly
+    pluginCreator___pluginOptions___width
     pluginCreator___resolve
     pluginCreator___ssrAPIs
     pluginCreator___version
@@ -1912,6 +1912,7 @@ enum SitePluginFieldsEnum {
     pluginFilepath
     pluginOptions___destinationDir
     pluginOptions___develop
+    pluginOptions___height
     pluginOptions___maxWidth
     pluginOptions___modulePath
     pluginOptions___name
@@ -1923,12 +1924,15 @@ enum SitePluginFieldsEnum {
     pluginOptions___plugins___name
     pluginOptions___plugins___pluginFilepath
     pluginOptions___plugins___pluginOptions___destinationDir
+    pluginOptions___plugins___pluginOptions___height
     pluginOptions___plugins___pluginOptions___maxWidth
     pluginOptions___plugins___pluginOptions___name
+    pluginOptions___plugins___pluginOptions___width
     pluginOptions___plugins___resolve
     pluginOptions___plugins___ssrAPIs
     pluginOptions___plugins___version
     pluginOptions___purgeOnly
+    pluginOptions___width
     resolve
     ssrAPIs
     version
@@ -2221,9 +2225,7 @@ input MarkdownRemarkFilterInput {
 
 input MarkdownRemarkFrontmatterFilterInput {
     date: DateQueryOperatorInput
-    description: StringQueryOperatorInput
     featuredimage: FileFilterInput
-    featuredpost: BooleanQueryOperatorInput
     path: StringQueryOperatorInput
     tags: StringQueryOperatorInput
     templateKey: StringQueryOperatorInput
@@ -2362,6 +2364,7 @@ input SitePluginPackageJsonPeerDependenciesFilterListInput {
 input SitePluginPluginOptionsFilterInput {
     destinationDir: StringQueryOperatorInput
     develop: BooleanQueryOperatorInput
+    height: StringQueryOperatorInput
     maxWidth: IntQueryOperatorInput
     modulePath: StringQueryOperatorInput
     name: StringQueryOperatorInput
@@ -2369,6 +2372,7 @@ input SitePluginPluginOptionsFilterInput {
     pathCheck: BooleanQueryOperatorInput
     plugins: SitePluginPluginOptionsPluginsFilterListInput
     purgeOnly: StringQueryOperatorInput
+    width: StringQueryOperatorInput
 }
 
 input SitePluginPluginOptionsPluginsFilterInput {
@@ -2388,8 +2392,10 @@ input SitePluginPluginOptionsPluginsFilterListInput {
 
 input SitePluginPluginOptionsPluginsPluginOptionsFilterInput {
     destinationDir: StringQueryOperatorInput
+    height: StringQueryOperatorInput
     maxWidth: IntQueryOperatorInput
     name: StringQueryOperatorInput
+    width: StringQueryOperatorInput
 }
 
 input SitePluginSortInput {

@@ -2,15 +2,11 @@
 templateKey: project
 title: Finding freddy
 date: 2019-12-17T15:04:10.000Z
-featuredpost: false
 featuredimage: /img/finding-freddy.jpg
-description: Theater von Hannah
 tags:
   - dramaturgin
   - theater
 ---
-# Finding Freddy
-
 Site specific Dokumentartheater | Heimathafen Neukölln | Premiere: 14.10.2017
 
 Da sitzt ein älterer Herr in einem plattdeutschen Restaurant auf Long Island / USA und kaut gemütlich auf seiner Tea Wurst on Pumpernickel, als eine junge Frau an seinen Tisch tritt:
@@ -30,3 +26,5 @@ Gemeinsam mit PerformerInnen der Enkelgeneration durchforsten wir ihre Geschicht
 „Es ist so viele Jahre zurück. War es Wirklichkeit oder habe ich geträumt?“
 
 (Freddy, 2015)
+
+`youtube:https://www.youtube.com/embed/iAUqNrLbews`

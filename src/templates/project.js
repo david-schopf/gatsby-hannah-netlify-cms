@@ -9,7 +9,6 @@ import Content, {HTMLContent} from '../components/Content'
 export const ProjectTemplate = ({
                                     content,
                                     contentComponent,
-                                    description,
                                     tags,
                                     title,
                                     helmet,
@@ -20,12 +19,11 @@ export const ProjectTemplate = ({
         <section className="section">
             {helmet || ''}
             <div className="container content">
-                <div className="columns">
-                    <div className="column is-10 is-offset-1">
+                <div className="columns is-multiline is-centered">
+                    <div className="column is-full-mobile is-6">
                         <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
                             {title}
                         </h1>
-                        <p>{description}</p>
                         <PostContent content={content}/>
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
@@ -49,7 +47,6 @@ export const ProjectTemplate = ({
 ProjectTemplate.propTypes = {
     content: PropTypes.node.isRequired,
     contentComponent: PropTypes.func,
-    description: PropTypes.string,
     title: PropTypes.string,
     helmet: PropTypes.object,
 };
@@ -62,14 +59,9 @@ const Project = ({data}) => {
             <ProjectTemplate
                 content={post.html}
                 contentComponent={HTMLContent}
-                description={post.frontmatter.description}
                 helmet={
                     <Helmet titleTemplate="%s | Blog">
                         <title>{`${post.frontmatter.title}`}</title>
-                        <meta
-                            name="description"
-                            content={`${post.frontmatter.description}`}
-                        />
                     </Helmet>
                 }
                 tags={post.frontmatter.tags}
@@ -95,7 +87,6 @@ export const pageQuery = graphql`
             frontmatter {
                 date(formatString: "MMMM DD, YYYY")
                 title
-                description
                 tags
             }
         }

@@ -2,8 +2,6 @@
 templateKey: project
 title: Republik Castorf
 date: 2019-11-16T18:40:35.702Z
-description: Publikation
-featuredpost: true
 featuredimage: /img/castorf.jpg
 tags:
   - text
