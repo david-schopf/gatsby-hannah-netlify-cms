@@ -7,6 +7,7 @@ tags:
   - autorin
   - film
 ---
+![Ella Rumpf in Tiger girl](/img/tiger-girl.jpg "Tiger Girl")
 
 Spielfilm | 90' | REGIE: Jakob Lass | Kinostart: 06.04.2017
 
