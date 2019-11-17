@@ -7,6 +7,8 @@ tags:
   - dramaturgin
   - theater
 ---
+![Finding freddy](/img/finding-freddy.jpg "Finding freddy")
+
 Site specific Dokumentartheater | Heimathafen Neukölln | Premiere: 14.10.2017
 
 Da sitzt ein älterer Herr in einem plattdeutschen Restaurant auf Long Island / USA und kaut gemütlich auf seiner Tea Wurst on Pumpernickel, als eine junge Frau an seinen Tisch tritt:
