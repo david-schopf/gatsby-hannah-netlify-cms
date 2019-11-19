@@ -4,8 +4,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 export function ProjectGridItem(props) {
-    return <article
-        className={`blog-list-item tile is-child`}
+    return <article className={`project-item`}
     >
         <header>
             {props.post.frontmatter.featuredimage ? (
@@ -19,9 +18,9 @@ export function ProjectGridItem(props) {
                 </div>
             ) : null}
         </header>
-        <p className="post-meta">
+        <p className="project-item-title">
             <Link
-                className="title has-text-primary is-size-4"
+                className="has-text-weight-medium has-text-primary is-size-4 font-playfair is-uppercase"
                 to={props.post.fields.slug}
             >
                 {props.post.frontmatter.title}

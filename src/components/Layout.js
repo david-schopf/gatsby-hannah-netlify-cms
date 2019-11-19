@@ -39,7 +39,7 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
 
-        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=BarlowPlayfair+Display&display=swap" rel="stylesheet"/>
         >
         <meta name="theme-color" content="#fff" />
 
