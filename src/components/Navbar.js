@@ -39,7 +39,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-              <Link to="/" className="navbar-item">
+            <Link to="/" className="navbar-item title font-playfair ">
                   Hannah Schopf
             </Link>
             {/* Hamburger menu */}
@@ -64,6 +64,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Kontakt
               </Link>
+            </div>
+            <div className="navbar-end is-flex-desktop has-text-centered">
+              <span className="navbar-item is-hidden-desktop">//</span>
               <Link className="navbar-item" to="/tags/text/">
                 Text
               </Link>
@@ -73,10 +76,11 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/tags/film/">
                 Film
               </Link>
+              <span className="navbar-item">//</span>
               <Link className="navbar-item" to="/tags/autorin/">
                 Autorin
               </Link>
-              <Link className="navbar-item" to="/tags/dramaturgin/">
+              <Link className="navbar-item blupp" to="/tags/dramaturgin/">
                 Dramaturgin
               </Link>
               <Link className="navbar-item" to="/tags/regisseurin/">

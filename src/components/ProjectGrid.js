@@ -5,14 +5,14 @@ import {ProjectGridItem} from "./ProjectGridItem";
 
 class ProjectGrid extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const {data} = this.props;
+    const {edges: posts} = data.allMarkdownRemark;
 
     return (
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-              <div className="is-parent column is-3" key={post.id}>
+              <div className="is-parent column is-3-desktop is-6-tablet is-12-mobile" key={post.id}>
                   <ProjectGridItem post={post}/>
               </div>
           ))}
@@ -27,7 +27,7 @@ ProjectGrid.propTypes = {
       edges: PropTypes.array,
     }),
   }),
-}
+};
 
 export default () => (
   <StaticQuery
