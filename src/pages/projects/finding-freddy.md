@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Finding freddy
-date: 2019-12-17T15:04:10.000Z
+date: 2018-12-17T15:04:00.000Z
 featuredimage: /img/finding-freddy.jpg
 tags:
   - dramaturgin
