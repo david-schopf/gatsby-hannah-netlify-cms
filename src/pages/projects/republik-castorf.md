@@ -2,7 +2,7 @@
 templateKey: project
 title: Republik Castorf
 date: 2019-11-16T18:40:35.702Z
-featuredimage: /img/castorf.jpg
+featuredimage: /img/volksbühne.jpg
 tags:
   - text
   - autorin
