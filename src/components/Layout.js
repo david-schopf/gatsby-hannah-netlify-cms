@@ -33,8 +33,7 @@ const TemplateWrapper = ({ children }) => {
             sizes="16x16"
         />
 
-        <link href="https://fonts.googleapis.com/css?family=BarlowPlayfair+Display&display=swap" rel="stylesheet"/>
-        >
+        <link href="https://fonts.googleapis.com/css?family=Barlow|Playfair+Display&display=swap" rel="stylesheet"/>
         <link rel="manifest" href="/manifest.webmanifest"/>
         <meta name="theme-color" content="#F08"/>
 

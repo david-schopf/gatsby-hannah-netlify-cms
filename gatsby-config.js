@@ -76,6 +76,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Hannah Schopf",
+        short_name: "Hannah Schopf",
+        start_url: "/",
+        background_color: "#209CEE",
+        theme_color: "#F08",
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: "standalone",
+        icon: "src/img/icon.png", // This path is relative to the root of the site.
+      }
+    },
+    'gatsby-plugin-offline',
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
