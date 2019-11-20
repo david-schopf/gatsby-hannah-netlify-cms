@@ -39,7 +39,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item title font-playfair ">
+              <Link to="/" className="navbar-item has-text-weight-bold">
                   Hannah Schopf
             </Link>
             {/* Hamburger menu */}

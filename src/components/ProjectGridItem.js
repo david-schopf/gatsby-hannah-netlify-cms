@@ -19,13 +19,6 @@ export function ProjectGridItem(props) {
                     </div>
                 ) : null}
             </header>
-            <p className="project-item-title">
-            <span
-                className="has-text-weight-medium has-text-primary is-size-4 font-playfair is-uppercase"
-            >
-                {props.post.frontmatter.title}
-            </span>
-            </p>
         </Link>
     </article>;
 }

@@ -21,7 +21,7 @@ export const ProjectTemplate = ({
             <div className="container content">
                 <div className="columns is-multiline is-centered">
                     <div className="column is-full-mobile is-6">
-                        <h1 className="has-text-centered is-size-2 font-playfair">
+                        <h1 className="has-text-centered is-size-2">
                             {title}
                             <hr/>
                         </h1>

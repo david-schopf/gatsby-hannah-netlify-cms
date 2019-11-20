@@ -41,7 +41,8 @@ const TemplateWrapper = ({ children }) => {
 
         <link href="https://fonts.googleapis.com/css?family=BarlowPlayfair+Display&display=swap" rel="stylesheet"/>
         >
-        <meta name="theme-color" content="#fff" />
+        <link rel="manifest" href="/manifest.webmanifest"/>
+        <meta name="theme-color" content="#F08"/>
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
