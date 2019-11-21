@@ -2,7 +2,7 @@
 templateKey: project
 title: SELBSTFINDUNGSTRIP ORANGENSAFT
 date: 2019-12-17T15:04:10.000Z
-featuredimage: /img/sos1.jpg
+featuredimage: /img/sos1-banner.jpg
 tags:
   - autorin
   - regisseurin
