@@ -4,7 +4,8 @@ title: Tiger Girl
 date: 2017-02-10T19:00:10.000Z
 featuredimage: /img/tiger-girl.jpg
 tags:
-  - '#film #autorin'
+  - film
+  - autorin
 ---
 ![Ella Rumpf in Tiger girl](/img/tiger-girl.jpg "Tiger Girl")
 
