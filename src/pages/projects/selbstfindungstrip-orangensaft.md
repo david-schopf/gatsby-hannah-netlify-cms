@@ -1,12 +1,10 @@
 ---
 templateKey: project
 title: SELBSTFINDUNGSTRIP ORANGENSAFT
-date: 2019-12-17T15:04:10.000Z
+date: 2016-11-25T15:04:10.000Z
 featuredimage: /img/sos1-banner.jpg
 tags:
-  - autorin
-  - regisseurin
-  - film
+  - '#film #autorin #regisseurin'
 ---
 
 Drei Männer. Eine Trilogie.
