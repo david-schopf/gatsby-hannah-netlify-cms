@@ -1,8 +1,8 @@
 ---
 templateKey: project
-title: Finding freddy
-date: 2018-12-17T15:04:00.000Z
-featuredimage: /img/finding-freddy.jpg
+title: FINDING FREDDY
+date: 2017-08-31T22:00:00.000Z
+featuredimage: /img/theater.png
 tags:
   - dramaturgin
   - theater
