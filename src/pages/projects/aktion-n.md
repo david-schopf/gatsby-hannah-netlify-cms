@@ -7,4 +7,11 @@ tags:
   - theater
   - dramaturgin
 ---
-TEST
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3cp0G7epzvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+\
+**Dramaturgie** | Dokumentartheater | P: 11.09.2015 – [Heimathafen Neukölln](https://heimathafen-neukoelln.de/events/aktion-n/)
+
+Eine Familie namens Pese verschwindet. Was bleibt, ist ihr Vermögen: Geschätzt von einem Gerichtsvollzieher, eingezogen zu Gunsten des deutschen Reiches, eingelagert im Städtischen Saalbau in der Bergstr. 147. 
+
+Im gleichen Saal, dem heutigen Heimathafen Neukölln, wird 73 Jahre später ein Untersuchungsausschuss einberufen: eine Gruppe Neuköllner schlägt die »Akte Pese« auf und findet sich im gigantischen System der »Vermögensverwertung« wieder. Sie hören Zeugen, Opfer, Akten, Experten, Gesetze, Täter und Nicht-Täter und spinnen die Fäden weiter bis ins Heute. Und woher kommt eigentlich der schöne alte Stuhl, den du neulich beim Trödler in der Richardstraße gekauft hast?
