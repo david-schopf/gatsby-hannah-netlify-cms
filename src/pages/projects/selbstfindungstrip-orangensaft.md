@@ -8,5 +8,11 @@ tags:
   - autorin
   - regisseurin
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Drei Männer. Eine Trilogie.
+\
+**Buch & Regie** | Kurzfilm | 35' | Premiere: 25.11.2016 - Loophole Berlin
+
+Unterm Pflaster liegt der Strand. Sur les pavés drei rauchende Herren. Rixdorf im Morgengrauen. Pelzmütze, Axt, Erdbeerwein. Kuchen, Yamaha, Clubbeton. Geschlechtsorgane und Bio-Bananen. Bruce Springsteen.  Ein Epos, das die großen Fragen der Menschheit stellt: Wo kommen wir her? Wo wollen wir hin? 
+
+Eine tour de force voller Schmerz und Liebe, Verzweiflung und Hoffnung. Die ganz großen Gefühle, so radikal, wie sie noch nie auf Leinwand geworfen wurden. Ein Werk, das beglückt und erschüttert. Dessen intellektuelle Wucht den Zahn der Zeit ausschlägt.
