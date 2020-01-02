@@ -1,12 +1,15 @@
 ---
 templateKey: project
-title: Republik Castorf
+title: REPUBLIK CASTORF
 date: 2016-07-15T17:40:35.702Z
 featuredimage: /img/volksbühne-banner.jpg
 tags:
   - text
   - autorin
 ---
-Prägende Persönlichkeiten der Intendanz Castorf erzählen von ihrer Arbeit am Haus, von Aufbruch, Verausgabung, dem Glück künstlerischer Freiheit und davon, wie nachhaltig diese Zeit ihr Selbstverständnis als Künstler geformt hat. Gespräche u.a. mit Kathrin Angerer, Frank Castorf, Bert Neumann, Matthias Lilienthal, René Pollesch, Sophie Rois, Alexander Scheer und Zitate aus Gesprächen, die Hannah Schopf mit Mitarbeitern führte. 
+![](/img/republik-castorf.jpg)
 
-REPUBLIK CASTORF | Alexander Verlag Berlin | Hg.: Frank Raddatz | 2016
+\
+**Mitarbeit** | Interview-Band | VÖ: 2016 – [Alexander Verlag Berlin](https://www.alexander-verlag.com/programm/titel/364-republik-castorf.html)\
+\
+Prägende Persönlichkeiten der Intendanz Castorf erzählen von ihrer Arbeit am Haus, von Aufbruch, Verausgabung, dem Glück künstlerischer Freiheit und davon, wie nachhaltig diese Zeit ihr Selbstverständnis als Künstler geformt hat. Gespräche u.a. mit Kathrin Angerer, Frank Castorf, Bert Neumann, Matthias Lilienthal, René Pollesch, Sophie Rois, Alexander Scheer und Zitate aus Gesprächen, die Hannah Schopf mit Mitarbeitern führte.
