@@ -11,7 +11,7 @@ tags:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gkUkGKiriWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
-Buch & Regie | Kurzfilm | 40' | Premiere: 03.02.2017 im Loophole Berlin
+**Buch & Regie** | Kurzfilm | 40' | Premiere: 03.02.2017 – Loophole Berlin
 
 Drei Herren blicken ins Licht der ewigen Baustelle und fragen: Studium oder Revolte? Die Antwort suchen sie zwischen weltberühmten Warnbildern, dem Lustspiel der Lavalampe und Formularen der Fertilität. Können sie ihr Rätsel lösen? Der Bagger gräbt, der Zitrussaft gärt.
 
