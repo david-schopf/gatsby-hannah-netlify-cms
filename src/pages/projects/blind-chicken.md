@@ -11,7 +11,7 @@ tags:
 ![](/img/blind-chicken.jpg)
 
 \
-**Text & Dramaturgie** | Stückentwicklung | P: 27.01.2016 – [Volksbühne Berlin](https://www.volksbuehne.adk.de/praxis/p14_blind_chicken__no_parents_no_police/index.html)
+**Text & Dramaturgie** | Stückentwicklung | P: 27.01.2016 – [Volksbühne Berlin](https://www.volksbuehne.adk.de/praxis/p14_blind_chicken__no_parents_no_police/index.html) (P14)
 
  Wir sind gekommen, uns zu erinnern. Wir sind aus Deutschland, Albanien, Syrien, Sierra Leone, Benin und haben Eltern aus Israel, Russland und Bayern. Wir sind Berliner. 
 
