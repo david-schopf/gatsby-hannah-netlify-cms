@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: VORSICHT VOLKSBÜHNE!
-date: 2020-01-02T15:49:57.092Z
+date: 2018-08-01T14:49:57.092Z
 featuredimage: /img/text_vorsicht-vb.jpg
 tags:
   - '#text'
