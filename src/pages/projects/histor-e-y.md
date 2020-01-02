@@ -10,7 +10,7 @@ tags:
 ![](/img/quin.jpg)
 
 \
-**Dramaturgie** | Site specific | P: 26.05.15 – [theaterszene europa](http://studiobuehnekoeln.de/theaterszene-europa-2016/archiv/theaterszene-europa-2015-ein-schwedisch-deutsches-festival/) (Köln)
+**Dramaturgie** | Site specific Dance | P: 26.05.15 – [theaterszene europa](http://studiobuehnekoeln.de/theaterszene-europa-2016/archiv/theaterszene-europa-2015-ein-schwedisch-deutsches-festival/) (Köln)
 
 Köln-Sülz ist der Dschungel und wir gehen jetzt spazieren. In leeren Ladenräumen haben wir sanft glimmende, gordische Knoten aus privaten Schicksalen und großstädtischer Entwicklungsgeschichte ausfindig gemacht. Wo die laut dröhnende Gegenwart Risse bekommt und uns hinter versiegelten Türen und unter kaputten Neonreklamen im Vorbeigehen Geschichten anflüstern, führt hiSTOREy die BesucherInnen aus dem Theater in die Stadt. 
 
