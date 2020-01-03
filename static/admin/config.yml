@@ -24,6 +24,7 @@ collections:
       - {label: "Grid image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Participants", name: "participants", widget: "list", hint: "Kommagetrennt eingeben. Keine Doppelpunkte verwenden"}
 
   - name: "pages"
     label: "Pages"

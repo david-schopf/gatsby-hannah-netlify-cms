@@ -493,6 +493,7 @@ type MarkdownRemarkFrontmatter {
         locale: String
     ): Date
     featuredimage: File
+    participants: [String]
     path: String
     tags: [String]
     templateKey: String
@@ -700,9 +701,12 @@ type SitePluginPackageJsonPeerDependencies {
 }
 
 type SitePluginPluginOptions {
+    background_color: String
     destinationDir: String
     develop: Boolean
+    display: String
     height: String
+    icon: String
     maxWidth: Int
     modulePath: String
     name: String
@@ -710,6 +714,10 @@ type SitePluginPluginOptions {
     pathCheck: Boolean
     plugins: [SitePluginPluginOptionsPlugins]
     purgeOnly: [String]
+    short_name: String
+    start_url: String
+    theme_color: String
+    useResolveUrlLoader: SitePluginPluginOptionsUseResolveUrlLoader
     width: String
 }
 
@@ -730,6 +738,14 @@ type SitePluginPluginOptionsPluginsPluginOptions {
     maxWidth: Int
     name: String
     width: String
+}
+
+type SitePluginPluginOptionsUseResolveUrlLoader {
+    options: SitePluginPluginOptionsUseResolveUrlLoaderOptions
+}
+
+type SitePluginPluginOptionsUseResolveUrlLoaderOptions {
+    debug: Boolean
 }
 
 type SiteSiteMetadata {
@@ -1018,6 +1034,7 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___featuredimage___size
     childMarkdownRemark___frontmatter___featuredimage___sourceInstanceName
     childMarkdownRemark___frontmatter___featuredimage___uid
+    childMarkdownRemark___frontmatter___participants
     childMarkdownRemark___frontmatter___path
     childMarkdownRemark___frontmatter___tags
     childMarkdownRemark___frontmatter___templateKey
@@ -1457,6 +1474,7 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___featuredimage___size
     frontmatter___featuredimage___sourceInstanceName
     frontmatter___featuredimage___uid
+    frontmatter___participants
     frontmatter___path
     frontmatter___tags
     frontmatter___templateKey
@@ -1780,9 +1798,12 @@ enum SitePageFieldsEnum {
     pluginCreator___parent___parent___children
     pluginCreator___parent___parent___id
     pluginCreator___pluginFilepath
+    pluginCreator___pluginOptions___background_color
     pluginCreator___pluginOptions___destinationDir
     pluginCreator___pluginOptions___develop
+    pluginCreator___pluginOptions___display
     pluginCreator___pluginOptions___height
+    pluginCreator___pluginOptions___icon
     pluginCreator___pluginOptions___maxWidth
     pluginCreator___pluginOptions___modulePath
     pluginCreator___pluginOptions___name
@@ -1797,6 +1818,9 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___plugins___ssrAPIs
     pluginCreator___pluginOptions___plugins___version
     pluginCreator___pluginOptions___purgeOnly
+    pluginCreator___pluginOptions___short_name
+    pluginCreator___pluginOptions___start_url
+    pluginCreator___pluginOptions___theme_color
     pluginCreator___pluginOptions___width
     pluginCreator___resolve
     pluginCreator___ssrAPIs
@@ -1910,9 +1934,12 @@ enum SitePluginFieldsEnum {
     parent___parent___parent___children
     parent___parent___parent___id
     pluginFilepath
+    pluginOptions___background_color
     pluginOptions___destinationDir
     pluginOptions___develop
+    pluginOptions___display
     pluginOptions___height
+    pluginOptions___icon
     pluginOptions___maxWidth
     pluginOptions___modulePath
     pluginOptions___name
@@ -1932,6 +1959,10 @@ enum SitePluginFieldsEnum {
     pluginOptions___plugins___ssrAPIs
     pluginOptions___plugins___version
     pluginOptions___purgeOnly
+    pluginOptions___short_name
+    pluginOptions___start_url
+    pluginOptions___theme_color
+    pluginOptions___useResolveUrlLoader___options___debug
     pluginOptions___width
     resolve
     ssrAPIs
@@ -2226,6 +2257,7 @@ input MarkdownRemarkFilterInput {
 input MarkdownRemarkFrontmatterFilterInput {
     date: DateQueryOperatorInput
     featuredimage: FileFilterInput
+    participants: StringQueryOperatorInput
     path: StringQueryOperatorInput
     tags: StringQueryOperatorInput
     templateKey: StringQueryOperatorInput
@@ -2362,9 +2394,12 @@ input SitePluginPackageJsonPeerDependenciesFilterListInput {
 }
 
 input SitePluginPluginOptionsFilterInput {
+    background_color: StringQueryOperatorInput
     destinationDir: StringQueryOperatorInput
     develop: BooleanQueryOperatorInput
+    display: StringQueryOperatorInput
     height: StringQueryOperatorInput
+    icon: StringQueryOperatorInput
     maxWidth: IntQueryOperatorInput
     modulePath: StringQueryOperatorInput
     name: StringQueryOperatorInput
@@ -2372,6 +2407,10 @@ input SitePluginPluginOptionsFilterInput {
     pathCheck: BooleanQueryOperatorInput
     plugins: SitePluginPluginOptionsPluginsFilterListInput
     purgeOnly: StringQueryOperatorInput
+    short_name: StringQueryOperatorInput
+    start_url: StringQueryOperatorInput
+    theme_color: StringQueryOperatorInput
+    useResolveUrlLoader: SitePluginPluginOptionsUseResolveUrlLoaderFilterInput
     width: StringQueryOperatorInput
 }
 
@@ -2396,6 +2435,14 @@ input SitePluginPluginOptionsPluginsPluginOptionsFilterInput {
     maxWidth: IntQueryOperatorInput
     name: StringQueryOperatorInput
     width: StringQueryOperatorInput
+}
+
+input SitePluginPluginOptionsUseResolveUrlLoaderFilterInput {
+    options: SitePluginPluginOptionsUseResolveUrlLoaderOptionsFilterInput
+}
+
+input SitePluginPluginOptionsUseResolveUrlLoaderOptionsFilterInput {
+    debug: BooleanQueryOperatorInput
 }
 
 input SitePluginSortInput {

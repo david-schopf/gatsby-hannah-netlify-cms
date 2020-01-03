@@ -12,6 +12,7 @@ export const ProjectTemplate = ({
                                     tags,
                                     title,
                                     helmet,
+                                    participants
                                 }) => {
     const PostContent = contentComponent || Content;
 
@@ -26,6 +27,9 @@ export const ProjectTemplate = ({
                             <hr/>
                         </h1>
                         <PostContent content={content}/>
+                        {participants && participants.length ?
+                            <div className="has-background-grey-lighter">{participants.map(p => <p
+                                key={p}>{p}</p>)}</div> : null}
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
                                 <h4>Tags</h4>
@@ -67,6 +71,7 @@ const Project = ({data}) => {
                 }
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
+                participants={post.frontmatter.participants}
             />
         </Layout>
     )
@@ -89,6 +94,7 @@ export const pageQuery = graphql`
                 date(formatString: "MMMM DD, YYYY")
                 title
                 tags
+                participants
             }
         }
     }

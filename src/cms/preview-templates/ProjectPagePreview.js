@@ -4,9 +4,10 @@ import {ProjectTemplate} from '../../templates/project'
 
 const ProjectPagePreview = ({entry, widgetFor}) => (
     <ProjectTemplate
-    content={widgetFor('body')}
-    tags={entry.getIn(['data', 'tags'])}
-    title={entry.getIn(['data', 'title'])}
+        content={widgetFor('body')}
+        tags={entry.getIn(['data', 'tags'])}
+        title={entry.getIn(['data', 'title'])}
+        participants={entry.getIn(['data', 'participants'])}
   />
 );
 
