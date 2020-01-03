@@ -2,7 +2,7 @@
 templateKey: project
 title: AKTION N!
 date: 2015-09-11T06:00:52.390Z
-featuredimage: /img/theater_aktion-n.jpg
+featuredimage: /img/front_aktionn.jpg
 tags:
   - theater
   - dramaturgin
