@@ -2,7 +2,7 @@
 templateKey: project
 title: SCHEITERN! LIEBE! HOFFNUNG!
 date: 2019-10-29T19:00:23.274Z
-featuredimage: /img/front_slh.jpg
+featuredimage: /img/front_slh2.jpg
 tags:
   - theater
   - dramaturgin
