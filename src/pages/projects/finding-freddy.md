@@ -2,10 +2,12 @@
 templateKey: project
 title: FINDING FREDDY
 date: 2017-08-31T22:00:00.000Z
-featuredimage: /img/theater_ff.jpg
+featuredimage: /img/front_ff.jpg
 tags:
   - dramaturgin
   - theater
+participants:
+  - xx
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iAUqNrLbews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
