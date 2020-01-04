@@ -67,14 +67,14 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end is-flex-desktop has-text-centered">
               <span className="navbar-item is-hidden-desktop">//</span>
-              <Link className="navbar-item" to="/tags/text/">
-                Text
-              </Link>
               <Link className="navbar-item" to="/tags/theater/">
                 Theater
               </Link>
               <Link className="navbar-item" to="/tags/film/">
                 Film
+              </Link>
+              <Link className="navbar-item" to="/tags/papier/">
+                Papier
               </Link>
               <span className="navbar-item">//</span>
               <Link className="navbar-item" to="/tags/autorin/">

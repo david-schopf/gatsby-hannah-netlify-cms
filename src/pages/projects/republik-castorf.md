@@ -4,7 +4,7 @@ title: REPUBLIK CASTORF
 date: 2016-07-15T17:40:35.702Z
 featuredimage: /img/volksbühne-banner.jpg
 tags:
-  - text
+  - papier
   - autorin
 ---
 ![](/img/republik-castorf.jpg)

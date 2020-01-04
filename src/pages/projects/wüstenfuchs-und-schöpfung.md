@@ -4,7 +4,7 @@ title: WÜSTENFUCHS UND SCHÖPFUNG
 date: 2013-07-20T21:48:39.350Z
 featuredimage: /img/front_wus.jpg
 tags:
-  - text
+  - papier
   - autorin
 participants:
   - 'Am Mikro: Natalie Wüstenfuchs und Hannah Schopf'
