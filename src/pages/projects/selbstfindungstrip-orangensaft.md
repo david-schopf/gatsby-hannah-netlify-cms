@@ -7,8 +7,9 @@ tags:
   - film
   - autorin
   - regisseurin
-participants:
-  - .
+participants: |-
+  Hannah: Buch
+  JB: Schauspieler
 ---
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
