@@ -54,6 +54,7 @@ ProjectTemplate.propTypes = {
     contentComponent: PropTypes.func,
     title: PropTypes.string,
     helmet: PropTypes.object,
+    participants: PropTypes.array
 };
 
 const Project = ({data}) => {
@@ -65,7 +66,7 @@ const Project = ({data}) => {
                 content={post.html}
                 contentComponent={HTMLContent}
                 helmet={
-                    <Helmet titleTemplate="%s | Blog">
+                    <Helmet titleTemplate="%s | Hannah Schopf">
                         <title>{`${post.frontmatter.title}`}</title>
                     </Helmet>
                 }
