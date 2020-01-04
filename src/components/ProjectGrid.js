@@ -50,7 +50,7 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 400, quality: 95) {
                       ...GatsbyImageSharpFluid
                     }
                   }

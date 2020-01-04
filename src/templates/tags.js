@@ -9,7 +9,6 @@ class TagRoute extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges;
     const tag = this.props.pageContext.tag;
     const title = this.props.data.site.siteMetadata.title;
-    const totalCount = this.props.data.allMarkdownRemark.totalCount;
 
     return (
       <Layout>
@@ -63,7 +62,7 @@ export const tagPageQuery = graphql`
             title
             featuredimage {
               childImageSharp {
-                fluid(maxWidth: 120, quality: 100) {
+                fluid(maxWidth: 400, quality: 95) {
                   ...GatsbyImageSharpFluid
                 }
               }
