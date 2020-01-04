@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 export function ProjectGridItem(props) {
-    return <article className={`project-item`}
+    return <article className="project-item"
     >
         <Link to={props.post.fields.slug}>
             <header>
