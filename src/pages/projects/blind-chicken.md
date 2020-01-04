@@ -7,8 +7,7 @@ tags:
   - theater
   - dramaturgin
   - autorin
-participants: |-
-    t.b.d
+participants: ''
 ---
 ![](/img/blind-chicken.jpg)
 
