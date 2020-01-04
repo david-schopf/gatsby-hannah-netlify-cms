@@ -7,8 +7,10 @@ tags:
   - film
   - autorin
   - regisseurin
+participants:
+  - .
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Buch & Regie** | Kurzfilm | 35' | Premiere: 25.11.2016 - Loophole Berlin
