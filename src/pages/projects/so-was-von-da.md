@@ -2,10 +2,12 @@
 templateKey: project
 title: SO WAS VON DA
 date: 2018-07-01T10:30:32.298Z
-featuredimage: /img/film_swvd.jpg
+featuredimage: /img/front_swvd2.jpg
 tags:
   - film
   - autorin
+participants:
+  - x
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/axpWiy9WxrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

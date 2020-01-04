@@ -2,10 +2,12 @@
 templateKey: project
 title: hiSTOREy KÖLN
 date: 2015-05-26T06:00:52.390Z
-featuredimage: /img/theater_historey.jpg
+featuredimage: /img/front_historeyköln.jpg
 tags:
   - theater
   - dramaturgin
+participants:
+  - x
 ---
 ![](/img/quin.jpg)
 

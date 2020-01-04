@@ -2,11 +2,13 @@
 templateKey: project
 title: SCHEITERN! LIEBE! HOFFNUNG!
 date: 2019-10-29T19:00:23.274Z
-featuredimage: /img/theater_slh.jpg
+featuredimage: /img/front_slh2.jpg
 tags:
   - theater
   - dramaturgin
   - autorin
+participants:
+  - X
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Itr-JlpxvVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

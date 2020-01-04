@@ -2,10 +2,12 @@
 templateKey: project
 title: 'GENAU WIE IMMER: ALLES ANDERS'
 date: 2019-02-19T19:00:17.757Z
-featuredimage: /img/theater_gwi.jpg
+featuredimage: /img/front_gwi.jpg
 tags:
   - theater
   - dramaturgin
+participants:
+  - xx
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/516zwSFfTP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

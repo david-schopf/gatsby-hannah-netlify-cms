@@ -2,10 +2,12 @@
 templateKey: project
 title: TIGER GIRL
 date: 2017-02-10T19:00:10.000Z
-featuredimage: /img/tiger-girl.jpg
+featuredimage: /img/front_tg.jpg
 tags:
   - film
   - autorin
+participants:
+  - x
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xzZwziX9u30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
