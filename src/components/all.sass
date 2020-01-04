@@ -98,6 +98,7 @@ footer.footer
   margin-bottom: 1em
 
 .project-item .featured-thumbnail
+  position: relative
   object-fit: cover
   margin: 0 1.5em 0 0
   height: 300px
@@ -106,6 +107,21 @@ footer.footer
   div
     height: 100%
 
+.featured-thumbnail-hover
+  display: none
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  background: rgba(0, 0, 0, 0.5)
+  color: white
+  font-size: 2rem
+  vertical-align: middle
+  text-align: center
+
+.featured-thumbnail:hover .featured-thumbnail-hover
+  display: block
 
 .font-playfair
   font-family: 'Playfair Display', serif
