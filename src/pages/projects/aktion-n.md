@@ -6,13 +6,27 @@ featuredimage: /img/front_aktionn.jpg
 tags:
   - theater
   - dramaturgin
-participants: |-
-    regie STEFANIE AEHNELT bühne JULIA VON SCHACKY dramaturgie HANNAH SCHOPF
-    kostüme RAN CHAI BAR ZVI assistenz BELLE SANTOS musik ELI FABRIKANT video
-    ALEX EBEERT regieassistenz NATALIE CONRAD mit Tatiana Heide - Carina
-    Huestegge - Juliane Köster - Karin Kuhrt - Wolfgang Müller - Eva
-    Lange-Müller - Brigitte Menschel - Solmaz Sajadieh - Claudia Steinert -
-    Joana Stoye
+participants: >-
+  regie STEFANIE AEHNELT 
+
+  bühne JULIA VON SCHACKY 
+
+  dramaturgie HANNAH SCHOPF
+
+  kostüme RAN CHAI BAR ZVI 
+
+  assistenz BELLE SANTOS 
+
+  musik ELI FABRIKANT 
+
+  video ALEX EBEERT 
+
+  regieassistenz NATALIE CONRAD 
+
+  mit Tatiana Heide - Carina
+
+  Huestegge - Juliane Köster - Karin Kuhrt - Wolfgang Müller - Eva Lange-Müller
+  - Brigitte Menschel - Solmaz Sajadieh - Claudia Steinert - Joana Stoye
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/3cp0G7epzvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
