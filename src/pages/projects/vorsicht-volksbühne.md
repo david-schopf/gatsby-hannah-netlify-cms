@@ -5,8 +5,8 @@ date: 2018-08-01T14:49:57.092Z
 featuredimage: /img/front_vvb.jpg
 tags:
   - papier
-participants:
-  - x
+participants: |-
+    Test
 ---
 ![](/img/vorsicht-vb.jpg)
 

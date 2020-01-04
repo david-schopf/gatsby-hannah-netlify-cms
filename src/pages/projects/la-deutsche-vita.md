@@ -7,8 +7,8 @@ tags:
   - theater
   - regisseurin
   - autorin
-participants:
-  - X
+participants: |-
+    Test
 ---
 ![](/img/chor1.jpg)
 

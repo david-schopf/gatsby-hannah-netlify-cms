@@ -6,8 +6,7 @@ featuredimage: /img/text_denkzeichen.jpg
 tags:
   - papier
   - autorin
-participants:
-  - >-
+participants: |-
     Das Denkzeichen. Vollelektronische Kolumne für Zeitgeist und
     Realitätszuwachs. Redaktion Thomas Martin.
 ---

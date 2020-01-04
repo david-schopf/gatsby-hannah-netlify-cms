@@ -6,9 +6,9 @@ featuredimage: /img/front_wus.jpg
 tags:
   - papier
   - autorin
-participants:
-  - 'Am Mikro: Natalie Wüstenfuchs und Hannah Schopf'
-  - 'Unter der Kutte: Der Wolfratshausen'
+participants: |-
+    Am Mikro: Natalie Wüstenfuchs und Hannah Schopf
+    Unter der Kutte: Der Wolfratshausen
 ---
 ![](/img/wus.png)
 

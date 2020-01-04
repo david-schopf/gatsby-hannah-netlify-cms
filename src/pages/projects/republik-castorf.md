@@ -6,6 +6,8 @@ featuredimage: /img/volksbühne-banner.jpg
 tags:
   - papier
   - autorin
+participants: |-
+    Test
 ---
 ![](/img/republik-castorf.jpg)
 

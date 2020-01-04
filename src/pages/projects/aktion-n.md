@@ -6,8 +6,7 @@ featuredimage: /img/front_aktionn.jpg
 tags:
   - theater
   - dramaturgin
-participants:
-  - >-
+participants: |-
     regie STEFANIE AEHNELT bühne JULIA VON SCHACKY dramaturgie HANNAH SCHOPF
     kostüme RAN CHAI BAR ZVI assistenz BELLE SANTOS musik ELI FABRIKANT video
     ALEX EBEERT regieassistenz NATALIE CONRAD mit Tatiana Heide - Carina

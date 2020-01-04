@@ -27,9 +27,8 @@ export const ProjectTemplate = ({
                             <hr/>
                         </h1>
                         <PostContent content={content}/>
-                        {participants && participants.length ?
-                            <div className="has-background-grey-lighter">{participants.map(p => <p
-                                key={p}>{p}</p>)}</div> : null}
+                        {participants &&
+                        <div className="has-background-grey-lighter">{participants}</div>}
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
                                 <h4>Tags</h4>
@@ -54,7 +53,7 @@ ProjectTemplate.propTypes = {
     contentComponent: PropTypes.func,
     title: PropTypes.string,
     helmet: PropTypes.object,
-    participants: PropTypes.array
+    participants: PropTypes.string
 };
 
 const Project = ({data}) => {

@@ -6,8 +6,8 @@ featuredimage: /img/text_das-haus.jpg
 tags:
   - papier
   - autorin
-participants:
-  - REDAKTION Thomas Martin / Hannah Schopf / Frank Raddatz
+participants: |-
+    REDAKTION Thomas Martin / Hannah Schopf / Frank Raddatz
 ---
 ![](/img/das-haus.jpg)
 

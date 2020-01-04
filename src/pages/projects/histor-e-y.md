@@ -6,8 +6,8 @@ featuredimage: /img/front_historeyköln.jpg
 tags:
   - theater
   - dramaturgin
-participants:
-  - x
+participants: |-
+    Test
 ---
 ![](/img/quin.jpg)
 

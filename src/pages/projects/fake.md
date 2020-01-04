@@ -6,5 +6,7 @@ featuredimage: /img/fake.png
 tags:
   - film
   - autorin
+participants: |-
+    Test
 ---
 In Entwicklung test test
