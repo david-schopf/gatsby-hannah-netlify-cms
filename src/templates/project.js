@@ -28,7 +28,9 @@ export const ProjectTemplate = ({
                         </h1>
                         <PostContent content={content}/>
                         {participants &&
-                        <div className="has-background-grey-lighter">{participants}</div>}
+                        <div className="participants"><p
+                            className="is-uppercase">Mitwirkende</p>{participants.split("\n").map(p => <>{p}<br/></>)}
+                        </div>}
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
                                 <h4>Tags</h4>

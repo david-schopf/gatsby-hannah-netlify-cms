@@ -6,7 +6,7 @@ featuredimage: /img/front_vvb.jpg
 tags:
   - papier
 participants: |-
-    Test
+    t.b.d
 ---
 ![](/img/vorsicht-vb.jpg)
 

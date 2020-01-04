@@ -8,7 +8,7 @@ tags:
   - dramaturgin
   - autorin
 participants: |-
-    Test
+    t.b.d
 ---
 ![](/img/blind-chicken.jpg)
 

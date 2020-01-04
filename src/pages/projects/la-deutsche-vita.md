@@ -8,7 +8,7 @@ tags:
   - regisseurin
   - autorin
 participants: |-
-    Test
+    t.b.d
 ---
 ![](/img/chor1.jpg)
 
