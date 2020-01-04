@@ -8,7 +8,7 @@ tags:
   - regisseurin
   - autorin
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sLF2ct0X__4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/sLF2ct0X__4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Buch & Regie** | Kurzfilm | 40' | Premiere: 06.03.2020 – Loophole Berlin

@@ -15,7 +15,7 @@ participants:
     Lange-Müller - Brigitte Menschel - Solmaz Sajadieh - Claudia Steinert -
     Joana Stoye
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cp0G7epzvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/3cp0G7epzvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Dramaturgie** | Dokumentartheater | P: 11.09.2015 – [Heimathafen Neukölln](https://heimathafen-neukoelln.de/events/aktion-n/)

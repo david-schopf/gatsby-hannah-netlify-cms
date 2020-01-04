@@ -9,7 +9,7 @@ tags:
 participants:
   - xx
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iAUqNrLbews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/iAUqNrLbews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Dramaturgie** | Site specific Dokumentartheater | P: 14.10.2017 – [Heimathafen Neukölln](https://heimathafen-neukoelln.de/events/finding-freddy/)

@@ -9,7 +9,7 @@ tags:
 participants:
   - xx
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/516zwSFfTP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/516zwSFfTP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Dramaturgie** | Theaterstück | P: 19.02.2019 – [Theater Strahl Berlin](https://theater-strahl.de/stuecke/genau-wie-immer-alles-anders/)

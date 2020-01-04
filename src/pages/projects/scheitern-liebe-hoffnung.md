@@ -10,7 +10,7 @@ tags:
 participants:
   - X
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Itr-JlpxvVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Itr-JlpxvVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Text & Dramaturgie** | Stückentwicklung | P: 23.10.2019 – [Theater Strahl Berlin](https://www.theater-strahl.de/stuecke/scheitern-liebe-hoffnung/)
