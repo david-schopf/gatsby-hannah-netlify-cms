@@ -2,12 +2,11 @@
 templateKey: project
 title: REPUBLIK CASTORF
 date: 2016-07-15T17:40:35.702Z
-featuredimage: /img/volksbühne-banner.jpg
+featuredimage: /img/bfront_republikcastorf.jpg
 tags:
   - papier
   - autorin
-participants: |-
-    t.b.d
+participants: t.b.d
 ---
 ![](/img/republik-castorf.jpg)
 
