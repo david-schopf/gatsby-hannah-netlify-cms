@@ -16,7 +16,9 @@ export function ProjectGridItem(props) {
                                 alt: `featured image thumbnail for post ${props.post.frontmatter.title}`,
                             }}
                         />
-                        <div className="featured-thumbnail-hover">{props.post.frontmatter.title}</div>
+                        <div className="featured-thumbnail-hover">
+                            <p>{props.post.frontmatter.title}</p>
+                        </div>
                     </div>
                 ) : null}
             </header>
