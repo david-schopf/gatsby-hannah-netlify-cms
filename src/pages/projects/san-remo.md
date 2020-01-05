@@ -2,12 +2,11 @@
 templateKey: project
 title: SAN REMO
 date: 2019-09-20T21:34:50.944Z
-featuredimage: /img/front_san-remo.jpg
+featuredimage: /img/bfront_san-remo.jpg
 tags:
   - film
   - autorin
-participants: |-
-    t.b.d
+participants: t.b.d
 ---
 <iframe src="https://player.vimeo.com/video/361087205" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
