@@ -2,7 +2,7 @@
 templateKey: project
 title: BLIND CHICKEN
 date: 2017-01-27T07:00:59.795Z
-featuredimage: /img/front_blind-chicken.jpg
+featuredimage: /img/bfront_blindchicken.jpg
 tags:
   - theater
   - dramaturgin
