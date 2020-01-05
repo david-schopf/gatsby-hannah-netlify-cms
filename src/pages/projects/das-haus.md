@@ -2,12 +2,11 @@
 templateKey: project
 title: DAS HAUS
 date: 2014-12-30T20:30:53.991Z
-featuredimage: /img/text_das-haus.jpg
+featuredimage: /img/bfront_dashaus.jpg
 tags:
   - papier
   - autorin
-participants: |-
-    REDAKTION Thomas Martin / Hannah Schopf / Frank Raddatz
+participants: REDAKTION Thomas Martin / Hannah Schopf / Frank Raddatz
 ---
 ![](/img/das-haus.jpg)
 
