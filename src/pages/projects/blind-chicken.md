@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: BLIND CHICKEN
-date: 2017-01-27T07:00:59.795Z
+date: 2016-01-27T07:00:59.795Z
 featuredimage: /img/bfront_blindchicken.jpg
 tags:
   - theater
