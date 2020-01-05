@@ -2,13 +2,12 @@
 templateKey: project
 title: KEINER FINDET SICH ORANGENSAFT
 date: 2017-02-03T21:00:31.680Z
-featuredimage: /img/sos2-banner.jpg
+featuredimage: /img/bfront_sos2.jpg
 tags:
   - film
   - regisseurin
   - autorin
-participants: |-
-    t.b.d
+participants: t.b.d
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/gkUkGKiriWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
