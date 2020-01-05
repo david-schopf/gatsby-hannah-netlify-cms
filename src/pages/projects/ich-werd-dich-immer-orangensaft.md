@@ -2,13 +2,12 @@
 templateKey: project
 title: ICH WERD DICH IMMER ORANGENSAFT
 date: 2020-03-06T21:00:01.599Z
-featuredimage: /img/sos3-banner.jpg
+featuredimage: /img/bfront_sos3.jpg
 tags:
   - film
   - regisseurin
   - autorin
-participants: |-
-    t.b.d
+participants: t.b.d
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/sLF2ct0X__4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
