@@ -2,13 +2,13 @@
 templateKey: project
 title: WÜSTENFUCHS UND SCHÖPFUNG
 date: 2013-07-20T21:48:39.350Z
-featuredimage: /img/front_wus.jpg
+featuredimage: /img/bfront_wus.jpg
 tags:
   - papier
   - autorin
 participants: |-
-    Am Mikro: Natalie Wüstenfuchs und Hannah Schopf
-    Unter der Kutte: Der Wolfratshausen
+  Am Mikro: Natalie Wüstenfuchs und Hannah Schopf
+  Unter der Kutte: Der Wolfratshausen
 ---
 ![](/img/wus.png)
 
