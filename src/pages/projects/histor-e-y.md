@@ -6,7 +6,7 @@ featuredimage: /img/bfront_historeyk.jpg
 tags:
   - theater
   - dramaturgin
-participants: t.b.d
+
 ---
 ![](/img/quin.jpg)
 

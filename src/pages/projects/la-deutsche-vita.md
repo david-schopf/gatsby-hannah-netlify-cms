@@ -7,7 +7,7 @@ tags:
   - theater
   - regisseurin
   - autorin
-participants: t.b.d
+
 ---
 ![](/img/chor1.jpg)
 

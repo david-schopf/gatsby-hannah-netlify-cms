@@ -5,7 +5,7 @@ date: 2018-08-01T14:49:57.092Z
 featuredimage: /img/bfront_vvb.jpg
 tags:
   - papier
-participants: t.b.d
+
 ---
 ![](/img/vorsicht-vb.jpg)
 

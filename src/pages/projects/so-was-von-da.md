@@ -6,7 +6,7 @@ featuredimage: /img/bfront_swvd3.jpg
 tags:
   - film
   - autorin
-participants: t.b.d
+
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/axpWiy9WxrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

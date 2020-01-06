@@ -6,7 +6,7 @@ featuredimage: /img/bfront_republikcastorf.jpg
 tags:
   - papier
   - autorin
-participants: t.b.d
+
 ---
 ![](/img/republik-castorf.jpg)
 
