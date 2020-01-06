@@ -6,12 +6,17 @@ featuredimage: /img/bfront_swvd3.jpg
 tags:
   - film
   - autorin
-
+participants: >-
+  REGIE Jakob Lass | DREHBUCH Jakob Lass, Hannah Schopf | PRODUKTION Sebastian
+  Zühr, Benjamin Seikel (c-films) | KAMERA Timon Schäppi | SCHNITT Gesa Jäger |
+  MUSIK Großstadtgeflüstert u.a. | MIT Niklas Bruhn, David Schütter, Tinka
+  Fürst, Martina Schöne-Radunski, Corinna Harfouch, Bela B. Felsenheimer u.a.  |
+  VERLEIH dcm
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/axpWiy9WxrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
-**Drehbuch** | Romanverfilmung | P: Filmfest München 2018\
+**Drehbuch** | Romanverfilmung | Premiere: Filmfest München 2018\
 \
 Hamburg, St. Pauli, Silvester. Oskar betreibt einen Musikclub am Ende der Reeperbahn. Sein Leben war ein Fest, doch die Party ist vorbei: Der Club muss schließen, Oskar ist hoch verschuldet. 
 
