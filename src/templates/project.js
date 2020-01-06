@@ -12,9 +12,18 @@ export const ProjectTemplate = ({
                                     tags,
                                     title,
                                     helmet,
-                                    participants
+                                    participants,
+                                    previous,
+                                    next
                                 }) => {
     const PostContent = contentComponent || Content;
+
+    console.log(next);
+
+    const {node: {fields: {slug: prevSlug} = {}, frontmatter: {title: prevTitle, templateKey: prevTemplate} = {}} = {}} = previous || {};
+    const {node: {fields: {slug: nextSlug} = {}, frontmatter: {title: nextTitle, templateKey: nextTemplate} = {}} = {}} = next || {};
+    const hasPrevious = previous && prevTemplate === "project";
+    const hasNext = next && nextTemplate === "project";
 
     return (
         <section className="section">
@@ -22,9 +31,8 @@ export const ProjectTemplate = ({
             <div className="container content">
                 <div className="columns is-multiline is-centered">
                     <div className="column is-full-mobile is-6">
-                        <h1 className="has-text-centered is-size-2">
+                        <h1 className="has-text-centered is-size-2-desktop">
                             {title}
-                            <hr/>
                         </h1>
                         <PostContent content={content}/>
                         {participants &&
@@ -42,6 +50,11 @@ export const ProjectTemplate = ({
                                 </ul>
                             </div>
                         ) : null}
+                        {(hasPrevious || hasNext) && <hr/>}
+                        <div className="page-controls">
+                            <p>{hasPrevious && <Link to={prevSlug}>{prevTitle}</Link>}</p>
+                            <p>{hasNext && <Link to={nextSlug}>{nextTitle}</Link>}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -54,11 +67,15 @@ ProjectTemplate.propTypes = {
     contentComponent: PropTypes.func,
     title: PropTypes.string,
     helmet: PropTypes.object,
+    previous: PropTypes.object,
+    next: PropTypes.object,
     participants: PropTypes.string
 };
 
-const Project = ({data}) => {
+const Project = ({data, pageContext}) => {
     const {markdownRemark: post} = data;
+
+    console.log(pageContext);
 
     return (
         <Layout>
@@ -73,6 +90,7 @@ const Project = ({data}) => {
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
                 participants={post.frontmatter.participants}
+                {...pageContext}
             />
         </Layout>
     )

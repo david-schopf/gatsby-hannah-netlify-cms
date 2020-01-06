@@ -10,6 +10,7 @@ $hs-font-color: #F08
 $hs-background-color: #209CEE
 
 $primary: #111111
+$link: $kaldi-red
 $primary-invert: #EEEEEE
 $body-color: #333
 $black: #2b2523
@@ -132,6 +133,17 @@ footer.footer
   padding: 0.5rem
   background: #FF8576
 
+.page-controls
+  display: flex
+  justify-content: space-between
+  width: 100%
+
+  p:first-child
+    text-align: left
+
+  p:last-child
+    text-align: right
+
 @import "~bulma"
 
 // responsiveness
@@ -150,7 +162,7 @@ footer.footer
   .featured-thumbnail-hover
     display: flex
     background: none
-    font-size: 2.5rem
+    font-size: 2.2rem
 
     p
       background: rgba(0, 0, 0, 0.5)
