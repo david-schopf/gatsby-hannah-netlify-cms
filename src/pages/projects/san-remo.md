@@ -6,7 +6,10 @@ featuredimage: /img/bfront_san-remo.jpg
 tags:
   - film
   - autorin
-
+participants: >-
+  REGIE Johanna Behre | DREHBUCH Hannah Schopf, Johanna Behre, Andi Pek | KAMERA
+  Julia Geiß | MONTAGE Andi Pek | TON Leonhard Leyh | PRODUKTION Farfan | MIT
+  Albertine Sarges und Sebastian Eppner (Itaca), Lea Willkowsky
 ---
 <iframe src="https://player.vimeo.com/video/361087205" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
