@@ -5,7 +5,13 @@ date: 2018-08-01T14:49:57.092Z
 featuredimage: /img/bfront_vvb.jpg
 tags:
   - papier
-
+participants: >-
+  MIT BEITRÄGEN VON Evelyn Annuß, Anna Bergmann, Amelie Deuflhard, Klaus
+  Dobbrick, Klaus Dörr, Wolfgang Engler, Christian Grashof, Annett Gröschner,
+  Nele Hertling, Ulrich Khuon, Ulrike Köhler, Iris Laufenberg, Klaus Lederer,
+  Thomas Martin, Hartmut Meyer, Thomas Oberender, Frank Raddatz, Hannah Schopf,
+  Esther Slevogt, Staub zu Glitzer (Nils Bunjaku), Kathrin Tiedemann, Klaus
+  Völker
 ---
 ![](/img/vorsicht-vb.jpg)
 
