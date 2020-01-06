@@ -7,8 +7,8 @@ tags:
   - papier
   - autorin
 participants: |-
-  Am Mikro: Natalie Wüstenfuchs und Hannah Schopf
-  Unter der Kutte: Der Wolfratshausen
+  AM MIKRO Natalie Wüstenfuchs und Hannah Schopf
+  UNTER DER KUTTE Hannah Wolf als Der Wolfratshausen
 ---
 ![](/img/wus.png)
 
