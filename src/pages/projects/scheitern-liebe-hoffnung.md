@@ -7,7 +7,11 @@ tags:
   - theater
   - dramaturgin
   - autorin
-
+participants: >-
+  REGIE  Anna Vera Kelle | TEXT+DRAMATURGIE Hannah Schopf | AUSSTATTUNG Andreas
+  A. Strasser | MUSIK Johannes Winde | REGIEASSISTENZ Ekaterina Raykova |
+  THEATERPÄDAGOGIK Mira Laskwoski, Caroline Schließmann | MIT Lisa Brinckmann,
+  Florian Kroop, Anna Rebecca Sehls, Johannes Winde (Live Musik)
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/Itr-JlpxvVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
