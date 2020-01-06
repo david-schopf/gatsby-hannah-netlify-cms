@@ -6,6 +6,12 @@ featuredimage: /img/bfront_historeyk.jpg
 tags:
   - theater
   - dramaturgin
+participants: >-
+  KÜNSTLERISCHE PROJEKTLEITUNG Anna Donderer, Hannah Schopf, Dominik Müller
+  (Beratung) | AUSSTATTUNG Theresa Scheitzenhammer | TECHNIK+LICHT Jonaid
+  Khodabhakshi | VIDEO Fritz Rackwitz | ASSISTENZ David Farkas | IDEE+GRAFIK
+  Anna Wieczorek | CHOREOGRAFIE+TANZ Sahra Huby, Kathrin Knöpfle, Quindell
+  Orton
 ---
 ![](/img/quin.jpg)
 
