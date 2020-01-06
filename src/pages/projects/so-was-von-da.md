@@ -8,7 +8,7 @@ tags:
   - autorin
 participants: >-
   REGIE Jakob Lass | DREHBUCH Jakob Lass, Hannah Schopf | PRODUKTION Sebastian
-  Zühr, Benjamin Seikel (c-films) | KAMERA Timon Schäppi | SCHNITT Gesa Jäger |
+  Zühr, Benjamin Seikel (c-films) | KAMERA Timon Schäppi | MONTAGE Gesa Jäger |
   MUSIK Großstadtgeflüstert u.a. | MIT Niklas Bruhn, David Schütter, Tinka
   Fürst, Martina Schöne-Radunski, Corinna Harfouch, Bela B. Felsenheimer u.a.  |
   VERLEIH dcm
