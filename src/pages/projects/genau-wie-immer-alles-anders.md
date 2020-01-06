@@ -6,7 +6,13 @@ featuredimage: /img/bfront_gwi.jpg
 tags:
   - theater
   - dramaturgin
-
+participants: >-
+  REGIE Inda Buschmann | TEXT Günter Jankowiak, in einer Bearbeitung von Hannah
+  Schopf und Inda Buschmann | BÜHNE Michael Ottopal | KOSTÜM Stephanie Dorn |
+  CHOREOGRAFIE Wies Merkx | MUSIK Thomas Seher | DRAMATURGIE Hannah Schopf |
+  REGIEASSISTENZ Ekaterina Raykova | THEATERPÄDAGOGIK Mira Laskowski | MIT
+  Natascha Manthe, Viktor Nillson, Max Radestock, Anna Rebecca Sehls,  Justus
+  Verdenhalven
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/516zwSFfTP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
