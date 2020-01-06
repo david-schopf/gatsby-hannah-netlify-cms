@@ -7,7 +7,11 @@ tags:
   - theater
   - regisseurin
   - autorin
-
+participants: >-
+  TEXT+REGIE Hannah Schopf | AUSSTATTUNG Hannah Wolf | KÜNSTL. MITARBEIT
+  AUSSTATTUNG Lucia Gauchat-Schulte | REGIEASSISTENZ Stella Nikisch |
+  PRODUKTIONSLEITUNG Katarina Dacic | MIT Nora Decker, Johannes Buchmann,
+  Arbeiter- und Veteranenchor Neukölln e.V.
 ---
 ![](/img/chor1.jpg)
 
