@@ -6,7 +6,13 @@ featuredimage: /img/bfront_ff.jpg
 tags:
   - dramaturgin
   - theater
-
+participants: >-
+  REGIE Stefanie Aehnelt | AUSSTATTUNG Svenja Kuhr | DRAMATURGIE Hannah Schopf |
+  VIDEO Alexander Ebeert | REGIEASSISTENZ Simon Käppler | AUSSTATTUNGSASSISTENZ
+  Hannah Wolf | PRODUKTIONSLEITUNG Sophia Neubert | MIT Nora Decker, Meda
+  Gheorghiu-Banciu, Cantemir Gheorghiu, Tatiana Heide SOWIE Renate Babkuhl, Hans
+  Babkuhl, Katia Berg, Renate Kollande, Ingeborg Müller, Bruno Pfeffer, Waltraud
+  Schulz
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/iAUqNrLbews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
