@@ -6,7 +6,7 @@ featuredimage: /img/bfront_republikcastorf.jpg
 tags:
   - papier
   - autorin
-
+participants: HRSG. Frank Raddatz | FOTOGRAFIE Thomas Aurin | MITARBEIT Hannah Schopf
 ---
 ![](/img/republik-castorf.jpg)
 
