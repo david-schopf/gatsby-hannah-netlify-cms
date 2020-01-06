@@ -9,7 +9,7 @@ tags:
 participants: >-
   REGIE Jakob Lass | DREHBUCH Jakob Lass, Ines Schiller, Hannah Schopf,
   Eva-Maria Reimer, Nico Woche | PRODUKTION Ines Schiller, Golo Schulz | KAMERA
-  Timon Schäppi | SCHNITT Gesa Jäger | MUSIK Golo Schulz | MIT Ella Rumpf, Maria
+  Timon Schäppi | MONTAGE Gesa Jäger | MUSIK Golo Schulz | MIT Ella Rumpf, Maria
   Dragus, Franz Rogowski, Lana Cooper​ | VERLEIH Constantin Film
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/xzZwziX9u30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
