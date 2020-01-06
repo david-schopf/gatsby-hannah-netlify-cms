@@ -7,7 +7,14 @@ tags:
   - theater
   - dramaturgin
   - autorin
-participants: ''
+participants: >-
+  REGIE Christel Gbaguidi | AUSSTATTUNG Bogna Grazyna Jaroslawski |
+  TEXT+DRAMATURGIE Hannah Schopf | MUSIK David Casarrubia, Fôfo Fanick Marie
+  Verger | LICHT Leander Hagen | LEITUNG P14 Vanessa Unzalu-Troya | MIT
+  Koubourath Adjagba, Hanna S. Filler, Nathalie Hahnen, Pauline Harm, Ibo
+  Kamara, Katrin Kats, Tamino Köhne, Lilith Krause, Jan Lukas Krüsemann, Fee
+  Aviv Marschall, Katharina Mühl, Marthe Müller Lütken, Klejton Ndoj, Anne
+  Schmidt, Anik Todtenhaupt, Larissa Wagenhals, Fahd Ziban
 ---
 ![](/img/blind-chicken.jpg)
 
