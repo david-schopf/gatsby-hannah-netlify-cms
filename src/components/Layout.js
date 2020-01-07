@@ -32,8 +32,6 @@ const TemplateWrapper = ({ children }) => {
             href={`${withPrefix('/')}favicon-16x16.png`}
             sizes="16x16"
         />
-
-        <link href="https://fonts.googleapis.com/css?family=Barlow|Playfair+Display&display=swap" rel="stylesheet"/>
         <link rel="manifest" href="/manifest.webmanifest"/>
         <meta name="theme-color" content="#F08"/>
 
