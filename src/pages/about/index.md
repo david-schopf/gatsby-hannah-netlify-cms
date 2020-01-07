@@ -12,6 +12,7 @@ Im Bereich Film und Fernsehen wird Hannah vertreten durch die [Agentur Free X](h
 ## FESTIVALS UND STIPENDIEN
 
 * 2019 | Nominierungen in allen Kategorien für [SAN REMO](/projects/san-remo/) auf dem Filmfest Bremen
+* 2018-19 | Stipendiatin der Münchner Drehbuchwerkstatt
 * 2018 | [SO WAS VON DA](/projects/so-was-von-da/) in der Reihe _Neues Deutsches Kino_ auf dem Münchner Filmfest
 * 2018 | Autorenstipendium für [LA DEUTSCHE VITA](/projects/la-deutsche-vita/) durch die Heinz und Heide Dürr Stiftung
 * 2018 | Drehbuchförderung für [FAKE](/projects/fake/) durch das BKM
