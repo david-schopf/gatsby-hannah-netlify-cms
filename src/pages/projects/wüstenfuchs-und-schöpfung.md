@@ -12,8 +12,6 @@ participants: |-
 ---
 ![](/img/wus.png)
 
-
-
 \
 **Autorin** | Textverschwörung | seit 2013
 
@@ -32,3 +30,4 @@ LESUNGEN
 * 22.-24.08.2014 | Wederade | Fuchsbau Festival 
 * 12.08.2014 | Radio M94.5 | "Fettgedruckt" | 19-20h
 * 26.07.2014 | München | Hauskonzerte.com | Maximiliansstr. 33 | 20h
+* 21.12.2013 | München | Schaustelle Pinakothek der Moderne | 16h
