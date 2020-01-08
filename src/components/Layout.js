@@ -15,23 +15,6 @@ const TemplateWrapper = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
 
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href={`${withPrefix('/')}apple-touch-icon.png`}
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            href={`${withPrefix('/')}favicon-32x32.png`}
-            sizes="32x32"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            href={`${withPrefix('/')}favicon-16x16.png`}
-            sizes="16x16"
-        />
         <link rel="manifest" href="/manifest.webmanifest"/>
         <meta name="theme-color" content="#F08"/>
 

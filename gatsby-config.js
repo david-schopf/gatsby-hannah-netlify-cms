@@ -88,7 +88,7 @@ module.exports = {
         name: "Hannah Schopf",
         short_name: "Hannah Schopf",
         start_url: "/",
-        background_color: "#fff",
+        background_color: "#000",
         theme_color: "#FF8576",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
