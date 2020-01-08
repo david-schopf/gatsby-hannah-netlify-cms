@@ -10,8 +10,7 @@ participants: >-
   KÜNSTLERISCHE PROJEKTLEITUNG Anna Donderer, Hannah Schopf, Dominik Müller
   (Beratung) | AUSSTATTUNG Theresa Scheitzenhammer | TECHNIK+LICHT Jonaid
   Khodabhakshi | VIDEO Fritz Rackwitz | ASSISTENZ David Farkas | IDEE+GRAFIK
-  Anna Wieczorek | CHOREOGRAFIE+TANZ Sahra Huby, Kathrin Knöpfle, Quindell
-  Orton
+  Anna Wieczorek | CHOREOGRAFIE+TANZ Sahra Huby, Kathrin Knöpfle, Quindell Orton
 ---
 ![](/img/quin.jpg)
 
@@ -21,5 +20,3 @@ participants: >-
 Köln-Sülz ist der Dschungel und wir gehen jetzt spazieren. In leeren Ladenräumen haben wir sanft glimmende, gordische Knoten aus privaten Schicksalen und großstädtischer Entwicklungsgeschichte ausfindig gemacht. Wo die Gegenwart Risse bekommt und uns hinter versiegelten Türen und kaputten Neonreklamen Geschichten anflüstern, führt hiSTOREy die BesucherInnen aus dem Theater in die Stadt. 
 
 Die TänzerInnen besetzen die blinden Flecken mit selbst erarbeiteten Soli – Inkarnationen der Geschichten der Räume. Auf der Route durch Sülz dringen CADAM. unter die großstädtische Oberfläche zu Anekdoten und Kuriositäten vor, die das Leben im Veedel ausmachen. Gerade sind wir dabei, die Fäden mit Händen und Füßen zu entwirren, ein paar Funken sprühen, wer neugierig durch einen Spalt im abgeklebten Fenster späht, könnte meinen, es handle sich um einen Tanz…
-
-_\*eingeladen zu dem Festival theaterszene europa in Köln 2015_
