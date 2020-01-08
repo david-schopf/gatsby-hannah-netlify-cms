@@ -9,8 +9,8 @@ tags:
 participants: >-
   REGIE Jakob Lass | DREHBUCH Jakob Lass, Hannah Schopf | PRODUKTION Sebastian
   Zühr, Benjamin Seikel (c-films) | KAMERA Timon Schäppi | MONTAGE Gesa Jäger |
-  MUSIK Großstadtgeflüstert u.a. | MIT Niklas Bruhn, David Schütter, Tinka
-  Fürst, Martina Schöne-Radunski, Corinna Harfouch, Bela B. Felsenheimer u.a.  |
+  MUSIK Großstadtgeflüster u.a. | MIT Niklas Bruhn, David Schütter, Tinka Fürst,
+  Martina Schöne-Radunski, Corinna Harfouch, Bela B. Felsenheimer u.a.  |
   VERLEIH dcm
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/axpWiy9WxrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
