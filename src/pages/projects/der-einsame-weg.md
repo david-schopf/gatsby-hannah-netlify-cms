@@ -23,5 +23,5 @@ Die Menschen versuchen sich zu verorten, sich zu definieren. Sie ziehen dabei Ve
 
 Und so dreht sich das Karussell der zufälligen Begegnungen, der Schein der Gemeinsamkeit bleibt, solang wir nur weiterreden –  bis eine Figur verschwindet. Johanna ist fort. Das System ist durchbrochen, aber ändert das etwas?
 
-_\*eingeladen zum Schauspielschultreffen 2012 in Wien_\
+_\*Gastspiel auf dem Schauspielschultreffen 2012 in Wien_\
 _\*eingeladen zu den bayerischen Theatertagen 2012 in Augsburg_
