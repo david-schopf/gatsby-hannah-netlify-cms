@@ -18,3 +18,4 @@ Im Bereich Film und Fernsehen wird Hannah vertreten durch die [Agentur Free X](h
 * 2018 | Drehbuchförderung für [FAKE](/projects/fake/) durch das BKM
 * 2017 | [TIGER GIRL](/projects/tiger-girl/) als Eröffnungsfilm der _Sektion Panorama_ auf der Berlinale und in der Vorauswahl für den deutschen Filmpreis
 * 2015 | [hiSTOREy](/projects/histor-e-y/) auf dem Festival theaterszene europa in Köln
+* 2012 | [Der einsame Weg](https://www.hannah-schopf.com/projects/der-einsame-weg/) auf den bayerischen Theatertagen in Augsburg
