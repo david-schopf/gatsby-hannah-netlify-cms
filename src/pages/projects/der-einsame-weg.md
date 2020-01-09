@@ -7,7 +7,7 @@ tags:
   - theater
   - dramaturgin
 participants: >-
-  TEXT Arthur Schnitzler | REGIE Johannah Wehner | AUSSTATTUNG Theresa
+  TEXT Arthur Schnitzler | REGIE Johanna Wehner | AUSSTATTUNG Theresa
   Scheitzenhammer | DRAMATURGIE Hannah Schopf | MIT Sarah Grunert, Ines
   Hollinger, Maria Weidner, Sebastian Baumgart, Heiner Bomhard, Kevin Körber,
   Patrick Nellessen, James Newton, Rasmus Wirth
