@@ -21,4 +21,4 @@ Ein einziges Mal Perfektion erreichen. Die Person im Mittelpunkt sein. Am besten
 
 Um Roland Schimmelpfennigs tanzende Dorfjugend ranken sich zwei Extremwelten: Oben die Aristokratie, in der Schönheitswahn und Oberflächlichkeit zur verkrampften aber noch immer hochglänzenden Fassade erstarrt sind. Unten die Subversion, in der eine Musik noch möglich ist, die Fassaden durchbricht und in Keller einsteigt. Doch fällt sie am Ende auf die gleiche Verlockung herein wie die einstige Boheme vor ihr?
 
-_\*eingeladen zum Schauspielschultreffen 2013 in Berlin_
+_\*Gastspiel auf dem Schauspielschultreffen 2013 in Berlin_
