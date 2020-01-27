@@ -2,7 +2,7 @@
 templateKey: project
 title: LA DEUTSCHE VITA
 date: 2020-02-22T18:30:38.318Z
-featuredimage: /img/bfront_ldv.jpg
+featuredimage: /img/bfront_ldv3.jpg
 tags:
   - theater
   - regisseurin
