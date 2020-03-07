@@ -8,6 +8,7 @@ const ProjectPagePreview = ({entry, widgetFor}) => (
         tags={entry.getIn(['data', 'tags'])}
         title={entry.getIn(['data', 'title'])}
         participants={entry.getIn(['data', 'participants'])}
+        gallery={entry.getIn(['data', 'galleryImages'])}
   />
 );
 

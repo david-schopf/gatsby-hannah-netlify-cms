@@ -493,8 +493,8 @@ type MarkdownRemarkFrontmatter {
         locale: String
     ): Date
     featuredimage: File
-    participants: [String]
-    path: String
+    galleryImages: [File]
+    participants: String
     tags: [String]
     templateKey: String
     title: String
@@ -614,7 +614,49 @@ type SitePageConnection {
 
 type SitePageContext {
     id: String
+    next: SitePageContextNext
+    previous: SitePageContextPrevious
     tag: String
+}
+
+type SitePageContextNext {
+    node: SitePageContextNextNode
+}
+
+type SitePageContextNextNode {
+    fields: SitePageContextNextNodeFields
+    frontmatter: SitePageContextNextNodeFrontmatter
+    id: String
+}
+
+type SitePageContextNextNodeFields {
+    slug: String
+}
+
+type SitePageContextNextNodeFrontmatter {
+    tags: [String]
+    templateKey: String
+    title: String
+}
+
+type SitePageContextPrevious {
+    node: SitePageContextPreviousNode
+}
+
+type SitePageContextPreviousNode {
+    fields: SitePageContextPreviousNodeFields
+    frontmatter: SitePageContextPreviousNodeFrontmatter
+    id: String
+}
+
+type SitePageContextPreviousNodeFields {
+    slug: String
+}
+
+type SitePageContextPreviousNodeFrontmatter {
+    tags: [String]
+    templateKey: String
+    title: String
 }
 
 type SitePageEdge {
@@ -702,6 +744,7 @@ type SitePluginPackageJsonPeerDependencies {
 
 type SitePluginPluginOptions {
     background_color: String
+    defaultQuality: Int
     destinationDir: String
     develop: Boolean
     display: String
@@ -716,7 +759,9 @@ type SitePluginPluginOptions {
     purgeOnly: [String]
     short_name: String
     start_url: String
+    stripMetadata: Boolean
     theme_color: String
+    useMozJpeg: Boolean
     useResolveUrlLoader: SitePluginPluginOptionsUseResolveUrlLoader
     width: String
 }
@@ -1034,8 +1079,44 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___featuredimage___size
     childMarkdownRemark___frontmatter___featuredimage___sourceInstanceName
     childMarkdownRemark___frontmatter___featuredimage___uid
+    childMarkdownRemark___frontmatter___galleryImages
+    childMarkdownRemark___frontmatter___galleryImages___absolutePath
+    childMarkdownRemark___frontmatter___galleryImages___accessTime
+    childMarkdownRemark___frontmatter___galleryImages___atime
+    childMarkdownRemark___frontmatter___galleryImages___atimeMs
+    childMarkdownRemark___frontmatter___galleryImages___base
+    childMarkdownRemark___frontmatter___galleryImages___birthTime
+    childMarkdownRemark___frontmatter___galleryImages___birthtime
+    childMarkdownRemark___frontmatter___galleryImages___birthtimeMs
+    childMarkdownRemark___frontmatter___galleryImages___blksize
+    childMarkdownRemark___frontmatter___galleryImages___blocks
+    childMarkdownRemark___frontmatter___galleryImages___changeTime
+    childMarkdownRemark___frontmatter___galleryImages___children
+    childMarkdownRemark___frontmatter___galleryImages___ctime
+    childMarkdownRemark___frontmatter___galleryImages___ctimeMs
+    childMarkdownRemark___frontmatter___galleryImages___dev
+    childMarkdownRemark___frontmatter___galleryImages___dir
+    childMarkdownRemark___frontmatter___galleryImages___ext
+    childMarkdownRemark___frontmatter___galleryImages___extension
+    childMarkdownRemark___frontmatter___galleryImages___gid
+    childMarkdownRemark___frontmatter___galleryImages___id
+    childMarkdownRemark___frontmatter___galleryImages___ino
+    childMarkdownRemark___frontmatter___galleryImages___mode
+    childMarkdownRemark___frontmatter___galleryImages___modifiedTime
+    childMarkdownRemark___frontmatter___galleryImages___mtime
+    childMarkdownRemark___frontmatter___galleryImages___mtimeMs
+    childMarkdownRemark___frontmatter___galleryImages___name
+    childMarkdownRemark___frontmatter___galleryImages___nlink
+    childMarkdownRemark___frontmatter___galleryImages___prettySize
+    childMarkdownRemark___frontmatter___galleryImages___publicURL
+    childMarkdownRemark___frontmatter___galleryImages___rdev
+    childMarkdownRemark___frontmatter___galleryImages___relativeDirectory
+    childMarkdownRemark___frontmatter___galleryImages___relativePath
+    childMarkdownRemark___frontmatter___galleryImages___root
+    childMarkdownRemark___frontmatter___galleryImages___size
+    childMarkdownRemark___frontmatter___galleryImages___sourceInstanceName
+    childMarkdownRemark___frontmatter___galleryImages___uid
     childMarkdownRemark___frontmatter___participants
-    childMarkdownRemark___frontmatter___path
     childMarkdownRemark___frontmatter___tags
     childMarkdownRemark___frontmatter___templateKey
     childMarkdownRemark___frontmatter___title
@@ -1474,8 +1555,69 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___featuredimage___size
     frontmatter___featuredimage___sourceInstanceName
     frontmatter___featuredimage___uid
+    frontmatter___galleryImages
+    frontmatter___galleryImages___absolutePath
+    frontmatter___galleryImages___accessTime
+    frontmatter___galleryImages___atime
+    frontmatter___galleryImages___atimeMs
+    frontmatter___galleryImages___base
+    frontmatter___galleryImages___birthTime
+    frontmatter___galleryImages___birthtime
+    frontmatter___galleryImages___birthtimeMs
+    frontmatter___galleryImages___blksize
+    frontmatter___galleryImages___blocks
+    frontmatter___galleryImages___changeTime
+    frontmatter___galleryImages___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childImageSharp___id @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___id
+    frontmatter___galleryImages___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___galleryImages___children
+    frontmatter___galleryImages___children___children
+    frontmatter___galleryImages___children___id
+    frontmatter___galleryImages___ctime
+    frontmatter___galleryImages___ctimeMs
+    frontmatter___galleryImages___dev
+    frontmatter___galleryImages___dir
+    frontmatter___galleryImages___ext
+    frontmatter___galleryImages___extension
+    frontmatter___galleryImages___gid
+    frontmatter___galleryImages___id
+    frontmatter___galleryImages___ino
+    frontmatter___galleryImages___internal___content
+    frontmatter___galleryImages___internal___contentDigest
+    frontmatter___galleryImages___internal___description
+    frontmatter___galleryImages___internal___fieldOwners
+    frontmatter___galleryImages___internal___ignoreType
+    frontmatter___galleryImages___internal___mediaType
+    frontmatter___galleryImages___internal___owner
+    frontmatter___galleryImages___internal___type
+    frontmatter___galleryImages___mode
+    frontmatter___galleryImages___modifiedTime
+    frontmatter___galleryImages___mtime
+    frontmatter___galleryImages___mtimeMs
+    frontmatter___galleryImages___name
+    frontmatter___galleryImages___nlink
+    frontmatter___galleryImages___parent___children
+    frontmatter___galleryImages___parent___id
+    frontmatter___galleryImages___prettySize
+    frontmatter___galleryImages___publicURL
+    frontmatter___galleryImages___rdev
+    frontmatter___galleryImages___relativeDirectory
+    frontmatter___galleryImages___relativePath
+    frontmatter___galleryImages___root
+    frontmatter___galleryImages___size
+    frontmatter___galleryImages___sourceInstanceName
+    frontmatter___galleryImages___uid
     frontmatter___participants
-    frontmatter___path
     frontmatter___tags
     frontmatter___templateKey
     frontmatter___title
@@ -1688,6 +1830,8 @@ enum SitePageFieldsEnum {
     componentChunkName
     componentPath
     context___id
+    context___next___node___id
+    context___previous___node___id
     context___tag
     id
     internalComponentName
@@ -1799,6 +1943,7 @@ enum SitePageFieldsEnum {
     pluginCreator___parent___parent___id
     pluginCreator___pluginFilepath
     pluginCreator___pluginOptions___background_color
+    pluginCreator___pluginOptions___defaultQuality
     pluginCreator___pluginOptions___destinationDir
     pluginCreator___pluginOptions___develop
     pluginCreator___pluginOptions___display
@@ -1820,7 +1965,9 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___purgeOnly
     pluginCreator___pluginOptions___short_name
     pluginCreator___pluginOptions___start_url
+    pluginCreator___pluginOptions___stripMetadata
     pluginCreator___pluginOptions___theme_color
+    pluginCreator___pluginOptions___useMozJpeg
     pluginCreator___pluginOptions___width
     pluginCreator___resolve
     pluginCreator___ssrAPIs
@@ -1935,6 +2082,7 @@ enum SitePluginFieldsEnum {
     parent___parent___parent___id
     pluginFilepath
     pluginOptions___background_color
+    pluginOptions___defaultQuality
     pluginOptions___destinationDir
     pluginOptions___develop
     pluginOptions___display
@@ -1961,7 +2109,9 @@ enum SitePluginFieldsEnum {
     pluginOptions___purgeOnly
     pluginOptions___short_name
     pluginOptions___start_url
+    pluginOptions___stripMetadata
     pluginOptions___theme_color
+    pluginOptions___useMozJpeg
     pluginOptions___useResolveUrlLoader___options___debug
     pluginOptions___width
     resolve
@@ -2084,6 +2234,10 @@ input FileFilterInput {
     size: IntQueryOperatorInput
     sourceInstanceName: StringQueryOperatorInput
     uid: IntQueryOperatorInput
+}
+
+input FileFilterListInput {
+    elemMatch: FileFilterInput
 }
 
 input FileSortInput {
@@ -2257,8 +2411,8 @@ input MarkdownRemarkFilterInput {
 input MarkdownRemarkFrontmatterFilterInput {
     date: DateQueryOperatorInput
     featuredimage: FileFilterInput
+    galleryImages: FileFilterListInput
     participants: StringQueryOperatorInput
-    path: StringQueryOperatorInput
     tags: StringQueryOperatorInput
     templateKey: StringQueryOperatorInput
     title: StringQueryOperatorInput
@@ -2313,7 +2467,49 @@ input SiteFilterInput {
 
 input SitePageContextFilterInput {
     id: StringQueryOperatorInput
+    next: SitePageContextNextFilterInput
+    previous: SitePageContextPreviousFilterInput
     tag: StringQueryOperatorInput
+}
+
+input SitePageContextNextFilterInput {
+    node: SitePageContextNextNodeFilterInput
+}
+
+input SitePageContextNextNodeFieldsFilterInput {
+    slug: StringQueryOperatorInput
+}
+
+input SitePageContextNextNodeFilterInput {
+    fields: SitePageContextNextNodeFieldsFilterInput
+    frontmatter: SitePageContextNextNodeFrontmatterFilterInput
+    id: StringQueryOperatorInput
+}
+
+input SitePageContextNextNodeFrontmatterFilterInput {
+    tags: StringQueryOperatorInput
+    templateKey: StringQueryOperatorInput
+    title: StringQueryOperatorInput
+}
+
+input SitePageContextPreviousFilterInput {
+    node: SitePageContextPreviousNodeFilterInput
+}
+
+input SitePageContextPreviousNodeFieldsFilterInput {
+    slug: StringQueryOperatorInput
+}
+
+input SitePageContextPreviousNodeFilterInput {
+    fields: SitePageContextPreviousNodeFieldsFilterInput
+    frontmatter: SitePageContextPreviousNodeFrontmatterFilterInput
+    id: StringQueryOperatorInput
+}
+
+input SitePageContextPreviousNodeFrontmatterFilterInput {
+    tags: StringQueryOperatorInput
+    templateKey: StringQueryOperatorInput
+    title: StringQueryOperatorInput
 }
 
 input SitePageFilterInput {
@@ -2395,6 +2591,7 @@ input SitePluginPackageJsonPeerDependenciesFilterListInput {
 
 input SitePluginPluginOptionsFilterInput {
     background_color: StringQueryOperatorInput
+    defaultQuality: IntQueryOperatorInput
     destinationDir: StringQueryOperatorInput
     develop: BooleanQueryOperatorInput
     display: StringQueryOperatorInput
@@ -2409,7 +2606,9 @@ input SitePluginPluginOptionsFilterInput {
     purgeOnly: StringQueryOperatorInput
     short_name: StringQueryOperatorInput
     start_url: StringQueryOperatorInput
+    stripMetadata: BooleanQueryOperatorInput
     theme_color: StringQueryOperatorInput
+    useMozJpeg: BooleanQueryOperatorInput
     useResolveUrlLoader: SitePluginPluginOptionsUseResolveUrlLoaderFilterInput
     width: StringQueryOperatorInput
 }

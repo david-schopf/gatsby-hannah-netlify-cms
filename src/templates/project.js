@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
+import Gallery from "react-photo-gallery";
 
 export const ProjectTemplate = ({
                                     content,
@@ -13,17 +14,27 @@ export const ProjectTemplate = ({
                                     title,
                                     helmet,
                                     participants,
+                                    gallery,
                                     previous,
                                     next
                                 }) => {
     const PostContent = contentComponent || Content;
 
-    console.log(next);
-
     const {node: {fields: {slug: prevSlug} = {}, frontmatter: {title: prevTitle, templateKey: prevTemplate} = {}} = {}} = previous || {};
     const {node: {fields: {slug: nextSlug} = {}, frontmatter: {title: nextTitle, templateKey: nextTemplate} = {}} = {}} = next || {};
     const hasPrevious = previous && prevTemplate === "project";
     const hasNext = next && nextTemplate === "project";
+
+    const photos = gallery.map(galleryImage => {
+        const {childImageSharp: {fluid: image}} = galleryImage;
+        return {
+            ...image,
+            width: image.aspectRatio,
+            height: 1
+        }
+    });
+
+    console.log(photos);
 
     return (
         <section className="section">
@@ -38,6 +49,10 @@ export const ProjectTemplate = ({
                         {participants &&
                         <div className="participants">{participants.split("\n").map(p => <span
                             key={p}>{p}<br/></span>)}</div>}
+                        {photos && (<div style={{marginTop: `4rem`}}>
+                            <Gallery photos={photos}/>
+                        </div>)}
+
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
                                 <h4>Tags</h4>
@@ -67,6 +82,7 @@ ProjectTemplate.propTypes = {
     contentComponent: PropTypes.func,
     title: PropTypes.string,
     helmet: PropTypes.object,
+    gallery: PropTypes.array,
     previous: PropTypes.object,
     next: PropTypes.object,
     participants: PropTypes.string
@@ -74,8 +90,6 @@ ProjectTemplate.propTypes = {
 
 const Project = ({data, pageContext}) => {
     const {markdownRemark: post} = data;
-
-    console.log(pageContext);
 
     return (
         <Layout>
@@ -90,6 +104,7 @@ const Project = ({data, pageContext}) => {
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
                 participants={post.frontmatter.participants}
+                gallery={post.frontmatter.galleryImages}
                 {...pageContext}
             />
         </Layout>
@@ -114,6 +129,13 @@ export const pageQuery = graphql`
                 title
                 tags
                 participants
+                galleryImages {
+                    childImageSharp {
+                        fluid(maxWidth: 600, quality: 95) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
             }
         }
     }
