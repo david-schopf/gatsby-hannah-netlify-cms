@@ -25,7 +25,7 @@ export const ProjectTemplate = ({
     const hasPrevious = previous && prevTemplate === "project";
     const hasNext = next && nextTemplate === "project";
 
-    const photos = gallery.map(galleryImage => {
+    const photos = (gallery || []).map(galleryImage => {
         const {childImageSharp: {fluid: image}} = galleryImage;
         return {
             ...image,
