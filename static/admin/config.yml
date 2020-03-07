@@ -25,6 +25,16 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Participants", name: "participants", widget: "text", required: false}
+      - {
+        "label": "Gallery",
+        "name": "galleryImages",
+        "widget": "list",
+        "field": {
+          "label": "Image",
+          "name": "image",
+          "widget": "image"
+        }
+      }
 
   - name: "pages"
     label: "Pages"
