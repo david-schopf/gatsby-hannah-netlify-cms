@@ -12,9 +12,7 @@ participants: >-
   AUSSTATTUNG Lucia Gauchat-Schulte | REGIEASSISTENZ Stella Nikisch |
   PRODUKTIONSLEITUNG Katarina Dacic | MIT Nora Decker, Johannes Buchmann,
   Arbeiter- und Veteranenchor Neukölln e.V.
-galleryImages:
-  - /img/chor1.jpg
-  - /img/bfront_aktionn.jpg
+galleryImages: []
 ---
 ![](/img/chor1.jpg)
 
