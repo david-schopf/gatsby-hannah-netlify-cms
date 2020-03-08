@@ -2,7 +2,7 @@
 templateKey: project
 title: LA DEUTSCHE VITA
 date: 2020-02-22T18:30:38.318Z
-featuredimage: /img/bfront_ldv3.jpg
+featuredimage: /img/2002_ladeutschevita_jonasilligmann-140-.jpg
 tags:
   - theater
   - regisseurin
@@ -24,7 +24,7 @@ galleryImages:
   - /img/2002_ladeutschevita_totale_jonasilligmann-1-.jpg
   - /img/2002_ladeutschevita_jonasilligmann-257-.jpg
 ---
-![](/img/chor1.jpg)
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/sAdnBeKf3Y8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \
 **Text & Regie** | Theaterstück | P: 22.02.2020 – [Heimathafen Neukölln](https://heimathafen-neukoelln.de/events/la-deutsche-vita/)
