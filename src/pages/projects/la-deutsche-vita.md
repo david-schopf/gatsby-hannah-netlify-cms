@@ -13,7 +13,16 @@ participants: >-
   PRODUKTIONSLEITUNG Katarina Dacic | MIT Nora Decker, Johannes Buchmann,
   Arbeiter- und Veteranenchor Neukölln e.V.
 galleryImages:
-  - /img/chor1.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-167-.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-205-.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-191-.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-212-.jpg
+  - /img/2002_ladeutschevita_totale_jonasilligmann-20-.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-222-.jpg
+  - /img/2002_ladeutschevita_totale_jonasilligmann-50-.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-211-.jpg
+  - /img/2002_ladeutschevita_totale_jonasilligmann-1-.jpg
+  - /img/2002_ladeutschevita_jonasilligmann-257-.jpg
 ---
 ![](/img/chor1.jpg)
 
