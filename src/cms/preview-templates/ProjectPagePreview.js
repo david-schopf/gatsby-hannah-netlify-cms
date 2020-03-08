@@ -2,21 +2,22 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {ProjectTemplate} from '../../templates/project'
 
-const ProjectPagePreview = ({entry, widgetFor}) => (
-    <ProjectTemplate
-        content={widgetFor('body')}
-        tags={entry.getIn(['data', 'tags'])}
-        title={entry.getIn(['data', 'title'])}
-        participants={entry.getIn(['data', 'participants'])}
-        gallery={entry.getIn(['data', 'galleryImages'])}
-  />
-);
+const ProjectPagePreview = ({entry, widgetFor, widgetsFor}) =>
+    (
+        <ProjectTemplate
+            content={widgetFor('body')}
+            tags={entry.getIn(['data', 'tags'])}
+            title={entry.getIn(['data', 'title'])}
+            participants={entry.getIn(['data', 'participants'])}
+            gallery={[]}
+        />
+    );
 
 ProjectPagePreview.propTypes = {
-  entry: PropTypes.shape({
-    getIn: PropTypes.func,
-  }),
-  widgetFor: PropTypes.func,
+    entry: PropTypes.shape({
+        getIn: PropTypes.func,
+    }),
+    widgetFor: PropTypes.func,
 };
 
 export default ProjectPagePreview

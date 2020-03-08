@@ -8,6 +8,51 @@ import Content, {HTMLContent} from '../components/Content'
 import Gallery from "react-photo-gallery";
 import Carousel, {Modal, ModalGateway} from "react-images";
 
+
+export const ProjectGallery = ({gallery}) => {
+    const photos = (gallery || [])
+        .filter(g => g.childImageSharp && g.childImageSharp.fluid)
+        .map(galleryImage => {
+            const {childImageSharp: {fluid: image}} = galleryImage;
+            return {
+                src: image.src,
+                srcSet: image.srcSet,
+                width: image.presentationWidth,
+                height: image.presentationHeight,
+            }
+        });
+
+    const [currentImage, setCurrentImage] = useState(0);
+    const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+    const openLightbox = useCallback((event, {photo, index}) => {
+        setCurrentImage(index);
+        setViewerIsOpen(true);
+    }, []);
+
+    const closeLightbox = () => {
+        setCurrentImage(0);
+        setViewerIsOpen(false);
+    };
+
+    return <div style={{marginTop: `4rem`}}>
+        <Gallery photos={photos} onClick={openLightbox}/>
+        <ModalGateway>
+            {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                    <Carousel
+                        currentIndex={currentImage}
+                        views={photos.map(x => ({
+                            ...x,
+                            srcset: x.srcSet,
+                        }))}
+                    />
+                </Modal>
+            ) : null}
+        </ModalGateway>
+    </div>
+};
+
 export const ProjectTemplate = ({
                                     content,
                                     contentComponent,
@@ -26,28 +71,6 @@ export const ProjectTemplate = ({
     const hasPrevious = previous && prevTemplate === "project";
     const hasNext = next && nextTemplate === "project";
 
-    const photos = (gallery || []).map(galleryImage => {
-        const {childImageSharp: {fluid: image}} = galleryImage;
-        return {
-            ...image,
-            width: image.aspectRatio,
-            height: 1
-        }
-    });
-
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-    const openLightbox = useCallback((event, {photo, index}) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true);
-    }, []);
-
-    const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false);
-    };
-
     return (
         <section className="section">
             {helmet || ''}
@@ -61,26 +84,7 @@ export const ProjectTemplate = ({
                         {participants &&
                         <div className="participants">{participants.split("\n").map(p => <span
                             key={p}>{p}<br/></span>)}</div>}
-                        {photos && (<div style={{marginTop: `4rem`}}>
-                            <div>
-                                <Gallery photos={photos} onClick={openLightbox}/>
-                                <ModalGateway>
-                                    {viewerIsOpen ? (
-                                        <Modal onClose={closeLightbox}>
-                                            <Carousel
-                                                currentIndex={currentImage}
-                                                views={photos.map(x => ({
-                                                    ...x,
-                                                    srcset: x.srcSet,
-                                                    caption: x.title
-                                                }))}
-                                            />
-                                        </Modal>
-                                    ) : null}
-                                </ModalGateway>
-                            </div>
-                        </div>)}
-
+                        {gallery && <ProjectGallery gallery={gallery}/>}
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
                                 <h4>Tags</h4>
@@ -160,7 +164,9 @@ export const pageQuery = graphql`
                 galleryImages {
                     childImageSharp {
                         fluid(maxWidth: 920, quality: 95) {
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_withWebp
+                            presentationWidth
+                            presentationHeight
                         }
                     }
                 }
