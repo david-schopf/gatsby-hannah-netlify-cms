@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useCallback, useState} from 'react'
 import PropTypes from 'prop-types'
 import {kebabCase} from 'lodash'
 import Helmet from 'react-helmet'
@@ -6,6 +6,7 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import Gallery from "react-photo-gallery";
+import Carousel, {Modal, ModalGateway} from "react-images";
 
 export const ProjectTemplate = ({
                                     content,
@@ -34,7 +35,18 @@ export const ProjectTemplate = ({
         }
     });
 
-    console.log(photos);
+    const [currentImage, setCurrentImage] = useState(0);
+    const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+    const openLightbox = useCallback((event, {photo, index}) => {
+        setCurrentImage(index);
+        setViewerIsOpen(true);
+    }, []);
+
+    const closeLightbox = () => {
+        setCurrentImage(0);
+        setViewerIsOpen(false);
+    };
 
     return (
         <section className="section">
@@ -50,7 +62,23 @@ export const ProjectTemplate = ({
                         <div className="participants">{participants.split("\n").map(p => <span
                             key={p}>{p}<br/></span>)}</div>}
                         {photos && (<div style={{marginTop: `4rem`}}>
-                            <Gallery photos={photos}/>
+                            <div>
+                                <Gallery photos={photos} onClick={openLightbox}/>
+                                <ModalGateway>
+                                    {viewerIsOpen ? (
+                                        <Modal onClose={closeLightbox}>
+                                            <Carousel
+                                                currentIndex={currentImage}
+                                                views={photos.map(x => ({
+                                                    ...x,
+                                                    srcset: x.srcSet,
+                                                    caption: x.title
+                                                }))}
+                                            />
+                                        </Modal>
+                                    ) : null}
+                                </ModalGateway>
+                            </div>
                         </div>)}
 
                         {tags && tags.length ? (
