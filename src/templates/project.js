@@ -11,8 +11,15 @@ import Carousel, {Modal, ModalGateway} from "react-images";
 
 export const ProjectGallery = ({gallery}) => {
     const photos = (gallery || [])
-        .filter(g => g.childImageSharp && g.childImageSharp.fluid)
         .map(galleryImage => {
+            if (typeof galleryImage === "string") {
+                return {
+                    src: galleryImage,
+                    width: 4,
+                    height: 3
+                }
+            }
+
             const {childImageSharp: {fluid: image}} = galleryImage;
             return {
                 src: image.src,
