@@ -8,8 +8,7 @@ import Content, {HTMLContent} from '../components/Content'
 import Gallery from "react-photo-gallery";
 import Carousel, {Modal, ModalGateway} from "react-images";
 
-
-export const ProjectGallery = ({gallery}) => {
+export const ProjectGallery = ({gallery, credits}) => {
     const photos = (gallery || [])
         .map(galleryImage => {
             if (typeof galleryImage === "string") {
@@ -22,8 +21,9 @@ export const ProjectGallery = ({gallery}) => {
 
             const {childImageSharp: {fluid: image}} = galleryImage;
             return {
-                src: image.src,
-                srcSet: image.srcSet,
+                src: image.srcWebp,
+                srcSet: image.srcSetWebp,
+                sizes: image.sizes,
                 width: image.presentationWidth,
                 height: image.presentationHeight,
             }
@@ -44,6 +44,7 @@ export const ProjectGallery = ({gallery}) => {
 
     return <div style={{marginTop: `4rem`}}>
         <Gallery photos={photos} onClick={openLightbox}/>
+        <p style={{marginTop: '0.5rem'}}>{credits}</p>
         <ModalGateway>
             {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
@@ -68,6 +69,7 @@ export const ProjectTemplate = ({
                                     helmet,
                                     participants,
                                     gallery,
+                                    credits,
                                     previous,
                                     next
                                 }) => {
@@ -91,7 +93,7 @@ export const ProjectTemplate = ({
                         {participants &&
                         <div className="participants">{participants.split("\n").map(p => <span
                             key={p}>{p}<br/></span>)}</div>}
-                        {gallery && <ProjectGallery gallery={gallery}/>}
+                        {gallery && <ProjectGallery gallery={gallery} credits={credits}/>}
                         {tags && tags.length ? (
                             <div style={{marginTop: `4rem`}}>
                                 <h4>Tags</h4>
@@ -144,6 +146,7 @@ const Project = ({data, pageContext}) => {
                 title={post.frontmatter.title}
                 participants={post.frontmatter.participants}
                 gallery={post.frontmatter.galleryImages}
+                credits={post.frontmatter.credits}
                 {...pageContext}
             />
         </Layout>
@@ -170,13 +173,14 @@ export const pageQuery = graphql`
                 participants
                 galleryImages {
                     childImageSharp {
-                        fluid(maxWidth: 920, quality: 95) {
+                        fluid(quality: 95) {
                             ...GatsbyImageSharpFluid_withWebp
                             presentationWidth
                             presentationHeight
                         }
                     }
                 }
+                credits
             }
         }
     }

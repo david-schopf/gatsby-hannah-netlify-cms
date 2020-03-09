@@ -23,6 +23,7 @@ galleryImages:
   - /img/2002_ladeutschevita_jonasilligmann-211-.jpg
   - /img/2002_ladeutschevita_totale_jonasilligmann-1-.jpg
   - /img/2002_ladeutschevita_jonasilligmann-257-.jpg
+credits: Fotos von Jonas Illigmann
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/sAdnBeKf3Y8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

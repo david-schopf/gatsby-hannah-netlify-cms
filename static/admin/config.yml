@@ -35,6 +35,7 @@ collections:
           "widget": "image"
         }
       }
+      - {label: "Photo credits", name: "credits", widget: "string"}
 
   - name: "pages"
     label: "Pages"

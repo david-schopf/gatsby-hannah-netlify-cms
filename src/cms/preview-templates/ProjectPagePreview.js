@@ -14,6 +14,7 @@ const ProjectPagePreview = ({entry, widgetFor, widgetsFor, getAsset}) => {
         title={entry.getIn(['data', 'title'])}
         participants={entry.getIn(['data', 'participants'])}
         gallery={imageUrls}
+        credits={entry.getIn(['data', 'credits'])}
     />;
 };
 
