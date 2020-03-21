@@ -21,8 +21,8 @@ export const ProjectGallery = ({gallery, credits}) => {
 
             const {childImageSharp: {fluid: image}} = galleryImage;
             return {
-                src: image.srcWebp,
-                srcSet: image.srcSetWebp,
+                src: image.src,
+                srcSet: image.srcSet,
                 sizes: image.sizes,
                 width: image.presentationWidth,
                 height: image.presentationHeight,
@@ -174,7 +174,7 @@ export const pageQuery = graphql`
                 galleryImages {
                     childImageSharp {
                         fluid(quality: 95) {
-                            ...GatsbyImageSharpFluid_withWebp
+                            ...GatsbyImageSharpFluid
                             presentationWidth
                             presentationHeight
                         }
