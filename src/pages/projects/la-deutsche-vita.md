@@ -33,3 +33,11 @@ credits: Fotos © Jonas Illigmann
 Entschuldigung, ist das hier der Adriastrand, ein teutonischer Wald oder handelt es sich doch wieder nur um ein Architekturbüro in Berlin? Die Architektin Nora hat vergessen, was ein Ort ist! Dabei hatte sich viel vorgenommen: Eine Heimat wollte sie den Leuten bauen, keinen Streuselkuchen! Es ist nämlich nicht so, dass sie überhaupt keine Lust hätte, sich irgendwann, eines Tages, vielleicht mal, irgendwo zuhause zu fühlen. Aber was bedeutet das: zurückkommen? 
 
 Im Studio des Heimathafen Neukölln trifft sie auf den Arbeiter- und Veteranenchor Neukölln. Der singt von Solidarität. Von Heimat. Von Arbeit. Und Zukunft. Also von allem, was so einem Millennial einen gehörigen Schreck einjagen kann. Es ist eine Begegnung von Text und Gesang, von sozialistischer Utopie und Neoliberalismus, Kollektiv und Individuum, Nostalgie und Zukunftsangst, irgendwo zwischen Lichtenberg und Lido di Jesolo.
+
+## Presse
+
+"_Damit geht im \[...] Bühnenbild, das wie ein Eisgebirge aussieht, ein toller Resonanzraum auf für Fragen nach verbliebenen Utopien. Einmal erklingt vom Band "All My Friends Are Rich" von Upsahl, wozu die Choristinnen sonnenbebrillt tanzen. Was für ein Bild. Ein großartiger Abend._" \
+(Patrick Wildermann, Tagesspiegel)
+
+"_Im Spannungsfeld zwischen Jung und Alt, Vergangenheit und Zukunft ergänzen sich Schauspieler und Laienchor mit viel Humor. Nachdem man zusammen einige Hürden genommen hat, finden die Millenials und die Choristinnen schließlich zusammen. Und zeigen, dass Heimat nicht unbedingt ein Ort sein muss._"\
+(Ulrike Borowczyk, Berliner Morgenpost)
