@@ -11,6 +11,7 @@ Im Bereich Film und Fernsehen wird Hannah vertreten durch die [Agentur Free X](h
 
 ## FESTIVALS UND STIPENDIEN
 
+* 2020 | [Scheitern! Liebe! Hoffnung!](https://www.hannah-schopf.com/projects/scheitern-liebe-hoffnung/) auf dem KUSS Festival am Hessischen Landestheater Marburg
 * 2019 | Nominierungen in allen Kategorien für [SAN REMO](/projects/san-remo/) auf dem Filmfest Bremen
 * 2018-19 | Stipendiatin der Münchner Drehbuchwerkstatt
 * 2018 | [SO WAS VON DA](/projects/so-was-von-da/) in der Reihe _Neues Deutsches Kino_ auf dem Münchner Filmfest
