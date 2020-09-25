@@ -15,8 +15,8 @@ credits: '-'
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2NyY5lcNAYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-****
+- - -
 
-**Buch & Regie** | Mini-Doku | 05:41 | VÖ: 23.09.2020 - [Landeszentrale für politische Bildung](https://www.youtube.com/watch?v=2NyY5lcNAYg)
+**Buch & Regie** | Mini-Doku | VÖ: 23.09.2020 - [Landeszentrale für politische Bildung](https://www.youtube.com/watch?v=2NyY5lcNAYg)
 
 Jan ist in Wernikow auf dem Bauernhof aufgewachsen und war sich als Kind sicher: Ich werde alles außer Bauer. Zu oft hat er von den Mitschülerinnen und Mitschülern gehört, Bauern seien dumm und würden stinken. Der Sommer nach dem Abitur ändert alles. Jan macht seinen Meister in Landwirtschaft und wird in ein paar Jahren den Hof seiner Eltern übernehmen. Wie Jan rausgefunden hat, wo er hinwill und wie er als Jungbauer mit Klimawandel, Digitalisierung und Kommunikation umgeht, erzählt er in "Brandenburg - hier gehör' ich hin".
