@@ -2,7 +2,7 @@
 templateKey: project
 title: FOREVER YOURS
 date: 2020-09-22T18:00:08.023Z
-featuredimage: /img/bfront_foreveryours.png
+featuredimage: /img/bfront_forever.jpg
 tags:
   - theater
   - autorin
@@ -11,9 +11,9 @@ participants: >-
   REGIE Inda Buschmann | TEXT+DRAMATURGIE Hannah Schopf | BÜHNE Michael Ottopal
   | KOSTÜME Stephanie Dorn | MUSIK Sebastian Flaig | MIT Amos Detscher, Natascha
   Manthe, Olivia Stutz, Justus Verdenhalven und Maroulita de Kol (Live Musik)
-credits: '-'
+credits: © Jörg Metzner
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/0FTYB-x8Jas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](/img/20200921-041_forever.jpg)
 
 \
 **Text & Dramaturgie** | Theaterstück | P: 22.09.20 - [Theater Strahl Berlin](https://www.theater-strahl.de/stuecke/forever-yours/)
