@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: FOREVER YOURS oder Die Leiden des jungen Werther
+title: FOREVER YOURS
 date: 2020-09-22T18:00:08.023Z
 featuredimage: /img/bfront_forever.jpg
 tags:
