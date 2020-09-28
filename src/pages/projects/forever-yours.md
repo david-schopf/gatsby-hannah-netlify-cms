@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: FOREVER YOURS
+title: FOREVER YOURS oder Die Leiden des jungen Werther
 date: 2020-09-22T18:00:08.023Z
 featuredimage: /img/bfront_forever.jpg
 tags:
@@ -11,6 +11,13 @@ participants: >-
   REGIE Inda Buschmann | TEXT+DRAMATURGIE Hannah Schopf | BÜHNE Michael Ottopal
   | KOSTÜME Stephanie Dorn | MUSIK Sebastian Flaig | MIT Amos Detscher, Natascha
   Manthe, Olivia Stutz, Justus Verdenhalven und Maroulita de Kol (Live Musik)
+galleryImages:
+  - /img/20200921-028_forever-1-.jpg
+  - /img/20200921-034_forever.jpg
+  - /img/20200921-057_forever.jpg
+  - /img/20200921-003_forever.jpg
+  - /img/20200921-008_forever.jpg
+  - /img/20200921-018_forever.jpg
 credits: © Jörg Metzner
 ---
 ![](/img/20200921-041_forever.jpg)
