@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import Gallery from "react-photo-gallery";
 import Carousel, {Modal, ModalGateway} from "react-images";
+import {stripHtml} from "string-strip-html";
 
 export const ProjectGallery = ({gallery, credits}) => {
     const photos = (gallery || [])
@@ -133,11 +134,6 @@ ProjectTemplate.propTypes = {
 const Project = ({data, pageContext, path}) => {
     const {markdownRemark: post} = data;
 
-    const strip = html => {
-        let doc = new DOMParser().parseFromString(html, 'text/html');
-        return doc.body.textContent || "";
-    };
-
     return (
         <Layout path={path}>
             <ProjectTemplate
@@ -146,7 +142,7 @@ const Project = ({data, pageContext, path}) => {
                 helmet={
                     <Helmet titleTemplate="%s | Hannah Schopf">
                         <title>{`${post.frontmatter.title}`}</title>
-                        <meta name="description" content={strip(post.html).trim()}/>
+                        <meta name="description" content={stripHtml(post.html).result.trim()}/>
                     </Helmet>
                 }
                 tags={post.frontmatter.tags}
