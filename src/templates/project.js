@@ -43,6 +43,7 @@ export const ProjectGallery = ({gallery, credits}) => {
     };
 
     return <div style={{marginTop: `4rem`}}>
+
         <Gallery photos={photos} onClick={openLightbox}/>
         <p style={{marginTop: '0.5rem'}}>{credits}</p>
         <ModalGateway>
@@ -132,6 +133,10 @@ ProjectTemplate.propTypes = {
 const Project = ({data, pageContext}) => {
     const {markdownRemark: post} = data;
 
+    const strip = html => {
+        let doc = new DOMParser().parseFromString(html, 'text/html');
+        return doc.body.textContent || "";
+    };
     return (
         <Layout>
             <ProjectTemplate
@@ -140,6 +145,7 @@ const Project = ({data, pageContext}) => {
                 helmet={
                     <Helmet titleTemplate="%s | Hannah Schopf">
                         <title>{`${post.frontmatter.title}`}</title>
+                        <meta name="description" content={strip(post.html).trim()}/>
                     </Helmet>
                 }
                 tags={post.frontmatter.tags}

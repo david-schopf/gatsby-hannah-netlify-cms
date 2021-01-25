@@ -7,31 +7,44 @@ import './app.sass'
 import useSiteMetadata from '../hooks/useSiteMetadata'
 import {withPrefix} from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
-  const {title, description} = useSiteMetadata();
-  return (
-    <div>
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+const TemplateWrapper = ({children}) => {
+    const {title, description, siteUrl} = useSiteMetadata();
+    const schemaOrgJSONLD = JSON.stringify(
+        {
+            "@context": "https://schema.org/",
+            "@type": "Person",
+            "name": "Hannah Schopf",
+            "url": "https://www.hannah-schopf.de",
+            "image": "https://www.hannah-schopf.com/static/93104da4594b404c3de96176d0a20e0c/b46c2/hs.jpg",
+            "jobTitle": "Freie Autorin"
+        });
 
-        <link rel="manifest" href="/manifest.webmanifest"/>
-        <meta name="theme-color" content="#F08"/>
+    return (
+        <div>
+            <Helmet>
+                <html lang="de"/>
+                <title>{title}</title>
+                <meta name="description" content={description}/>
 
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
-        />
-      </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
-    </div>
-  )
+                <link rel="manifest" href="/manifest.webmanifest"/>
+                <link rel="canonical" href={`${siteUrl}${window.location.pathname}`}/>
+                <meta name="theme-color" content="#ff8576"/>
+                <meta property="og:locale" content="de_DE"/>
+                <meta property="og:site_name" content="Hannah Schopf"/>
+                <meta property="og:description" content={description}/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content={title}/>
+                <meta property="og:url" content={siteUrl}/>
+                <meta
+                    property="og:image"
+                    content={`${withPrefix('/')}img/icon.png`}
+                />
+            </Helmet>
+            <Navbar/>
+            <div>{children}</div>
+            <Footer/>
+        </div>
+    )
 };
 
 export default TemplateWrapper

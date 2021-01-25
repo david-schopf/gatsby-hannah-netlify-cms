@@ -3,6 +3,7 @@ module.exports = {
     title: 'Hannah Schopf',
     description:
         'Hannah Schopf ist eine freie Autorin, Regisseurin und Dramaturgin in Berlin',
+    siteUrl: 'https://wwww.hannah-schopf.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

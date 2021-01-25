@@ -1,6 +1,7 @@
 import React from 'react'
 import {navigate} from 'gatsby-link'
 import Layout from '../../components/Layout'
+import {Helmet} from "react-helmet";
 
 function encode(data) {
   return Object.keys(data)
@@ -35,17 +36,20 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1>Kontakt</h1>
-              <form
-                name="contact"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
+        <Layout>
+          <Helmet title="Kontakt | Hannah Schopf">
+            <meta name="description" content='Nehmen Sie Kontakt zu Hannah Schopf per E-Mail auf'/>
+          </Helmet>
+          <section className="section">
+            <div className="container">
+              <div className="content">
+                <h1>Kontakt</h1>
+                <form
+                    name="contact"
+                    method="post"
+                    action="/contact/thanks/"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
