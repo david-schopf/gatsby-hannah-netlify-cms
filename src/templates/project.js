@@ -130,15 +130,16 @@ ProjectTemplate.propTypes = {
     participants: PropTypes.string
 };
 
-const Project = ({data, pageContext}) => {
+const Project = ({data, pageContext, path}) => {
     const {markdownRemark: post} = data;
 
     const strip = html => {
         let doc = new DOMParser().parseFromString(html, 'text/html');
         return doc.body.textContent || "";
     };
+
     return (
-        <Layout>
+        <Layout path={path}>
             <ProjectTemplate
                 content={post.html}
                 contentComponent={HTMLContent}

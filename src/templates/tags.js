@@ -13,7 +13,7 @@ class TagRoute extends React.Component {
     const capitalizeFirstLetter = string => string.charAt(0).toUpperCase() + string.slice(1);
 
     return (
-        <Layout>
+        <Layout path={this.props.path}>
           <section className="section">
             <Helmet title={`${tag} | ${title}`}>
               <meta name="description"
@@ -29,9 +29,9 @@ class TagRoute extends React.Component {
                   <div className="columns is-multiline">
                     {posts &&
                     posts.map(({node: post}) => (
-                      <div className="is-parent column is-3" key={post.id}>
-                        <ProjectGridItem post={post}/>
-                      </div>
+                        <div className="is-parent column is-3" key={post.fields.slug}>
+                          <ProjectGridItem post={post}/>
+                        </div>
                   ))}
                 </div>
               </div>

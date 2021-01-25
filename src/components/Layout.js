@@ -7,17 +7,8 @@ import './app.sass'
 import useSiteMetadata from '../hooks/useSiteMetadata'
 import {withPrefix} from 'gatsby'
 
-const TemplateWrapper = ({children}) => {
+const TemplateWrapper = ({children, path}) => {
     const {title, description, siteUrl} = useSiteMetadata();
-    const schemaOrgJSONLD = JSON.stringify(
-        {
-            "@context": "https://schema.org/",
-            "@type": "Person",
-            "name": "Hannah Schopf",
-            "url": "https://www.hannah-schopf.de",
-            "image": "https://www.hannah-schopf.com/static/93104da4594b404c3de96176d0a20e0c/b46c2/hs.jpg",
-            "jobTitle": "Freie Autorin"
-        });
 
     return (
         <div>
@@ -27,10 +18,10 @@ const TemplateWrapper = ({children}) => {
                 <meta name="description" content={description}/>
 
                 <link rel="manifest" href="/manifest.webmanifest"/>
-                <link rel="canonical" href={`${siteUrl}${window.location.pathname}`}/>
+                {path && <link rel="canonical" href={`${siteUrl}${path}`}/>}
                 <meta name="theme-color" content="#ff8576"/>
                 <meta property="og:locale" content="de_DE"/>
-                <meta property="og:site_name" content="Hannah Schopf"/>
+                <meta property="og:site_name" content={title}/>
                 <meta property="og:description" content={description}/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content={title}/>

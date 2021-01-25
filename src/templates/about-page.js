@@ -32,11 +32,11 @@ AboutPageTemplate.propTypes = {
     contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({data}) => {
+const AboutPage = ({data, path}) => {
     const {markdownRemark: post} = data
 
     return (
-        <Layout>
+        <Layout path={path}>
             <Helmet title='About | Hannah Schopf'>
                 <meta name="description"
                       content="Seit 2012 arbeitet Hannah als freie Dramaturgin und Autorin (u.a. Volksbühne Berlin). Als Drehbuchautorin veröffentlichte sie die Kinofilme Tiger Girl, So was von da und San Remo. Am Heimathafen Neukölln feierte sie mit LA DEUTSCHE VITA ihr Debüt als Regisseurin."
