@@ -20,9 +20,8 @@ galleryImages:
   - /img/20200921-018_forever.jpg
 credits: © Jörg Metzner
 ---
-![](/img/20200921-041_forever.jpg)
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Wy95g65NN0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-\
 **Text & Dramaturgie** | Theaterstück | P: 22.09.20 - [Theater Strahl Berlin](https://www.theater-strahl.de/stuecke/forever-yours/)
 
 Werther liebt Lotte. Lotte liebt ihren Werther irgendwie auch, nur halt nicht so… schließlich gibt es da noch Albert, mit dem Lotte eigentlich zusammen ist. Aber Werther weiß, was er will. Werther bleibt nächtelang wach, um keine Nachricht von Lotte zu verpassen. Werther schaut lieber auf sein Telefon als auf die Matheklausur. Werther kleckert beim Essen, weil er den Blick nicht von Lotte wenden kann. Von Lottes Bildern, Lottes Story, Lottes Körper, Lottes Nachrichten, Lottes Freunden, Lottes Standort, Lotte, Lotte, Lotte. Lotte überall. Wie soll Werther da wegschauen? – Lotte, ich bin dein! Forever yours!
