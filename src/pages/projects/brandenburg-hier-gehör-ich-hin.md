@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: BRANDENBURG - Jan
+title: BRANDENBURG -   Jan
 date: 2020-09-23T14:09:43.927Z
 featuredimage: /img/bfront_brandenburg3.jpg
 tags:
