@@ -10,10 +10,11 @@ participants: BUCH & REGIE Hannah Schopf | KAMERA Julia Geiß | SCHNITT Leonardo
   Franke | PRODUKTION Kooperative Berlin (Linda Huber, Susanne Doerry, Oliver
   Bauman-Gibbon) | ASSISTENZ Lilli Birk | IN ZUSAMMENARBEIT mit der
   Brandenburgischen Landeszentrale für politische Bildung
-credits: .
+credits: .nan
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/2344_sIiHVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
-\
-**Buch & Regie** | Kurz-Doku | VÖ: 20.07.2021 | Landeszentrale für politische Bildung\
-\
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2344_sIiHVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Buch & Regie\*\* | Kurz-Doku | VÖ: 20.07.2021 | Landeszentrale für politische Bildung**
+
+
 Emma ist 16 Jahre alt, kommt aus Neuruppin und ist Klimaaktivistin. Auf ihrer ersten Fridays for Future-Demo war sie 2019, in Erinnerung blieb ihr das Gefühl, eine Stimme zu haben - wirklich etwas bewirken zu können. Bei den ersten Treffen mit anderen Klimaaktivist:innen ist Emma noch ziemlich nervös, wird aber schnell zur Delegierten von Fridays For Future Neuruppin gewählt. Warum Emmas Leben irgendwann gefühlt nur noch aus To-Do-Listen bestand und wie die Corona-Pandemie den Aktivismus beeinflusst hat, erzählt sie in "Brandenburg – Klimaaktivismus hat mein Leben verändert".
