@@ -7,7 +7,7 @@ title: Hannah Schopf
 \
 Hannah Schopf (*1989 in München) ging nach ihrem Studium der Dipl.-Dramaturgie an der Theaterakademie August Everding als Dramaturgie-Assistentin an die Volksbühne am Rosa-Luxemburg-Platz, wo sie mit Thomas Martin und Frank Raddatz  DAS HAUS (Volksbühne, 2014) und Republik Castorf (Alexander Verlag, 2016) veröffentlichte. Seit 2012 arbeitet sie als freie Dramaturgin und Autorin (u.a. Akademietheater München, Heimathafen Neukölln, Volksbühne am Rosa-Luxemburg Platz, Theater Strahl). Als Drehbuchautorin veröffentlichte sie die Kinofilme TIGER GIRL (R: Jakob Lass, 2017), SO WAS VON DA (R: Jakob Lass, 2018) und SAN REMO (R: Johanna Behre, 2019). Hannah war 2018/19 Stipendiatin der Drehbuchwerkstatt München und zeigte am Heimathafen Neukölln mit LA DEUTSCHE VITA im Februar 2020 ihr Debüt als Regisseurin.
 
-Im Bereich Film und Fernsehen wird Hannah vertreten durch die [Agentur Free X](https://www.freex.de/index.php/agentur/autoren/316-schopf,-hannah.html).
+**Im Bereich Film und Fernsehen wird Hannah vertreten durch die [Agentur Free X](https://freex.de/hannah-schopf/).**
 
 ## FESTIVALS UND STIPENDIEN
 
