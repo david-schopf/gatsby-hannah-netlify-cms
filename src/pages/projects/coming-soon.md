@@ -10,18 +10,18 @@ tags:
   - film
   - theater
   - papier
-credits: .
+credits: .nan
 ---
 ## **DREHBUCH**
 
-**SULTAN CITY**\
-Writers' Room | Serie\
-Two Moons Pictures / Disney+\
-\
 **NACHTS IM PARADIES**\
-Writers' Room und Konzept | Serie\
+Writers' Room | Serie\
 Co-Autor: Matthias Glasner\
 Windlight Pictures GmbH\
+\
+**DIE PROPELLERINSEL** \
+Writers Room | Serie \
+MotionWorks / WarnerBros.\
 \
 **G-L-O-R-I-A**\
 Konzept | Serie\
@@ -32,17 +32,13 @@ Konzept | Serie\
 Co-Autorin: Johanna Behre\
 Schiwago Filmproduktion  \
 \
-**BULL CITY** \
-Konzept | Animationsserie \
-MotionWorks GmbH  \
-\
 **CHAUSSEESTRAßE 131** \
 Exposé | Fernsehfilm \
-Argon Verlag AVE GmbH    \
+Argon Verlag AVE GmbH  \
 \
-**DIE PROPELLERINSEL** \
-Writers Room | Serie \
-MotionWorks / Warnerbros.
+**BULL CITY** \
+Konzept | Animationsserie \
+MotionWorks     
 
 ## **THEATER**
 
