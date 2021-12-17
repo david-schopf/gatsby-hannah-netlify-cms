@@ -10,7 +10,7 @@ tags:
   - film
   - theater
   - papier
-credits: .
+credits: .nan
 ---
 ## **DREHBUCH**
 
@@ -45,4 +45,4 @@ MotionWorks
 **WAS WIR HÖRTEN, ALS WIR WURDEN, WER WIR SIND**\
 Autorin \
 Regie: Inda Buschmann | Premiere: Juni 2022  \
-[Theater Freiburg](https://theater.freiburg.de/de_DE/home)
+[Theater Freiburg](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)
