@@ -17,7 +17,7 @@ credits: .nan
 **NACHTS IM PARADIES**\
 Writers' Room | Serie\
 Co-Autor: Matthias Glasner\
-Windlight Pictures GmbH\
+Windlight Pictures GmbH / starz\
 \
 **DIE PROPELLERINSEL** \
 Writers Room | Serie \
@@ -31,10 +31,6 @@ Odeon Fiction GmbH \
 Konzept | Serie\
 Co-Autorin: Johanna Behre\
 Schiwago Filmproduktion  \
-\
-**CHAUSSEESTRAßE 131** \
-Exposé | Fernsehfilm \
-Argon Verlag AVE GmbH  \
 \
 **BULL CITY** \
 Konzept | Animationsserie \
