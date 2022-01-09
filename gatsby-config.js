@@ -55,7 +55,7 @@ module.exports = {
         plugins: [
           `gatsby-plugin-netlify-cms-paths`,
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: 'gatsby-remark-relative-images-v2',
             options: {
               name: 'uploads',
             },
