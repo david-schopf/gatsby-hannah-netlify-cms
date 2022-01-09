@@ -58,7 +58,6 @@
   },
   "devDependencies": {
     "prettier": "^2.5.1",
-    "sass": "^1.47.0",
-    "sharp": "^0.29.3"
+    "sass": "^1.47.0"
   }
 }
