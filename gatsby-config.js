@@ -40,6 +40,7 @@ module.exports = {
         name: 'images',
       },
     },
+    `gatsby-plugin-image`,
     {
       resolve: 'gatsby-plugin-sharp',
       options: {

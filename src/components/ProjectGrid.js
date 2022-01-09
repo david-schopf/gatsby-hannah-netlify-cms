@@ -49,11 +49,9 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 400, quality: 95) {
-                      ...GatsbyImageSharpFluid
+                   childImageSharp {
+                      gatsbyImageData(layout: CONSTRAINED, width: 400, height: 400)
                     }
-                  }
                 }
               }
             }
