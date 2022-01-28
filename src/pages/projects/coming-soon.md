@@ -10,17 +10,24 @@ tags:
   - film
   - theater
   - papier
-credits: .
+credits: .nan
 ---
 ## **DREHBUCH**
 
 **NACHTS IM PARADIES**\
-Writers' Room | Serie\
-Co-Autor: Matthias Glasner\
-Windlight Pictures GmbH / starz\
+Serie\
+created and written w/ Matthias Glasner (Head) \
+Windlight Pictures GmbH / STARZ\
+*in Vorproduktion*\
+\
+**LAYOVER**\
+Konzept | Serie\
+Writers' Room w/ Ed McCardie (Head) & Emily Rhodes\
+Windlight Pictures GmbH\
 \
 **DIE PROPELLERINSEL** \
-Writers Room | Serie \
+Konzept | Serie\
+Writers' Room w/ Martin Behnke (Head), Andrea Deppert (Head) & Julie Dixon \
 MotionWorks / WarnerBros.\
 \
 **G-L-O-R-I-A**\
@@ -29,7 +36,7 @@ Odeon Fiction GmbH \
 \
 **KING JOSI**\
 Konzept | Serie\
-Co-Autorin: Johanna Behre\
+Co-Writer: Johanna Behre\
 Schiwago Filmproduktion  \
 \
 **BULL CITY** \
