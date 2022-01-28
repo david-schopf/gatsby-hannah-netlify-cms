@@ -10,7 +10,7 @@ tags:
   - film
   - theater
   - papier
-credits: .nan
+credits: .
 ---
 ## **DREHBUCH**
 
