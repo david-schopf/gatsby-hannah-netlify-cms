@@ -20,7 +20,7 @@ export const ProjectGallery = ({gallery, credits}) => {
                 }
             }
 
-            const {childImageSharp: {fluid: image}} = galleryImage;
+            const {childImageSharp: {gatsbyImageData: image}} = galleryImage;
             return {
                 src: image.src,
                 srcSet: image.srcSet,
@@ -175,13 +175,9 @@ export const pageQuery = graphql`
                 tags
                 participants
                 galleryImages {
-                    childImageSharp {
-                        fluid(quality: 95) {
-                            ...GatsbyImageSharpFluid
-                            presentationWidth
-                            presentationHeight
+                      childImageSharp {
+                            gatsbyImageData(layout: CONSTRAINED, quality: 95)
                         }
-                    }
                 }
                 credits
             }
