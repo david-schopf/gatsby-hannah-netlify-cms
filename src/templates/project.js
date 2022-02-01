@@ -8,27 +8,16 @@ import Content, {HTMLContent} from '../components/Content'
 import Gallery from "react-photo-gallery";
 import Carousel, {Modal, ModalGateway} from "react-images";
 import {stripHtml} from "string-strip-html";
+import {getImage, getSrc, getSrcSet} from "gatsby-plugin-image";
 
 export const ProjectGallery = ({gallery, credits}) => {
     const photos = (gallery || [])
-        .map(galleryImage => {
-            if (typeof galleryImage === "string") {
-                return {
-                    src: galleryImage,
-                    width: 4,
-                    height: 3
-                }
-            }
-
-            const {childImageSharp: {gatsbyImageData: image}} = galleryImage;
-            return {
-                src: image.src,
-                srcSet: image.srcSet,
-                sizes: image.sizes,
-                width: image.presentationWidth,
-                height: image.presentationHeight,
-            }
-        });
+        .map(galleryImage =>
+            ({
+                ...getImage(galleryImage),
+                src: getSrc(galleryImage),
+                srcSet: getSrcSet(galleryImage)
+            }));
 
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
@@ -176,7 +165,7 @@ export const pageQuery = graphql`
                 participants
                 galleryImages {
                       childImageSharp {
-                            gatsbyImageData(layout: CONSTRAINED, quality: 95)
+                            gatsbyImageData(layout: FIXED)
                         }
                 }
                 credits
