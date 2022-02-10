@@ -10,7 +10,7 @@ tags:
   - film
   - theater
   - papier
-credits: .
+credits: .nan
 ---
 ## **DREHBUCH**
 
@@ -21,7 +21,7 @@ Windlight Pictures GmbH / STARZ\
 *in Vorproduktion*\
 \
 **LAYOVER**\
-Konzept | Serie\
+Konzept von Katie Davies | Serie\
 Writers' Room w/ Ed McCardie (Head) & Emily Rhodes\
 Windlight Pictures GmbH\
 \
