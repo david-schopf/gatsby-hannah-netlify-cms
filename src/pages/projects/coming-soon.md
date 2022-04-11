@@ -17,7 +17,7 @@ credits: .nan
 [**NACHTS IM PARADIES**](https://www.hollywoodreporter.com/tv/tv-news/zombie-oktoberfest-series-night-in-paradise-starz-first-german-original-1235105316/)Serie\
 created and written w/ Matthias Glasner (Head) \
 Windlight Pictures GmbH / STARZ\
-*in Vorproduktion*\
+*Drehstart: Juli 2022*\
 \
 **LAYOVER**\
 Konzept von Katie Davies | Serie\
