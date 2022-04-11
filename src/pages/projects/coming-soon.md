@@ -14,8 +14,7 @@ credits: .nan
 ---
 ## **DREHBUCH**
 
-**NACHTS IM PARADIES**\
-Serie\
+[**NACHTS IM PARADIES**](https://www.hollywoodreporter.com/tv/tv-news/zombie-oktoberfest-series-night-in-paradise-starz-first-german-original-1235105316/)Serie\
 created and written w/ Matthias Glasner (Head) \
 Windlight Pictures GmbH / STARZ\
 *in Vorproduktion*\
@@ -46,6 +45,11 @@ MotionWorks
 ## **THEATER**
 
 **WAS WIR HÖRTEN, ALS WIR WURDEN, WER WIR SIND**\
-Autorin \
+Autorin (Stückentwicklung) \
 Regie: Inda Buschmann | Premiere: Juni 2022  \
-[Theater Freiburg](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)
+[Theater Freiburg](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)\
+\
+**GRAU IST KEINE FARBE**\
+Autorin (Auftragswerk)\
+Regie: Inda Buschmann | Premiere: Oktober 2022\
+Theater Strahl Berlin
