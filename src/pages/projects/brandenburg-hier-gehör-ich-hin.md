@@ -10,7 +10,7 @@ participants: BUCH & REGIE Hannah Schopf | KAMERA Julia Geiß | SCHNITT Leonardo
   Franke | MUSIK Michi Meinl | PRODUKTION Kooperative Berlin (Johanna Behre,
   Susanne Doerry, Oliver Bauman-Gibbon) | ASSISTENZ Ariam Hibtay | IM AUFTRAG
   der Brandenburgischen Landeszentrale für politische Bildung
-credits: .
+credits:
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/2NyY5lcNAYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

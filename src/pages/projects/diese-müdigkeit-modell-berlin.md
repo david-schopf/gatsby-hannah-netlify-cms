@@ -6,7 +6,7 @@ featuredimage: /img/bfront_modell-berlin.jpg
 tags:
   - autorin
   - papier
-credits: .
+credits:
 ---
 ![](/img/img_20201010_200144.jpg)
 

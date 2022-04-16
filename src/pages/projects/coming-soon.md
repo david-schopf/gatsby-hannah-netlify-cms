@@ -10,8 +10,8 @@ tags:
   - film
   - theater
   - papier
-participants: .
-credits: .
+participants: 
+credits: 
 ---
 ## **DREHBUCH**
 

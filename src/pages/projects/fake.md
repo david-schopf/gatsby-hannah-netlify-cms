@@ -9,7 +9,7 @@ tags:
 participants: >-
   REGIE Maja Classen | DREHBUCH Hannah Schopf | PRODUKTION Saralisa Volm (Poison
   Film)
-credits: .
+credits:
 ---
 ![](/img/bildschirmfoto-2020-01-06-um-20.51.46.png)
 
