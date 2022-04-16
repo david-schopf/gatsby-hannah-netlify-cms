@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {graphql, StaticQuery} from 'gatsby'
 import {ProjectGridItem} from "./ProjectGridItem";
 
-class ProjectGrid extends React.Component {
+class ProjectGridRender extends React.Component {
   render() {
     const {data} = this.props;
     const {edges: posts} = data.allMarkdownRemark;
@@ -21,7 +21,7 @@ class ProjectGrid extends React.Component {
   }
 }
 
-ProjectGrid.propTypes = {
+ProjectGridRender.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -29,7 +29,7 @@ ProjectGrid.propTypes = {
   }),
 };
 
-export default () => (
+const ProjectGrid = () => (
   <StaticQuery
       query={graphql`
       query ProjectGridQuery {
@@ -59,6 +59,8 @@ export default () => (
         }
       }
     `}
-      render={(data, count) => <ProjectGrid data={data} count={count}/>}
+      render={(data, count) => <ProjectGridRender data={data} count={count}/>}
   />
 )
+
+export default ProjectGrid

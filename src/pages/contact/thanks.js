@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import {Helmet} from "react-helmet";
 
-export default () => (
+const Thanks = () => (
     <Layout>
         <Helmet title="Kontakt | Hannah Schopf">
             <meta name="description" content='Vielen Dank für Ihre Nachricht'/>
@@ -17,3 +17,5 @@ export default () => (
         </section>
     </Layout>
 )
+
+export default Thanks
