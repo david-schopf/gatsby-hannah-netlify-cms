@@ -10,8 +10,8 @@ tags:
   - film
   - theater
   - papier
-participants: .nan
-credits: .nan
+participants: .
+credits: .
 ---
 ## **DREHBUCH**
 
@@ -51,7 +51,7 @@ Autorin (Stückentwicklung) \
 Regie: Inda Buschmann | Premiere: Juni 2022  \
 Theater Freiburg\
 \
-**GRAU IST KEINE FARBE (AT)**\
+**GRAU IST KEINE FARBE**\
 Autorin (Auftragswerk)\
 Regie: Inda Buschmann | Premiere: Oktober 2022\
 Theater Strahl Berlin
