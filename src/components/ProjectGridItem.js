@@ -13,7 +13,7 @@ export function ProjectGridItem(props) {
                         <PreviewCompatibleImage
                             imageInfo={{
                                 image: props.post.frontmatter.featuredimage,
-                                alt: `featured image thumbnail for post ${props.post.frontmatter.title}`,
+                                alt: props.post.frontmatter.title,
                             }}
                         />
                         <div className="featured-thumbnail-hover">

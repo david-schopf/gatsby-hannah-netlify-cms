@@ -47,6 +47,7 @@ module.exports = {
         useMozJpeg: true,
         stripMetadata: true,
         defaultQuality: 90,
+        checkSupportedExtensions: false,
       },
     },
     'gatsby-transformer-sharp',
