@@ -6,6 +6,8 @@ featuredimage: /img/bfront_brandenburg3.jpg
 tags:
   - film
   - regisseurin
+participants: ""
+credits: .
 ---
 # JAN
 
