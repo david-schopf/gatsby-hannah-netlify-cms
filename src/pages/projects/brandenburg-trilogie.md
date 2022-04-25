@@ -29,8 +29,7 @@ Emma ist 16 Jahre alt, kommt aus Neuruppin und ist Klimaaktivistin. Auf ihrer er
 
 BUCH & REGIE Hannah Schopf | KAMERA Julia Geiß | SCHNITT Leonardo Franke | PRODUKTION Kooperative Berlin (Linda Huber, Susanne Doerry, Oliver Bauman-Gibbon) | ASSISTENZ Lilli Birk | IM AUFTRAG der Brandenburgischen Landeszentrale für politische Bildung
 
-# \
-THOMAS
+# THOMAS
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/Dql3wWN7Mrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
