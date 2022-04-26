@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.3",
-    "gatsby": "^4.7.0",
+    "gatsby": "4.7.2",
     "gatsby-plugin-image": "^2.12.1",
     "gatsby-plugin-manifest": "^4.12.1",
     "gatsby-plugin-netlify": "^4.2.0",
@@ -18,7 +18,7 @@
     "gatsby-plugin-purgecss": "^6.1.2",
     "gatsby-plugin-react-helmet": "^5.12.1",
     "gatsby-plugin-sass": "^5.12.1",
-    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-sharp": "4.9.0",
     "gatsby-remark-copy-linked-files": "^5.12.1",
     "gatsby-remark-embed-youtube": "^0.0.7",
     "gatsby-remark-images": "^6.12.1",
