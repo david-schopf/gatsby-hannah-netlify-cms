@@ -20,4 +20,4 @@ Hannah Schopf (*1989 in München) ging nach ihrem Studium der Dipl.-Dramaturgie
 * 2018 | Drehbuchförderung für [FAKE](/projects/fake/) durch das BKM
 * 2017 | [TIGER GIRL](/projects/tiger-girl/) als Eröffnungsfilm der *Sektion Panorama* auf der Berlinale und in der Vorauswahl für den Deutschen Filmpreis
 * 2015 | [hiSTOREy](/projects/histor-e-y/) auf dem Festival theaterszene europa in Köln
-* 2012 | [Der einsame Weg](https://www.hannah-schopf.com/projects/der-einsame-weg/) auf den Bayerischen Theatertagen in Augsburg
+* 2012 | [DER EINSAME WEG](https://www.hannah-schopf.com/projects/der-einsame-weg/) auf den Bayerischen Theatertagen in Augsburg
