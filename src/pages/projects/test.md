@@ -7,7 +7,10 @@ tags:
   - Theater
   - Autorin
   - Dramaturgin
-participants: .
+participants: REGIE Inda Buschmann | TEXT+DRAMATURGIE Hannah Schopf | BÜHNE
+  Michael Ottopal | KOSTÜME Stephanie Dorn | MUSIK Sebastian Flaig | MIT Tarmo
+  Grube, Monika Mara, Peter Rauls, Finn Seeger, Dorothee Wetzel, Uli
+  Winterhager, Sarah Zimmermann
 credits: .
 ---
 ![](/img/photo_2022-06-21-15.35.24.jpeg)
