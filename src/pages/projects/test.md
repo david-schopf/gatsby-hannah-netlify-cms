@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: test
+title: WAS WIR HÖRTEN, ALS WIR WURDEN, WER WIR SIND
 date: 2022-06-21T22:19:34.130Z
 featuredimage: /img/signal-2022-06-17-233802_008.jpeg
 tags:
