@@ -15,7 +15,6 @@ credits: .
 ---
 ![](/img/photo_2022-06-21-15.35.24.jpeg)
 
-\
 **Text & Dramaturgie** | Theaterstück | P: 18.06.2022 – [](https://heimathafen-neukoelln.de/events/la-deutsche-vita/)[Theater Freiburg](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)
 
 Es gibt diese Momente, in denen entscheidet sich alles. Meistens merkt man es ihnen nicht an. Lukas zum Beispiel stapft in den 90ern auf Klassenfahrt durchs Watt, auf dem Walkman Nick Cave und in sich die Gewissheit, dass ihn niemand versteht. Doch dann begegnet er seinem Schicksal: Das Schicksal hat schlechte Haut und schöne Augen, heißt Lisa und kommt aus Niedersachsen. Und Lisa! Liebt! Nick! Cave! AUCH! Die entstehende Brieffreundschaft führt Lukas auf ein Konzert und in die Arme einer neuen Frau, sie wird zum Anfang einer anderen Geschichte ... All das wäre ohne Nick Cave nie passiert! Ist sie das – the power of music? Denn obwohl die wirklich entscheidenden Momente oft unscheinbar daherkommen, haben sie doch eines gemeinsam: Diesen einen Song, der einmal alles verändert hat. \
