@@ -21,27 +21,31 @@ created and written w/ Matthias Glasner (Head) \
 Windlight Pictures GmbH / STARZ\
 *Drehstart: Juli 2022*\
 \
+**FRAUDSTER**\
+Serie | Konzept + Pilotdrehbuch\
+Windlight Pictures GmbH\
+\
 **LAYOVER**\
-Konzept von Katie Davies | Serie\
-Writers' Room w/ Ed McCardie (Head) & Emily Rhodes\
+Serie | Konzept\
+Writers' Room w/ Ed McCardie (Head), Kate Davies & Emily Rhodes\
 Windlight Pictures GmbH\
 \
 **DIE PROPELLERINSEL** \
-Konzept | Serie\
+Serie | Konzept\
 Writers' Room w/ Martin Behnke (Head), Andrea Deppert (Head) & Julie Dixon \
 MotionWorks / WarnerBros.\
 \
 **G-L-O-R-I-A**\
-Konzept | Serie\
+Serie | Konzept\
 Odeon Fiction GmbH \
 \
 **KING JOSI**\
-Konzept | Serie\
+Serie | Konzept\
 Co-Writer: Johanna Behre\
 Schiwago Filmproduktion  \
 \
 **BULL CITY** \
-Konzept | Animationsserie \
+Animationsserie | Konzept\
 MotionWorks     
 
 ## **THEATER**
