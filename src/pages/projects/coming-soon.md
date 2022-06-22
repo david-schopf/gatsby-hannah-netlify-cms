@@ -10,8 +10,8 @@ tags:
   - film
   - theater
   - papier
-participants: 
-credits: 
+participants: null
+credits: null
 ---
 ## **DREHBUCH**
 
@@ -46,12 +46,7 @@ MotionWorks
 
 ## **THEATER**
 
-**[WAS WIR HÖRTEN, ALS WIR WURDEN, WER WIR SIND](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)**\
-Autorin (Stückentwicklung) \
-Regie: Inda Buschmann | Premiere: Juni 2022  \
-Theater Freiburg\
-\
-**GRAU IST KEINE FARBE**\
+**[](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)GRAU IST KEINE FARBE**\
 Autorin (Auftragswerk)\
 Regie: Inda Buschmann | Premiere: Oktober 2022\
 Theater Strahl Berlin
