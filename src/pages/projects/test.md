@@ -15,6 +15,8 @@ galleryImages:
   - /img/photo_2022-06-21-15.34.11.jpeg
   - /img/0k9a1031.jpg
   - /img/photo_2022-06-21-15.35.14.jpeg
+  - /img/photo_2022-06-21-15.35.03.jpeg
+  - /img/photo_2022-06-21-15.35.26.jpeg
 credits: .
 ---
 ![](/img/photo_2022-06-21-15.35.24.jpeg)
