@@ -17,7 +17,7 @@ galleryImages:
   - /img/photo_2022-06-21-15.35.14.jpeg
   - /img/photo_2022-06-21-15.35.26.jpeg
   - /img/photo_2022-06-21-15.35.03.jpeg
-credits: .
+credits: © Britt Schilling
 ---
 ![](/img/photo_2022-06-21-15.35.24.jpeg)
 
