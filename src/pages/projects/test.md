@@ -11,12 +11,12 @@ participants: REGIE Inda Buschmann | TEXT+DRAMATURGIE Hannah Schopf | BÜHNE
   Michael Ottopal | MUSIK Sebastian Flaig | MIT Tarmo Grube, Monika Mara, Peter
   Rauls, Finn Seeger, Dorothee Wetzel, Uli Winterhager, Sarah Zimmermann
 galleryImages:
-  - /img/_29a1013.jpg
   - /img/photo_2022-06-21-15.34.11.jpeg
+  - /img/_29a1013.jpg
   - /img/0k9a1031.jpg
   - /img/photo_2022-06-21-15.35.14.jpeg
-  - /img/photo_2022-06-21-15.35.03.jpeg
   - /img/photo_2022-06-21-15.35.26.jpeg
+  - /img/photo_2022-06-21-15.35.03.jpeg
 credits: .
 ---
 ![](/img/photo_2022-06-21-15.35.24.jpeg)
