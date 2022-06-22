@@ -4,9 +4,9 @@ title: WAS WIR HÖRTEN, ALS WIR WURDEN, WER WIR SIND
 date: 2022-06-18T17:30:34.130Z
 featuredimage: /img/signal-2022-06-17-233802_008.jpeg
 tags:
-  - Theater
-  - Autorin
-  - Dramaturgin
+  - theater
+  - autorin
+  - dramaturgin
 participants: REGIE Inda Buschmann | TEXT+DRAMATURGIE Hannah Schopf | BÜHNE
   Michael Ottopal | MUSIK Sebastian Flaig | MIT Tarmo Grube, Monika Mara, Peter
   Rauls, Finn Seeger, Dorothee Wetzel, Uli Winterhager, Sarah Zimmermann
