@@ -50,7 +50,7 @@ MotionWorks
 
 ## **THEATER**
 
-**[](https://theater.freiburg.de/de_DE/spielplan/was-wir-hoerten-als-wir-wurden-wer-wir-sin.16986221)GRAU IST KEINE FARBE**\
+[](https://www.theater-strahl.de/programm/grau-ist-keine-farbe/)**GRAU IST KEINE FARBE**\
 Autorin (Auftragswerk)\
-Regie: Inda Buschmann | Premiere: Oktober 2022\
+Regie: Inda Buschmann | Premiere: 13. Oktober 2022\
 Theater Strahl Berlin
