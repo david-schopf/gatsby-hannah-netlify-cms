@@ -16,7 +16,7 @@ credits: ""
 ## **DREHBUCH**
 
 **[NACHTS IM PARADIES](https://www.hollywoodreporter.com/tv/tv-news/zombie-oktoberfest-series-night-in-paradise-starz-first-german-original-1235105316/)**\
-Serie\
+Serie | 1. Staffel (6 Episoden)\
 created and written w/ Matthias Glasner (Head) \
 Windlight Pictures GmbH / STARZ\
 *Drehstart: Juli 2022*\
@@ -30,23 +30,9 @@ Serie | Konzept\
 Writers' Room w/ Ed McCardie (Head), Kate Davies & Emily Rhodes\
 Windlight Pictures GmbH\
 \
-**DIE PROPELLERINSEL** \
-Serie | Konzept\
-Writers' Room w/ Martin Behnke (Head), Andrea Deppert (Head) & Julie Dixon \
-MotionWorks / WarnerBros.\
-\
 **G-L-O-R-I-A**\
 Serie | Konzept\
-Odeon Fiction GmbH \
-\
-**KING JOSI**\
-Serie | Konzept\
-Co-Writer: Johanna Behre\
-Schiwago Filmproduktion  \
-\
-**BULL CITY** \
-Animationsserie | Konzept\
-MotionWorks     
+Odeon Fiction GmbH 
 
 ## **THEATER**
 
