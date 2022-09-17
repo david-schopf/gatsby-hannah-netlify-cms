@@ -11,7 +11,7 @@ tags:
   - theater
   - papier
 participants: ""
-credits: .
+credits: ""
 ---
 ## **DREHBUCH**
 
@@ -44,7 +44,6 @@ Zoo Agency
 
 ## **THEATER**
 
-[](https://www.theater-strahl.de/programm/grau-ist-keine-farbe/)**GRAU IST KEINE FARBE**\
-Autorin (Auftragswerk)\
+[**GRAU IST KEINE FARBE**](https://www.theater-strahl.de/programm/grau-ist-keine-farbe/)Autorin (Auftragswerk)\
 Regie: Inda Buschmann | Premiere: 13. Oktober 2022\
 Theater Strahl Berlin
