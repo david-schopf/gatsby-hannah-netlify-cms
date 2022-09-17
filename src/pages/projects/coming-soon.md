@@ -11,7 +11,7 @@ tags:
   - theater
   - papier
 participants: ""
-credits: ""
+credits: .
 ---
 ## **DREHBUCH**
 
