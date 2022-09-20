@@ -44,6 +44,7 @@ Zoo Agency
 
 ## **THEATER**
 
-[**GRAU IST KEINE FARBE**](https://www.theater-strahl.de/programm/grau-ist-keine-farbe/)Autorin (Auftragswerk)\
+**[GRAU IST KEINE FARBE](https://www.theater-strahl.de/programm/grau-ist-keine-farbe/)**\
+Autorin (Auftragswerk)\
 Regie: Inda Buschmann | Premiere: 13. Oktober 2022\
 Theater Strahl Berlin
