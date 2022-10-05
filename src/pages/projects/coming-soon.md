@@ -36,11 +36,7 @@ Odeon Fiction GmbH\
 \
 **SELLING SEX** \
 Serie | 2 Episoden\
-Mia Wallace Productions\
-\
-**SALEM**\
-Serie | Konzept\
-Zoo Agency
+Mia Wallace Productions
 
 ## **THEATER**
 
