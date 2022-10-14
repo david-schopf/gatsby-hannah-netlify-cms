@@ -37,10 +37,3 @@ Odeon Fiction GmbH\
 **SELLING SEX** \
 Serie | 2 Episoden\
 Mia Wallace Productions
-
-## **THEATER**
-
-**[GRAU IST KEINE FARBE](https://www.theater-strahl.de/programm/grau-ist-keine-farbe/)**\
-Autorin (Auftragswerk)\
-Regie: Inda Buschmann | Premiere: 13. Oktober 2022\
-Theater Strahl Berlin
