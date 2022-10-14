@@ -2,7 +2,7 @@
 templateKey: project
 title: GRAU IST KEINE FARBE
 date: 2022-10-13T16:00:59.180Z
-featuredimage: /img/20221012_grau_100.jpg
+featuredimage: /img/20221007_grau_012.jpg
 tags:
   - autorin
   - theater
@@ -24,4 +24,4 @@ credits: © Jörg Metzner
 
 Sechs Wochen Sommerferien. Sechs Wochen Paradies! Bocki, Eis und Pizzasnack gibt’s im Kiosk auf dem Campingplatz. Und eine Neue, die war letztes Jahr aber noch nicht da…  
 
-Grau ist keine Farbe ist ein Stück über Mobbing. Ein Netz aus Liebe, Verrat, Scham, Verletzung und Arroganz führt zu gefährlicher Ausgrenzung inmitten heiterer Urlaubsstimmung. Zwischen Tatverantwortlichen und Betroffenen, Eltern, Urlauber:innen und Ferienjobber:innen entsteht eine Dynamik, aus der es (fast) kein Entkommen gibt. Dabei hat alles doch ganz harmlos angefangen, oder nicht?
+GRAU IST KEINE FARBE spinnt ein Netz aus Liebe, Verrat, Scham, Verletzung und Arroganz - und führt schließlich zu gefährlicher Ausgrenzung inmitten heiterer Urlaubsstimmung... Zwischen Tatverantwortlichen und Betroffenen, Eltern, Urlauber:innen und Ferienjobber:innen entsteht eine Mobbing-Dynamik, aus der es (fast) kein Entkommen gibt. Dabei hat alles doch ganz harmlos angefangen, oder nicht?
