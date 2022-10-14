@@ -2,7 +2,7 @@
 templateKey: project
 title: TIGER GIRL
 date: 2017-02-10T19:00:10.000Z
-featuredimage: /img/bfront_tg.jpg
+featuredimage: /img/382015.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg
 tags:
   - film
   - autorin
