@@ -25,3 +25,8 @@ credits: © Jörg Metzner
 Sechs Wochen Sommerferien. Sechs Wochen Paradies! Bocki, Eis und Pizzasnack gibt’s im Kiosk auf dem Campingplatz. Und eine Neue, die war letztes Jahr aber noch nicht da…  
 
 GRAU IST KEINE FARBE spinnt ein Netz aus Liebe, Verrat, Scham, Verletzung und Arroganz - und führt schließlich zu gefährlicher Ausgrenzung inmitten heiterer Urlaubsstimmung... Zwischen Tatverantwortlichen und Betroffenen, Eltern, Urlauber:innen und Ferienjobber:innen entsteht eine Mobbing-Dynamik, aus der es (fast) kein Entkommen gibt. Dabei hat alles doch ganz harmlos angefangen, oder nicht?
+
+## Presse
+
+*"Auf hölzernen Schrägen \[...] entfaltet sich subtil die toxische Dynamik von unerfüllten Sehnsüchten, uneingestandenem Neid und dem Wunsch, sich über andere zu erheben. Die Dinge \[beginnen] aus dem Ruder zu laufen. Aber die Missverhältnisse waren schon vorher angelegt, wie Puzzleteile, die sich allmählich zu einem Bild der Feindseligkeit fügen. \[...] Hannah Schopf hat ein Stück von poetischer Brutalität geschrieben."*\
+(Patrick Wildermann, [Tagesspiegel](https://www.tagesspiegel.de/kultur/alle-gegen-eine-ein-stuck-uber-mobbing-am-theater-strahl-8757043.html))
