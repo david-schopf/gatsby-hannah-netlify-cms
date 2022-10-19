@@ -2,7 +2,7 @@
 templateKey: project
 title: SO WAS VON DA
 date: 2018-07-01T10:30:32.298Z
-featuredimage: /img/bfront_swvd3.jpg
+featuredimage: /img/bildschirmfoto-2022-10-19-um-22.51.39.png
 tags:
   - film
   - autorin
