@@ -19,7 +19,7 @@ credits: ""
 Serie | 1. Staffel (6 Episoden)\
 created and written w/ Matthias Glasner (Head) \
 Windlight Pictures GmbH / STARZ\
-*Drehstart: Juli 2022*\
+*Abgedreht / In Postproduktion*\
 \
 **FRAUDSTER**\
 Serie | Konzept + Pilotdrehbuch\
