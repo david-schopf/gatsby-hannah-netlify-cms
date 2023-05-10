@@ -7,12 +7,12 @@ tags:
   - film
   - regisseurin
   - autorin
-participants: >-
-  VON UND MIT Alisa Zillmann, Aurea Horn, Christoph Walter, Daniel Zillmann, Eva
-  Jost, Fabian Möhrke, Fabian Stark, Felicia Haidl, Hannah Schopf, Hannah Wolf,
-  Helene von Schwichow, Jakob Herrmann, Jan Westermann, Jieun Yi, Johannes
-  Buchmann, Katarina Dacic, Lena Fiedler, Naomi Gregoris, Niklas Binder, Nora
-  Decker, Roman Pogorzelski, Sebastian Walde, Sophie Emrich, Thomas Pischke
+participants: VON UND MIT Alisa Zillmann, Aurea Horn, Christoph Walter, Daniel
+  Zillmann, Eva Jost, Fabian Möhrke, Fabian Stark, Feli "da Hansi" Haidl, Hannah
+  Schopf, Hannah Wolf, Helene von Schwichow, Jakob Herrmann, Jan Westermann,
+  Jieun Yi, Johannes Buchmann, Katarina Dacic, Lena Fiedler, Naomi Gregoris,
+  Niklas Binder, Nora Decker, Roman Pogorzelski, Sebastian Walde, Sophie Emrich,
+  Thomas Pischke
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/sLF2ct0X__4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
