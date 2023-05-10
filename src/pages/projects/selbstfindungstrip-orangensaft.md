@@ -7,11 +7,10 @@ tags:
   - film
   - autorin
   - regisseurin
-participants: >-
-  VON UND MIT: Christoph Walter, Fabian Stark, Felicia Haidl, Hannah Schopf,
-  Hannah Wolf, Jakob Herrmann, Jan Westermann, Jieun Yi aka Gin Toxic, Johannes
-  Buchmann, Julius Alexander Segler, Lena Fiedler, Nora Decker, Niklas Binder,
-  Roman Pogorzelski
+participants: 'VON UND MIT: Christoph Walter, Fabian Stark, Feli "da Hansi"
+  Haidl, Hannah Schopf, Hannah Wolf, Jakob Herrmann, Jan Westermann, Jieun Yi
+  aka Gin Toxic, Johannes Buchmann, Julius Alexander Segler, Lena Fiedler, Nora
+  Decker, Niklas Binder, Roman Pogorzelski'
 ---
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
