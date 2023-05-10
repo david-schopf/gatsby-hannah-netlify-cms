@@ -7,12 +7,11 @@ tags:
   - film
   - regisseurin
   - autorin
-participants: >-
-  VON UND MIT Christoph Walter, Fabian Möhrke, Fabian Stark, Felicia Haidl,
-  Hannah Schopf, Hannah Wolf, Helene von Schwichow, Jakob Herrmann, Jan
-  Westermann, Janne Kummer, Jieun Yi, Johannes Buchmann, Julius Alexander
-  Segeler, Lena Fiedler, Lara Cremer, Niklas Binder, Nora Decker, Onur Kepenek,
-  Roman Pogorzelski, Sebastian Walde, Tom Lass
+participants: VON UND MIT Christoph Walter, Fabian Möhrke, Fabian Stark, Feli
+  "da Hansi" Haidl, Hannah Schopf, Hannah Wolf, Helene von Schwichow, Jakob
+  Herrmann, Jan Westermann, Janne Kummer, Jieun Yi, Johannes Buchmann, Julius
+  Alexander Segeler, Lena Fiedler, Lara Cremer, Niklas Binder, Nora Decker, Onur
+  Kepenek, Roman Pogorzelski, Sebastian Walde, Tom Lass
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/gkUkGKiriWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
