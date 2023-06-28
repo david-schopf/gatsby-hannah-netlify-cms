@@ -21,6 +21,14 @@ created and written w/ Matthias Glasner (Head) \
 Windlight Pictures GmbH / STARZ\
 *Abgedreht / In Postproduktion*\
 \
+**MATRIS**\
+Serie | Konzept\
+Hager Moss Film\
+\
+**SELLING SEX** \
+Serie | 2 Episoden\
+Mia Wallace Productions\
+\
 **FRAUDSTER**\
 Serie | Konzept + Pilotdrehbuch\
 Windlight Pictures GmbH\
@@ -32,8 +40,4 @@ Windlight Pictures GmbH\
 \
 **G-L-O-R-I-A**\
 Serie | Konzept\
-Odeon Fiction GmbH\
-\
-**SELLING SEX** \
-Serie | 2 Episoden\
-Mia Wallace Productions
+Odeon Fiction GmbH
