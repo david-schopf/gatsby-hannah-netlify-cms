@@ -4,7 +4,7 @@
   "version": "1.2",
   "author": "David Schopf",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "dependencies": {
     "bulma": "^0.9.4",
