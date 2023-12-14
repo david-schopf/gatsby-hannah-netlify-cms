@@ -24,9 +24,7 @@ Windlight Pictures GmbH / [CANAL+](https://presse.canalplus.at/news-canal-sicher
 *Ausstrahlung: 1. Quartal 2024*\
 \
 **ALLES ANZÜNDEN**\
-﻿Serie | Konzept\
-﻿created by Jessie Fregin, Raul Krauthausen & Jakob Lass\
-Headwriter: Hannah Schopf & Jakob Lass \
+﻿Serie | Konzept (Headwriter)\
 Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
 FLARE FILM\
 \
