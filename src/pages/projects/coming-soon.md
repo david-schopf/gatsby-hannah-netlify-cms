@@ -24,12 +24,15 @@ Windlight Pictures GmbH / [CANAL+](https://presse.canalplus.at/news-canal-sicher
 *Ausstrahlung: 1. Quartal 2024*\
 \
 **ALLES ANZÜNDEN**\
-﻿Serie | Konzept (Headwriter)\
+﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
 Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
+Director: Jakob Lass\
 FLARE FILM\
 \
 **SELLING SEX** \
 Serie | 2 Episoden\
+Writers' Room with Marie König, Ita Segev, Miriam Dehne (Head)\
+Director: Miriam Dehne\
 Mia Wallace Productions\
 \
 **G-L-O-R-I-A**\
