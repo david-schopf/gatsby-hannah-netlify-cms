@@ -15,25 +15,27 @@ credits: ""
 ---
 ## **DREHBUCH**
 
-**[NACHTS IM PARADIES](https://www.hollywoodreporter.com/tv/tv-news/zombie-oktoberfest-series-night-in-paradise-starz-first-german-original-1235105316/)**\
-Serie | 1. Staffel (6 Episoden)\
-Created and written by Matthias Glasner & Hannah Schopf \
-Starring Jürgen Vogel, Birgit Minichmayr, Lea Drinda\
-Directed by Matthias Glasner & Bettina Oberli\
-Windlight Pictures GmbH / [CANAL+](https://presse.canalplus.at/news-canal-sichert-sich-windlight-pictures-nachts-im-paradies-als-erstes-canal-original-im-fiction-bereich?id=188606&menueid=30131&l=deutsch)\
-*Ausstrahlung: 1. Quartal 2024*\
 \
 **ALLES ANZÜNDEN**\
 ﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
 Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
 Director: Jakob Lass\
-FLARE FILM\
+FLARE FILM / ARD\
 \
 **SELLING SEX** \
 Serie | 2 Episoden\
 Writers' Room with Marie König, Ita Segev, Miriam Dehne (Head)\
 Director: Miriam Dehne\
-Mia Wallace Productions\
+Mia Wallace Productions / ARD\
+\
+**HYSTERA**\
+Serie | Konzept\
+Writers' Room w/ Michal Aviram & Martina Behnke\
+StudioTV / ZDF\
+\
+**COACH**\
+Serie | Konzept\
+SMAC Media / ZDF\
 \
 **G-L-O-R-I-A**\
 Serie | Konzept\
