@@ -22,6 +22,12 @@ Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
 Director: Jakob Lass\
 FLARE FILM / ARD\
 \
+**FAKE**\
+Kinofilm | Drehbuch\
+Regie: Maja Classen\
+POISON Filmproduktion (Saralisa Volm)\
+﻿*Drehbuchförderung durch das BKM 2018-2020*\
+\
 **SELLING SEX** \
 Serie | 2 Episoden\
 Writers' Room with Marie König, Ita Segev, Miriam Dehne (Head)\
