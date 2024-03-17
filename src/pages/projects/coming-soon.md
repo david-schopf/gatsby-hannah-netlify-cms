@@ -24,7 +24,7 @@ FLARE FILM / ARD\
 \
 **FAKE**\
 Kinofilm | Drehbuch\
-Regie: Maja Classen\
+Director: Maja Classen\
 POISON Filmproduktion (Saralisa Volm)\
 ﻿*Drehbuchförderung durch das BKM 2018-2020*\
 \
