@@ -36,7 +36,7 @@ Mia Wallace Productions / ARD\
 \
 **HYSTERA**\
 Serie | Konzept\
-Writers' Room w/ Michal Aviram & Martina Behnke\
+Writers' Room w/ Michal Aviram & Martin Behnke\
 StudioTV / ZDF\
 \
 **COACH**\
