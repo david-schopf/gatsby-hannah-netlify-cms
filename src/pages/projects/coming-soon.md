@@ -20,7 +20,7 @@ credits: ""
 ﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
 Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
 Director: Jakob Lass\
-FLARE FILM / ARD\
+FLARE FILM\
 \
 **FAKE**\
 Kinofilm | Drehbuch\
