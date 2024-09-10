@@ -22,6 +22,11 @@ Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
 Director: Jakob Lass\
 FLARE FILM\
 \
+**THE HUSH HUSH CLASS**\
+Sitcom | Co-Writer w/ Christof Pilsl\
+Director: Christof Pilsl\
+Smac Media / ZDF\
+\
 **FAKE**\
 Kinofilm | Drehbuch\
 Director: Maja Classen\
@@ -38,10 +43,6 @@ Mia Wallace Productions / ARD\
 Serie | Konzept\
 Writers' Room w/ Michal Aviram & Martin Behnke\
 StudioTV / ZDF\
-\
-**COACH**\
-Serie | Konzept\
-SMAC Media / ZDF\
 \
 **G-L-O-R-I-A**\
 Serie | Konzept\
