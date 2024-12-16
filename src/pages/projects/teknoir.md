@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: TEKNOIR Live Set
+title: TEKNOIR live
 date: 2024-12-01T22:33:10.501Z
 featuredimage: /img/signal-2024-12-01-232758_002.jpeg
 tags:
