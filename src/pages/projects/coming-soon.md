@@ -16,26 +16,9 @@ credits: ""
 ## **DREHBUCH**
 
 \
-**ALLES ANZÜNDEN**\
-﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
-Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
-Director: Jakob Lass\
-FLARE FILM\
-\
-**THE HUSH HUSH CLASS**\
-Sitcom | Co-Writer w/ Christof Pilsl\
-Director: Christof Pilsl\
-Smac Media / ZDF\
-\
-**FAKE**\
-Kinofilm | Drehbuch\
-Director: Maja Classen\
-POISON Filmproduktion (Saralisa Volm)\
-﻿*Drehbuchförderung durch das BKM 2018-2020*\
-\
 **SELLING SEX** \
 Serie | 2 Episoden\
-Writers' Room with Marie König, Ita Segev, Miriam Dehne (Head)\
+Writers' Room with Marie König, Miriam Dehne (Head)\
 Director: Miriam Dehne\
 Mia Wallace Productions / ARD\
 \
@@ -44,19 +27,31 @@ Serie | Konzept\
 Writers' Room w/ Michal Aviram & Martin Behnke\
 StudioTV / ZDF\
 \
+**FRAUDSTER**\
+Serie | Konzept + Pilotdrehbuch\
+Windlight Pictures GmbH / WDR\
+\
+**THE HUSH HUSH CLASS**\
+Sitcom | Co-Writer w/ Christof Pilsl\
+Director: Christof Pilsl\
+Smac Media / ZDF\
+\
+**ALLES ANZÜNDEN**\
+﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
+Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
+Director: Jakob Lass\
+FLARE FILM\
+\
+**FAKE**\
+Kinofilm | Drehbuch\
+Director: Maja Classen\
+POISON Filmproduktion (Saralisa Volm)\
+﻿*Drehbuchförderung durch das BKM 2018-2020*\
+\
 **G-L-O-R-I-A**\
 Serie | Konzept\
 Odeon Fiction GmbH\
 \
 **MATRIS**\
 Serie | Konzept\
-Hager Moss Film\
-\
-**FRAUDSTER**\
-Serie | Konzept + Pilotdrehbuch\
-Windlight Pictures GmbH\
-\
-**LAYOVER**\
-Serie | Konzept\
-Writers' Room w/ Ed McCardie (Head), Kate Davies & Emily Rhodes\
-Windlight Pictures GmbH
+Hager Moss Film
