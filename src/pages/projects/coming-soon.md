@@ -18,7 +18,7 @@ credits: ""
 \
 **HYSTERA**\
 Serie | 2 Episoden\
-Writers' Room w/ Martin Behnke (Head), Michael Aviram, Marie-Therese Thill, Lucas Ackermann\
+Writers' Room w/ Martin Behnke (Head), Michal Aviram, Marie-Therese Thill, Lucas Ackermann\
 Studio.TV / ZDF, ORF und SRF\
 \
 **SELLING SEX** \
