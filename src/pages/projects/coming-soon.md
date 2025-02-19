@@ -16,16 +16,16 @@ credits: ""
 ## **DREHBUCH**
 
 \
+**HYSTERA**\
+Serie | 2 Episoden\
+Writers' Room w/ Martin Behnke (Head), Michael Aviram, Marie-Therese Thill, Lucas Ackermann\
+Studio.TV / ZDF, ORF und SRF\
+\
 **SELLING SEX** \
 Serie | 2 Episoden\
-Writers' Room with Marie König, Miriam Dehne (Head)\
+Writers' Room w/ Miriam Dehne (Head), Marie C. König\
 Director: Miriam Dehne\
 Mia Wallace Productions / ARD\
-\
-**HYSTERA**\
-Serie | Konzept\
-Writers' Room w/ Michal Aviram & Martin Behnke\
-StudioTV / ZDF\
 \
 **FRAUDSTER**\
 Serie | Konzept + Pilotdrehbuch\
