@@ -24,7 +24,9 @@ credits: © Jörg Metzner
 
 Sechs Wochen Sommerferien. Sechs Wochen Paradies! Bocki, Eis und Pizzasnack gibt’s im Kiosk auf dem Campingplatz. Und eine Neue, die war letztes Jahr aber noch nicht da…  
 
-GRAU IST KEINE FARBE spinnt ein Netz aus Liebe, Verrat, Scham, Verletzung und Arroganz - und führt schließlich zu gefährlicher Ausgrenzung inmitten heiterer Urlaubsstimmung... Zwischen Tatverantwortlichen und Betroffenen, Eltern, Urlauber:innen und Ferienjobber:innen entsteht eine Mobbing-Dynamik, aus der es (fast) kein Entkommen gibt. Dabei hat alles doch ganz harmlos angefangen, oder nicht?
+GRAU IST KEINE FARBE spinnt ein Netz aus Liebe, Verrat, Scham, Verletzung und Arroganz - und führt schließlich zu gefährlicher Ausgrenzung inmitten heiterer Urlaubsstimmung... Zwischen Tatverantwortlichen und Betroffenen, Eltern, Urlauber:innen und Ferienjobber:innen entsteht eine Mobbing-Dynamik, aus der es (fast) kein Entkommen gibt. Dabei hat alles doch ganz harmlos angefangen, oder nicht?\
+\
+**GRAU IST KEINE FARBE ist im [Fischer Verlag](https://www.fischer-theater.de/theater/autor/hannah-schopf/t7352511) vertreten.**
 
 ## Presse
 
