@@ -28,8 +28,8 @@ Director: Miriam Dehne\
 Mia Wallace Productions / ARD\
 \
 **FRAUDSTER**\
-Serie | Konzept + Pilotdrehbuch\
-Windlight Pictures GmbH / WDR\
+Serie | Headwriter\
+Windlight Pictures / WDR\
 \
 **THE HUSH HUSH CLASS**\
 Sitcom | Co-Writer w/ Christof Pilsl\
