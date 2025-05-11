@@ -24,17 +24,18 @@ Studio.TV / ZDF, ORF und SRF\
 **SELLING SEX** \
 Serie | 2 Episoden\
 Writers' Room w/ Miriam Dehne (Head), Marie C. König\
-Director: Miriam Dehne\
+Directors: Miriam Dehne, Marie C. König\
 Mia Wallace Productions / ARD\
 \
-**FRAUDSTER**\
-Serie | Headwriter\
-Windlight Pictures / WDR\
-\
-**THE HUSH HUSH CLASS**\
-Sitcom | Co-Writer w/ Christof Pilsl\
-Director: Christof Pilsl\
+**JOB SECRET**﻿\
+Sitcom | Co-Writer w/ Christof Pilsl﻿\
+Director: Christof Pilsl﻿\
 Smac Media / ZDF\
+\
+**SISTERS IN CRIME**\
+Serie | Headwriter, 2 Episoden\
+Writers' Romm w/ Ervehea Ziza, Jenn Knott\
+Windlight Pictures / WDR\
 \
 **ALLES ANZÜNDEN**\
 ﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
