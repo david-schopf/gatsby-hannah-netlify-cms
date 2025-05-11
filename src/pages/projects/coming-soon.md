@@ -24,7 +24,7 @@ Studio.TV / ZDF, ORF und SRF\
 **SELLING SEX** \
 Serie | 2 Episoden\
 Writers' Room w/ Miriam Dehne (Head), Marie C. König\
-Directors: Miriam Dehne, Marie C. König\
+Directors: Miriam Dehne & Marie C. König\
 Mia Wallace Productions / ARD\
 \
 **JOB SECRET**﻿\
@@ -34,7 +34,7 @@ Smac Media / ZDF\
 \
 **SISTERS IN CRIME**\
 Serie | Headwriter, 2 Episoden\
-Writers' Romm w/ Ervehea Ziza, Jenn Knott\
+Writers' Room w/ Ervehea Ziza & Jenn Knott\
 Windlight Pictures / WDR\
 \
 **ALLES ANZÜNDEN**\
