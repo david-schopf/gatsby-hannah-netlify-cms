@@ -21,7 +21,7 @@ Serie | 2 Episoden\
 Writers' Room w/ Martin Behnke (Head), Michal Aviram, Marie-Therese Thill, Lucas Ackermann\
 Studio.TV / ZDF, ORF und SRF\
 \
-**SELLING SEX** \
+**HOW TO SELL SEX** \
 Serie | 2 Episoden\
 Writers' Room w/ Miriam Dehne (Head), Marie C. König\
 Directors: Miriam Dehne & Marie C. König\
