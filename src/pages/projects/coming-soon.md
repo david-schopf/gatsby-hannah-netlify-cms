@@ -16,29 +16,31 @@ credits: ""
 ## **DREHBUCH**
 
 \
-**HYSTERA**\
-Serie | 2 Episoden\
-Writers' Room w/ Martin Behnke (Head), Michal Aviram, Marie-Therese Thill, Lucas Ackermann\
-Studio.TV / ZDF, ORF und SRF\
-\
 **HOW TO SELL SEX** \
-Serie | 2 Episoden\
+Serie (Drama) | 2 Episoden\
 Writers' Room w/ Miriam Dehne (Head), Marie C. König\
 Directors: Miriam Dehne & Marie C. König\
 Mia Wallace Productions / ARD\
+*Drehstart: September 2025*\
 \
 **SPY ON**\
-Sitcom | Co-Writer w/ Christof Pilsl﻿\
+Serie (Sitcom) | Co-Writer w/ Christof Pilsl﻿\
 Director: Christof Pilsl﻿\
 Smac Media / ZDF\
+*Drehstart: Oktober 2025*\
+\
+**HYSTERA**\
+Serie (Sci-Fi) | 1 Episode\
+Writers' Room w/ Martin Behnke (Head), Michal Aviram, Marie-Therese Thill, Lucas Ackermann\
+Studio.TV / ZDF, ORF und SRF\
 \
 **SISTERS IN CRIME**\
-Serie | Headwriter, 2 Episoden\
+Serie (Crime) | Headwriter, 2 Episoden\
 Writers' Room w/ Ervehea Ziza & Jenn Knott\
 Windlight Pictures / WDR\
 \
 **ALLES ANZÜNDEN**\
-﻿Serie | Konzept (Headwriter w/ Jakob Lass)\
+﻿Serie (Crime) | Konzept (Headwriter w/ Jakob Lass)\
 Writers' Room w/ Jessie Fregin, Mireya Heider de Jahnsen & Daniel Thomaser\
 Director: Jakob Lass\
 FLARE FILM\
@@ -50,9 +52,9 @@ POISON Filmproduktion (Saralisa Volm)\
 ﻿*Drehbuchförderung durch das BKM 2018-2020*\
 \
 **G-L-O-R-I-A**\
-Serie | Konzept\
+Serie (Drama) | Konzept\
 Odeon Fiction GmbH\
 \
 **MATRIS**\
-Serie | Konzept\
+Serie (Mystery) | Konzept\
 Hager Moss Film
