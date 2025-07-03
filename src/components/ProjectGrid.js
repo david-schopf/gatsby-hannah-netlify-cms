@@ -34,7 +34,7 @@ const ProjectGrid = () => (
       query={graphql`
       query ProjectGridQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: {frontmatter: {date: DESC}}
           filter: { frontmatter: { templateKey: { eq: "project" } } }
         ) {
           edges {
