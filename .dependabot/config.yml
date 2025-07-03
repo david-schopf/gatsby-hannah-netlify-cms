@@ -1,14 +1,22 @@
-version: 1
-
-update_configs:
-  - package_manager: javascript
-    directory: /
-    update_schedule: live
-    allowed_updates:
-      - match:
-          update_type: security
-    automerged_updates:
-      - match:
-          dependency_type: all
-          update_type: in_range
-    version_requirement_updates: widen_ranges
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "live"
+    allow:
+      - dependency-type: "direct"
+        update-types: ["security"]
+      - dependency-type: "indirect"
+        update-types: ["security"]
+    automerge:
+      vulnerability-alerts: true
+      updates: in_range
+    versioning-strategy: widen-ranges
+    groups:
+      gatsby:
+        dependencies:
+          - "gatsby-*"
+        exclude-patterns:
+          - "gatsby-remark-embed-youtube"
+          - "gatsby-remark-relative-images-v2"
