@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master
+  branch: upgrade
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
