@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
@@ -10,6 +10,8 @@ backend:
 
 media_folder: content/img
 public_folder: /img
+
+local_backend: true
 
 collections:
   - name: "projects"

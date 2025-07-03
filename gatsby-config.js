@@ -7,7 +7,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-netlify-cms-paths`,
     {
       resolve: "gatsby-plugin-sass",
       options: {
@@ -54,7 +53,6 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          `gatsby-plugin-netlify-cms-paths`,
           {
             resolve: 'gatsby-remark-relative-images-v2',
             options: {
@@ -102,9 +100,9 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+ resolve: 'gatsby-plugin-decap-cms',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+ modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
     {
