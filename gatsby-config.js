@@ -13,6 +13,11 @@ module.exports = {
       options: {
         useResolveUrlLoader: {
           options: {
+            sassOptions: {
+              api: "modern",
+              silenceDeprecations: ['legacy-js-api'],
+              includePaths: ['./node_modules'],
+            },
             debug: true,
           },
         },
