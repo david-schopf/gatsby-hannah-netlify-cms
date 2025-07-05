@@ -6,12 +6,12 @@ featuredimage: /img/bfront_aktionn.jpg
 tags:
   - theater
   - dramaturgin
-participants: >-
-  REGIE Stefanie Aehnelt | BÜHNE Julia von Schacky | DRAMATURGIE Hannah Schopf |
-  KOSTÜME Ran Chai Bar Zvi mit Belle Santos | MUSIK Eli Fabrikant | VIDEO
-  Alexander Ebeert | ASSISTENZ Natalie Conrad | MIT Tatiana Heide, Carina
-  Huestegge, Juliane Köster, Karin Kuhrt, Wolfgang Müller, Eva Lange-Müller,
-  Brigitte Menschel, Solmaz Sajadieh, Claudia Steinert, Joana Stoye
+participants: REGIE Stefanie Aehnelt | BÜHNE Julia von Schacky | DRAMATURGIE
+  Hannah Schopf | KOSTÜME Ran Chai Bar Zvi mit Belle Santos | MUSIK Eli
+  Fabrikant | VIDEO Alexander Ebeert | ASSISTENZ Natalie Conrad | MIT Tatiana
+  Heide, Carina Huestegge, Juliane Köster, Karin Kuhrt, Wolfgang Müller, Eva
+  Lange-Müller, Brigitte Menschel, Solmaz Sajadieh, Claudia Steinert, Joana
+  Stoye
 ---
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/3cp0G7epzvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
