@@ -1,4 +1,4 @@
-name: Verify build
+name: Update Screenshots
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Run verify-build
+      - name: Update screenshots
         run: yarn e2e:screenshot
       - name: Commit and push updated screenshots
         run: |
