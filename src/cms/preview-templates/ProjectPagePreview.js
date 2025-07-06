@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ProjectTemplate from "../../templates/project-template";
+import "../../components/all.sass"
 
 const ProjectPagePreview = ({entry, widgetFor, widgetsFor, getAsset}) => {
     const imageUrls = widgetsFor('galleryImages')

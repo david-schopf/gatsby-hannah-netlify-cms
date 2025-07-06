@@ -7,7 +7,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-netlify-cms-paths`,
     {
       resolve: "gatsby-plugin-sass",
       options: {
@@ -18,7 +17,7 @@ module.exports = {
               silenceDeprecations: ['legacy-js-api'],
               includePaths: ['./node_modules'],
             },
-            debug: true,
+            debug: false,
           },
         },
       },
@@ -59,7 +58,6 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          `gatsby-plugin-netlify-cms-paths`,
           {
             resolve: 'gatsby-remark-relative-images-v2',
             options: {
@@ -107,7 +105,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: `gatsby-plugin-decap-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
@@ -119,6 +117,5 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
