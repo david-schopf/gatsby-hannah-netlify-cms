@@ -1,0 +1,22 @@
+name: Verify build
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 22
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+        cache: 'npm'
+        cache-dependency-path: 'yarn.lock'
+    - run: npm i -g yarn@1.22.22
+    - run: yarn install --frozen-lockfile
+    - run: yarn e2e:test
+    - run: yarn build
