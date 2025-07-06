@@ -7,7 +7,6 @@ import {HTMLContent} from '../components/Content'
 import {stripHtml} from "string-strip-html";
 import ProjectTemplate from "./project-template";
 
-
 const Project = ({data, pageContext, path}) => {
     const {markdownRemark: post} = data;
 
