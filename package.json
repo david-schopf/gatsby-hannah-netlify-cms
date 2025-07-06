@@ -53,7 +53,7 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "netlify:develop": "npm run clean && netlify dev",
-    "e2e:test": "playwright install && playwright test",
+    "e2e:test": "playwright install --with-deps chromium && playwright test",
     "e2e:screenshot": "npm run e2e:test -- --update-snapshots",
     "verify-build": "npm run e2e:test && npm run build"
   },
