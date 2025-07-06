@@ -42,17 +42,18 @@ const Navbar = class extends React.Component {
                         <Link to="/" className="navbar-item has-text-weight-bold">
                             Hannah Schopf
                         </Link>
-                        <div role="button"
-                             tabIndex={0}
-                             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-                             data-target="navMenu"
-                             onClick={() => this.toggleHamburger()}
-                             onKeyUp={event => event.code === "Space" && this.toggleHamburger()}
+                        <button
+                            type="button"
+                            aria-label="Navigation öffnen/schließen"
+                            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                            data-target="navMenu"
+                            onClick={this.toggleHamburger}
+                            onKeyUp={event => event.code === "Space" && this.toggleHamburger()}
                         >
                             <span/>
                             <span/>
                             <span/>
-                        </div>
+                        </button>
                     </div>
                     <div
                         id="navMenu"
