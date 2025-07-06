@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "yarn verify-build"
+  command = "yarn build"
 [build.environment]
   YARN_VERSION = "1.22.22"
   YARN_FLAGS = "--no-ignore-optional"
