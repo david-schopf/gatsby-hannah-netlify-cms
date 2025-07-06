@@ -4,5 +4,6 @@
 [build.environment]
   YARN_VERSION = "1.22.22"
   YARN_FLAGS = "--no-ignore-optional"
+  NODE_VERSION = "22"
 [dev]
     framework = "gatsby"
