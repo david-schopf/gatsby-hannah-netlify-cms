@@ -1,8 +1,8 @@
 [build]
   publish = "public"
-  command = "yarn build"
+  command = "yarn verify-build"
 [build.environment]
-  YARN_VERSION = "1.9.4"
+  YARN_VERSION = "1.22.22"
   YARN_FLAGS = "--no-ignore-optional"
 [dev]
     framework = "gatsby"
