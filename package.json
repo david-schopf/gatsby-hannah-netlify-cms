@@ -28,6 +28,7 @@
     "gatsby-transformer-sharp": "5.14.0",
     "lodash": "4.17.21",
     "lodash-webpack-plugin": "0.11.6",
+    "netlify-cli": "22.2.1",
     "parcel-bundler": "1.12.5",
     "playwright": "^1.53.2",
     "prop-types": "15.8.1",
@@ -52,7 +53,7 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "netlify:develop": "npm run clean && netlify dev",
-    "e2e:test": "playwright test",
+    "e2e:test": "playwright install && playwright test",
     "e2e:screenshot": "npm run e2e:test -- --update-snapshots",
     "verify-build": "npm run e2e:test && npm run build"
   },
