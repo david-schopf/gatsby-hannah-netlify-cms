@@ -1,7 +1,7 @@
 import React from 'react'
-import { kebabCase } from 'lodash'
+import {kebabCase} from 'lodash'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import Layout from '../../components/Layout'
 
 const TagsPage = ({
@@ -40,18 +40,17 @@ const TagsPage = ({
 
 export default TagsPage
 
-export const tagPageQuery = graphql`
-  query TagsQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(limit: 1000) {
-      group(field: frontmatter___tags) {
-        fieldValue
-        totalCount
-      }
+export const tagPageQuery = graphql`query TagsQuery {
+  site {
+    siteMetadata {
+      title
     }
   }
+  allMarkdownRemark(limit: 1000) {
+    group(field: {frontmatter: {tags: SELECT}}) { # Updated group syntax
+      fieldValue
+      totalCount
+    }
+  }
+}
 `

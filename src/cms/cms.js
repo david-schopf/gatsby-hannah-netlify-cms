@@ -1,12 +1,5 @@
-import CMS from 'netlify-cms-app'
-import uploadcare from 'netlify-cms-media-library-uploadcare'
-import cloudinary from 'netlify-cms-media-library-cloudinary'
+import CMS from 'decap-cms-app'
 
-import AboutPagePreview from './preview-templates/AboutPagePreview'
-import ProjectPagePreview from "./preview-templates/ProjectPagePreview";
+import "../components/all.sass"
 
-CMS.registerMediaLibrary(uploadcare);
-CMS.registerMediaLibrary(cloudinary);
-
-CMS.registerPreviewTemplate('about', AboutPagePreview);
-CMS.registerPreviewTemplate('projects', ProjectPagePreview);
+export default CMS
