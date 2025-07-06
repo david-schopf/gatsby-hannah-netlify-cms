@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {graphql, StaticQuery} from 'gatsby'
+import {graphql, useStaticQuery} from 'gatsby'
 import {ProjectGridItem} from "./ProjectGridItem";
 
 class ProjectGridRender extends React.Component {
@@ -29,38 +29,37 @@ ProjectGridRender.propTypes = {
   }),
 };
 
-const ProjectGrid = () => (
-  <StaticQuery
-      query={graphql`
-      query ProjectGridQuery {
-        allMarkdownRemark(
-          sort: {frontmatter: {date: DESC}}
-          filter: { frontmatter: { templateKey: { eq: "project" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredimage {
-                   childImageSharp {
-                      gatsbyImageData(layout: CONSTRAINED, width: 400, height: 400)
-                    }
+const ProjectGrid = () => {
+  const data = useStaticQuery(graphql`
+    query ProjectGridQuery {
+      allMarkdownRemark(
+        sort: {frontmatter: {date: DESC}}
+        filter: { frontmatter: { templateKey: { eq: "project" } } }
+      ) {
+        edges {
+          node {
+            excerpt(pruneLength: 400)
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              templateKey
+              date(formatString: "MMMM DD, YYYY")
+              featuredimage {
+                childImageSharp {
+                  gatsbyImageData(layout: CONSTRAINED, width: 400, height: 400)
                 }
               }
             }
           }
         }
       }
-    `}
-      render={(data, count) => <ProjectGridRender data={data} count={count}/>}
-  />
-)
+    }
+  `);
+
+  return <ProjectGridRender data={data} />;
+}
 
 export default ProjectGrid
