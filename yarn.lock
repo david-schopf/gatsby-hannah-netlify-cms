@@ -15140,7 +15140,7 @@ neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netlify-cli@^22.2.1:
+netlify-cli@22.2.1:
   version "22.2.1"
   resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-22.2.1.tgz#d2b3a11b6185a732a5dacdfa60b58607e090e50a"
   integrity sha512-1blzNQqUops2Vfc0xLVsJXlifteQxbXvpuIWwS/Gur/OALs0M+sD0wAY79K5eLc9+UOxpABBtMncMXXdZQpFqQ==
