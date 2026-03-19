@@ -66,8 +66,8 @@ jobs:
             gatsby-${{ runner.os }}-
 
       # Run E2E tests directly – browser installation is handled above.
-      # The Playwright web server (netlify dev → gatsby develop) benefits from
-      # the restored Gatsby cache and starts faster on repeat runs.
+      # The Playwright web server (gatsby develop) benefits from the restored
+      # Gatsby cache and starts faster on repeat runs.
       - name: Run E2E tests
         run: npx playwright test
 
