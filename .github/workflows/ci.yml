@@ -13,13 +13,65 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'yarn'
-      - name: Install dependencies
-        run: yarn install
-      - name: Verify build
-        run: yarn verify-build
 
+      # Cache node_modules keyed on the lockfile.
+      # A hit means yarn install can be skipped entirely.
+      - name: Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+
+      # System libraries (libnss, libatk, …) are installed from apt separately
+      # so they do not inflate the browser cache and are always up-to-date.
+      - name: Install Playwright system dependencies
+        run: npx playwright install-deps chromium
+
+      # Cache the Chromium binary (~130 MB) keyed on the yarn.lock so it is
+      # only re-downloaded when the @playwright/test version changes.
+      - name: Cache Playwright browsers
+        id: cache-playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+
+      - name: Install Playwright browsers
+        if: steps.cache-playwright.outputs.cache-hit != 'true'
+        run: npx playwright install chromium
+
+      # Gatsby keeps an incremental build cache in .cache/ and public/.
+      # Restoring it cuts develop-server cold-start time and build time on
+      # unchanged content. The key covers all files that affect the output;
+      # restore-keys allow a partial cache hit on config-only changes.
+      - name: Cache Gatsby build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache
+            public
+          key: gatsby-${{ runner.os }}-${{ hashFiles('gatsby-config.js', 'gatsby-node.js', 'yarn.lock') }}-${{ hashFiles('src/**') }}
+          restore-keys: |
+            gatsby-${{ runner.os }}-${{ hashFiles('gatsby-config.js', 'gatsby-node.js', 'yarn.lock') }}-
+            gatsby-${{ runner.os }}-
+
+      # Run E2E tests directly – browser installation is handled above.
+      # The Playwright web server (gatsby develop) benefits from the restored
+      # Gatsby cache and starts faster on repeat runs.
+      - name: Run E2E tests
+        run: npx playwright test
+
+      # Run the production build without gatsby clean so the incremental cache
+      # is used. Also skips the browserslist network update (not needed in CI).
+      - name: Build for production
+        run: npx gatsby build
