@@ -10,7 +10,7 @@ const config = defineConfig({
     video: 'retain-on-failure',
   },
   webServer: {
-    command: 'npm run netlify:develop',
+    command: 'npx gatsby develop',
     port: 8000,
     timeout: 300 * 1000,
     reuseExistingServer: !process.env.CI,
