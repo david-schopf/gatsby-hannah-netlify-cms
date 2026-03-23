@@ -12,8 +12,8 @@ const config = defineConfig({
   webServer: {
     command: 'npm run netlify:develop',
     port: 8000,
-    timeout: 120 * 1000,
-    reuseExistingServer: false,
+    timeout: 300 * 1000,
+    reuseExistingServer: !process.env.CI,
   },
 });
 
