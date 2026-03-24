@@ -32,7 +32,7 @@ const TemplateWrapper = ({children, path}) => {
                 />
             </Helmet>
             <Navbar/>
-            <div>{children}</div>
+            <main>{children}</main>
             <Footer/>
         </div>
     )
