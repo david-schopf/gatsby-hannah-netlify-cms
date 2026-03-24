@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "which gh > /dev/null 2>&1 || apt-get install -y gh > /dev/null 2>&1; gh auth status --hostname github.com > /dev/null 2>&1 && echo '✓ gh CLI already authenticated' || (echo '--- gh CLI Authentication Required ---' && gh auth login --git-protocol https --hostname github.com --web 2>&1)"
+          }
+        ]
+      }
+    ]
+  }
+}
