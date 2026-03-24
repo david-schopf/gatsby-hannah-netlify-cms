@@ -12,13 +12,13 @@ test.describe('Navbar', () => {
 
   test('About link navigates to about page', async ({page}) => {
     await page.getByRole('navigation').getByRole('link', {name: 'About'}).click()
-    await expect(page).toHaveURL('/about')
+    await expect(page).toHaveURL('/about/')
     await expect(page.getByRole('main')).toBeVisible()
   })
 
   test('Kontakt link navigates to contact page', async ({page}) => {
     await page.getByRole('navigation').getByRole('link', {name: 'Kontakt'}).click()
-    await expect(page).toHaveURL('/contact')
+    await expect(page).toHaveURL('/contact/')
   })
 
   test('Theater tag link navigates correctly', async ({page}) => {
@@ -68,7 +68,7 @@ test.describe('Footer', () => {
   test('Impressum link navigates to impressum page', async ({page}) => {
     await page.goto('/')
     await page.getByRole('contentinfo').getByRole('link', {name: /Impressum/}).click()
-    await expect(page).toHaveURL('/impressum')
+    await expect(page).toHaveURL('/impressum/')
   })
 
   test('footer shows copyright with current year', async ({page}) => {

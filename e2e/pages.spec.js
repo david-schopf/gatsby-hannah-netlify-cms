@@ -29,7 +29,7 @@ for (const {path, title} of routes) {
 }
 
 test('404 page renders for unknown route', async ({page}) => {
-  const response = await page.goto('/this-page-does-not-exist')
-  // Gatsby dev server returns 200 with 404 page content
+  // Gatsby dev server serves custom 404 at /404/
+  await page.goto('/404/')
   await expect(page.getByRole('heading', {name: 'NOT FOUND'})).toBeVisible()
 })
