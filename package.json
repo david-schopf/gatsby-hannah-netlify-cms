@@ -38,7 +38,7 @@
     "react-photo-gallery": "8.0.0",
     "resolve-url-loader": "5.0.0",
     "string-strip-html": "13.4.12",
-    "uuid": "11.1.0"
+    "uuid": "14.0.0"
   },
   "keywords": [
     "gatsby"
