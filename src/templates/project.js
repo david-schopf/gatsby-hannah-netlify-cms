@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import {HTMLContent} from '../components/Content'
@@ -15,12 +14,6 @@ const Project = ({data, pageContext, path}) => {
             <ProjectTemplate
                 content={post.html}
                 contentComponent={HTMLContent}
-                helmet={
-                    <Helmet titleTemplate="%s | Hannah Schopf">
-                        <title>{`${post.frontmatter.title}`}</title>
-                        <meta name="description" content={stripHtml(post.html).result.trim()}/>
-                    </Helmet>
-                }
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
                 participants={post.frontmatter.participants}
@@ -37,6 +30,18 @@ Project.propTypes = {
         markdownRemark: PropTypes.object,
     }),
 };
+
+export function Head({data}) {
+    const {markdownRemark: post} = data;
+    const description = stripHtml(post.html).result.trim();
+
+    return (
+        <>
+            <title>{post.frontmatter.title} | Hannah Schopf</title>
+            <meta name="description" content={description}/>
+        </>
+    )
+}
 
 export default Project
 

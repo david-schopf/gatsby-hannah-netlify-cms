@@ -1,6 +1,5 @@
 import React from 'react'
 import {kebabCase} from 'lodash'
-import Helmet from 'react-helmet'
 import {graphql, Link} from 'gatsby'
 import Layout from '../../components/Layout'
 
@@ -14,7 +13,6 @@ const TagsPage = ({
 }) => (
   <Layout>
     <section className="section">
-      <Helmet title={`Tags | ${title}`} />
       <div className="container content">
         <div className="columns">
           <div
@@ -37,6 +35,13 @@ const TagsPage = ({
     </section>
   </Layout>
 )
+
+export function Head({data}) {
+  const {site: {siteMetadata: {title}}} = data;
+  return (
+    <title>Tags | {title}</title>
+  )
+}
 
 export default TagsPage
 

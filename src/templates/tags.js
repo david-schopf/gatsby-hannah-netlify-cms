@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import {ProjectGridItem} from "../components/ProjectGridItem";
@@ -14,10 +13,6 @@ const TagRoute = ({ data, pageContext, path }) => {
   return (
     <Layout path={path}>
       <section className="section">
-        <Helmet title={`${tag} | ${title}`}>
-          <meta name="description"
-                content={tag.endsWith('in') ? `Projekte als ${capitalizeFirstLetter(tag)}` : `Projekte im Bereich ${capitalizeFirstLetter(tag)}`}/>
-        </Helmet>
         <div className="container content">
           <div className="columns">
             <div
@@ -40,6 +35,19 @@ const TagRoute = ({ data, pageContext, path }) => {
     </Layout>
   );
 };
+
+export function Head({data, pageContext}) {
+  const tag = pageContext.tag;
+  const title = data.site.siteMetadata.title;
+  const description = tag.endsWith('in') ? `Projekte als ${capitalizeFirstLetter(tag)}` : `Projekte im Bereich ${capitalizeFirstLetter(tag)}`;
+
+  return (
+    <>
+      <title>{tag} | {title}</title>
+      <meta name="description" content={description}/>
+    </>
+  )
+}
 
 export default TagRoute
 

@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: 'https://wwww.hannah-schopf.com'
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: "gatsby-plugin-sass",
       options: {
