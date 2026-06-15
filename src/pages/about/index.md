@@ -12,6 +12,7 @@ Hannah Schopf (*1989 in München) ging nach ihrem Studium der Dipl.-Dramaturgie
 
 ## FESTIVALS UND STIPENDIEN
 
+* 2026 | SELLING SEX auf dem [Filmfest München](https://www.filmfest-muenchen.de/de/programm/filme/film/?id=8520&f=122)
 * 2020 | [Sonderstipendium](https://stipendium.kulturprojekte.berlin/de/home/) der Berliner Senatsverwaltung für Kultur und Europa
 * 2020 | [Scheitern! Liebe! Hoffnung!](https://www.hannah-schopf.com/projects/scheitern-liebe-hoffnung/) auf dem KUSS Festival am Hessischen Landestheater Marburg
 * 2019 | Nominierungen in allen Kategorien für [SAN REMO](/projects/san-remo/) auf dem Filmfest Bremen
