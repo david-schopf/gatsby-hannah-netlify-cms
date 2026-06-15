@@ -75,6 +75,19 @@ exports.createPages = ({actions, graphql}) => {
     })
 };
 
+exports.createSchemaCustomization = ({actions}) => {
+    const {createTypes} = actions;
+    createTypes(`
+        type MarkdownRemarkFrontmatter {
+            featuredimage: File @fileByRelativePath
+            galleryImages: [File] @fileByRelativePath
+        }
+        type MarkdownRemark implements Node {
+            frontmatter: MarkdownRemarkFrontmatter
+        }
+    `);
+};
+
 exports.onCreateNode = ({node, actions, getNode}) => {
     const {createNodeField} = actions;
     fmImagesToRelative(node); // convert image paths for gatsby images

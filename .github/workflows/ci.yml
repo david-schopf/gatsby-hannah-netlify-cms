@@ -55,6 +55,7 @@ jobs:
       # unchanged content. The key covers all files that affect the output;
       # restore-keys allow a partial cache hit on config-only changes.
       - name: Cache Gatsby build artifacts
+        id: cache-gatsby
         uses: actions/cache@v4
         with:
           path: |
@@ -64,6 +65,13 @@ jobs:
           restore-keys: |
             gatsby-${{ runner.os }}-${{ hashFiles('gatsby-config.js', 'gatsby-node.js', 'yarn.lock') }}-
             gatsby-${{ runner.os }}-
+
+      # A partial cache restore (restore-key match but not exact key) can leave
+      # a stale .cache/ with an outdated schema, causing GraphQL errors at
+      # develop-server start. Wipe it so the next step always starts clean.
+      - name: Clear stale Gatsby cache on partial restore
+        if: steps.cache-gatsby.outputs.cache-hit != 'true'
+        run: npx gatsby clean
 
       # Run E2E tests directly – browser installation is handled above.
       # The Playwright web server (gatsby develop) benefits from the restored
