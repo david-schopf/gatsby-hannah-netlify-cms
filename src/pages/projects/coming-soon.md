@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: COMING SOON
-date: 2025-01-01T15:56:02.338Z
+date: 2027-01-01T18:00:00.000Z
 featuredimage: /img/photo_2021-08-27-16.56.26.jpeg
 tags:
   - autorin
