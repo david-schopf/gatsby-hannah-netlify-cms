@@ -20,7 +20,7 @@ galleryImages:
   - /img/20200921-018_forever.jpg
 credits: © Jörg Metzner
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Wy95g65NN0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Wy95g65NN0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Text & Dramaturgie** | Theaterstück | P: 22.09.20 - [Theater Strahl Berlin](https://www.theater-strahl.de/stuecke/forever-yours/)
 

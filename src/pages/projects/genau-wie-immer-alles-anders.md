@@ -14,7 +14,7 @@ participants: >-
   Natascha Manthe, Viktor Nillson, Max Radestock, Anna Rebecca Sehls,  Justus
   Verdenhalven
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/516zwSFfTP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/516zwSFfTP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 \
 **Dramaturgie** | Theaterstück | P: 19.02.2019 – [Theater Strahl Berlin](https://theater-strahl.de/stuecke/genau-wie-immer-alles-anders/)

@@ -13,7 +13,7 @@ participants: VON UND MIT Christoph Walter, Fabian Möhrke, Fabian Stark, Feli
   Alexander Segeler, Lena Fiedler, Lara Cremer, Niklas Binder, Nora Decker, Onur
   Kepenek, Roman Pogorzelski, Sebastian Walde, Tom Lass
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/gkUkGKiriWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gkUkGKiriWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 \
 **Buch & Regie** | Kurzfilm | 40' | Premiere: 03.02.2017 – Loophole Berlin

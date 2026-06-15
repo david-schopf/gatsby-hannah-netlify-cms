@@ -11,7 +11,7 @@ credits: .
 ---
 # JAN
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/2NyY5lcNAYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2NyY5lcNAYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Buch & Regie** | Dokumentation | VÖ: 23.09.2020 - [Landeszentrale für politische Bildung](https://www.youtube.com/watch?v=2NyY5lcNAYg)
 
@@ -21,7 +21,7 @@ BUCH & REGIE Hannah Schopf | KAMERA Julia Geiß | SCHNITT Leonardo Franke | MUSI
 
 # EMMA
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/2344_sIiHVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2344_sIiHVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Buch & Regie** | Dokumentation | VÖ: 20.07.2021 | [Landeszentrale für politische Bildung](https://www.youtube.com/channel/UCmNrZHH7T_JAvTc7Tn6g7dA)
 
@@ -31,7 +31,7 @@ BUCH & REGIE Hannah Schopf | KAMERA Julia Geiß | SCHNITT Leonardo Franke | PROD
 
 # THOMAS
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Dql3wWN7Mrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Dql3wWN7Mrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Buch & Regie** | Dokumentation | VÖ: 17.08.2021 - Landeszentrale für politische Bildung
 
