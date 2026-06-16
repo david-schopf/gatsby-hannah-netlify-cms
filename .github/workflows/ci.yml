@@ -7,12 +7,17 @@ on:
     branches: [ master ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Use Node.js 22
         uses: actions/setup-node@v4
@@ -55,6 +60,7 @@ jobs:
       # unchanged content. The key covers all files that affect the output;
       # restore-keys allow a partial cache hit on config-only changes.
       - name: Cache Gatsby build artifacts
+        id: cache-gatsby
         uses: actions/cache@v4
         with:
           path: |
@@ -64,6 +70,32 @@ jobs:
           restore-keys: |
             gatsby-${{ runner.os }}-${{ hashFiles('gatsby-config.js', 'gatsby-node.js', 'yarn.lock') }}-
             gatsby-${{ runner.os }}-
+
+      # A partial cache restore (restore-key match but not exact key) can leave
+      # a stale .cache/ with an outdated schema, causing GraphQL errors at
+      # develop-server start. Wipe it so the next step always starts clean.
+      - name: Clear stale Gatsby cache on partial restore
+        if: steps.cache-gatsby.outputs.cache-hit != 'true'
+        run: npx gatsby clean
+
+      # Regenerate the screenshot baseline so toHaveScreenshot() comparisons
+      # always reflect the current rendering. If the PNG changed, commit it
+      # back to the branch (with [skip ci] to avoid a CI loop). The updated
+      # baseline is then on-disk for the main test run below.
+      - name: Update screenshot baseline
+        run: npx playwright test e2e/main-page.spec.js --update-snapshots
+
+      - name: Commit updated screenshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add e2e/main-page.spec.js-snapshots/
+          if git diff --staged --quiet; then
+            echo "Screenshots unchanged, nothing to commit"
+          else
+            git commit -m "chore: update e2e screenshot baseline [skip ci]"
+            git push origin HEAD:${{ github.head_ref || github.ref_name }}
+          fi
 
       # Run E2E tests directly – browser installation is handled above.
       # The Playwright web server (gatsby develop) benefits from the restored

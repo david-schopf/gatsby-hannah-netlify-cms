@@ -12,7 +12,7 @@ participants: REGIE Jakob Lass | DREHBUCH Jakob Lass, Hannah Schopf | PRODUKTION
   Tinka Fürst, Martina Schöne-Radunski, Corinna Harfouch, Bela B. Felsenheimer
   u.a.  | VERLEIH dcm
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/axpWiy9WxrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/axpWiy9WxrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 \
 **Drehbuch** | Romanverfilmung | Premiere: Filmfest München 2018\

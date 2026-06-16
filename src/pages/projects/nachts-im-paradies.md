@@ -12,7 +12,7 @@ participants: "REGIE Matthias Glasner & Bettina Oberli | DREHBUCH Matthias
   KAMERA Jakub Bejnarowicz | MONTAGE Heike Gnida | MIT Jürgen Vogel, Lea Drinda,
   Birgit Minichmayr, Leonard Scheicher, Nils Rovira-Muñoz "
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/JeL2n-1eZPw?si=RluXM-MXdVbEJYQd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/JeL2n-1eZPw?si=RluXM-MXdVbEJYQd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Drehbuch** | Serie | 6x45' | Premiere: 06.03.2024 auf [CANAL+](https://www.canalplus.at/highlights/nachtsimparadies/) / [Magenta TV](https://web2.magentatv.de/serie/nachts-im-paradies/s01-e01/folge-1/GN_EP051051160001)
 

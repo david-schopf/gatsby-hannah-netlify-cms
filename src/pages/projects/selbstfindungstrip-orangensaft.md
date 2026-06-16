@@ -12,7 +12,7 @@ participants: 'VON UND MIT: Christoph Walter, Fabian Stark, Feli "da Hansi"
   aka Gin Toxic, Johannes Buchmann, Julius Alexander Segler, Lena Fiedler, Nora
   Decker, Niklas Binder, Roman Pogorzelski'
 ---
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/GjtjL9oLjQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 \
 **Buch & Regie** | Kurzfilm | 35' | Premiere: 25.11.2016 - Loophole Berlin

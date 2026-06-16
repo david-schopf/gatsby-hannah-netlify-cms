@@ -14,7 +14,7 @@ participants: VON UND MIT Alisa Zillmann, Aurea Horn, Christoph Walter, Daniel
   Niklas Binder, Nora Decker, Roman Pogorzelski, Sebastian Walde, Sophie Emrich,
   Thomas Pischke
 ---
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/sLF2ct0X__4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/sLF2ct0X__4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 \
 **Buch & Regie** | Kurzfilm | 40' | Premiere: 06.03.2020 – [Loophole Berlin](https://www.facebook.com/events/709341739579703/)
